@@ -1,0 +1,168 @@
+/* CSS personnalisé */
+.container {
+  padding: 20px;
+}
+
+.management-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Titre "Recovery Plans List" */
+.section-title {
+color: #19204e; /* Bleu foncé */
+font-size: 2.5rem; /* Taille de police */
+margin-bottom: 30px; /* Marge en bas */
+text-transform: uppercase; /* Convertir en majuscules */
+letter-spacing: 1px; /* Espacement entre les lettres */
+font-weight: bold; /* Gras */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+}
+
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: calc(33.33% - 20px); /* 3 cards per row */
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.card img {
+  width: 100%; /* Pour que l'image occupe toute la largeur de la carte */
+  max-width: 150px; /* Largeur maximale de l'image */
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-info {
+  padding: 15px;
+  flex-grow: 1; /* Pour que le contenu s'étende et utilise tout l'espace vertical disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrer les éléments verticalement */
+}
+
+.card-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #19204e;
+}
+
+.card-info p {
+  margin: 5px 0;
+}
+
+.management-actions {
+  margin-top: 20px;
+}
+
+.management-actions button {
+  background-color: #cd0505;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.management-actions button:last-child {
+  margin-right: 0;
+}
+
+.management-actions button:hover {
+  background-color: #ff3333;
+}
+
+.container {
+  text-align: center;
+}
+
+.add-injury-button {
+  margin-top: 20px; /* Ajustez la marge selon vos besoins */
+}
+/* Styles CSS */
+.update-btn {
+  background-color: #19204e;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #cd0505;
+  color: white;
+}
+
+.archive-btn {
+  background-color: #a6a6a6;
+  color: white;
+}
+.add-btn {
+  background-color: green;
+  color: white;
+}
+.center-image {
+  text-align: center;
+}
+/* Ajoutez cette règle pour styliser le bouton de téléchargement PDF */
+/* Styles pour le bouton d'ajout */
+.add-btn,
+.download-btn {
+  background-color: #7A238A; /* Couleur bleue */
+  color: #fff; /* Texte blanc */
+  padding: 10px 20px; /* Espacement autour du texte */
+  border: none; /* Supprimer la bordure */
+  border-radius: 5px; /* Coins arrondis */
+  text-decoration: none; /* Supprimer le soulignement du texte */
+  height: 40px; /* Définir une hauteur fixe */
+  margin-right: 10px; /* Ajouter une marge droite pour aligner avec les autres boutons */
+}
+
+/* Styles pour l'icône PDF */
+.fa-file-pdf {
+  margin-right: 5px; /* Espacement entre l'icône et le texte */
+}
+/* Styles pour le bouton d'ajout */
+.add-btn {
+  background-color: green; /* Couleur verte */
+  color: white; /* Texte blanc */
+  padding: 10px 20px; /* Espacement autour du texte */
+  border: none; /* Supprimer la bordure */
+  border-radius: 5px; /* Coins arrondis */
+  text-decoration: none; /* Supprimer le soulignement du texte */
+  height: 40px; /* Définir une hauteur fixe */
+  margin-right: 10px; /* Ajouter une marge droite pour aligner avec les autres boutons */
+}
+
+/* Styles pour l'icône PDF */
+.fa-file-pdf {
+  margin-right: 5px; /* Espacement entre l'icône et le texte */
+}
+.card-info h3 {
+  font-weight: bold;
+}
+
+.background-image {
+  background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
+
+.card-list {
+margin-bottom: 20px; /* Ajoute un espace en bas de la liste de cartes */
+}
+
+.custom-pagination {
+color: black; /* Changez 'black' à la couleur que vous souhaitez */
+}

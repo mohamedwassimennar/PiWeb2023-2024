@@ -1,0 +1,36 @@
+<app-header></app-header>
+<div class="container">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Recovery Plans List -->
+  <h2 class="section-title text-center">Recovery Plans List</h2>
+  <div class="row justify-content-center text-center">
+    <div class="col-md-4 mb-4" *ngFor="let recoveryPlan of recoveryPlans | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage, totalItems: recoveryPlans.length }">
+      <div class="card card-lg">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <img src="assets/images/rehabilitation2.png" class="card-img-top" alt="Recovery Plan Image" style="max-width: 100px;">
+          <h5 class="card-title mt-3">Recovery Plan for {{ recoveryPlan.playerName }}</h5>
+          <p class="card-text">Status: {{ recoveryPlan.injuryStatus }}</p>
+          <p class="card-text">Start Date: {{ recoveryPlan.recoveryStartDate | date }}</p>
+          <p class="card-text">End Date: {{ recoveryPlan.recoveryEndDate | date }}</p>
+          <p class="card-text">Activities: {{ recoveryPlan.recoveryActivities }}</p>
+          <div class="mt-auto">
+            <!-- Seuls les utilisateurs avec le rôle "doctor" ou "physiotherapist" peuvent voir ces boutons -->
+            <button class="btn btn-primary mb-2" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" [routerLink]="['/recoveryPlan/update', recoveryPlan._id]"><i class="fas fa-edit"></i>Update</button>
+            <button class="btn btn-warning mb-2" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" (click)="archiveRecoveryPlan(recoveryPlan._id)"><i class="fas fa-archive"></i> Archive</button>
+            <button class="btn btn-danger mb-2" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" (click)="deleteRecoveryPlan(recoveryPlan._id)"><i class="fas fa-trash-alt"></i>Delete</button>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <pagination-controls class="custom-pagination" (pageChange)="currentPage = $event"></pagination-controls>
+  </div>  
+  <!-- Add Recovery Plan Button -->
+  <!-- Seuls les utilisateurs avec le rôle "doctor" peuvent voir ce bouton -->
+  <div class="add-recovery-plan-button mt-4 text-center" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'">
+    <a class="btn btn-success" routerLink="/addRecoveryPlan"><i class="fas fa-plus"></i>Add Recovery Plan</a>
+  </div>
+</div>
+
+<app-footer></app-footer>

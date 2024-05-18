@@ -1,0 +1,93 @@
+<app-header></app-header>
+<div class="container">
+  <h2 class="section-title"> ADD Performances summurry </h2>
+
+    <form [formGroup]="performanceForm" (ngSubmit)="addPerformance()">
+
+      <div class="form-group">
+        <label for="season">Saison:</label>
+        <input type="date" class="form-control" id="season" formControlName="season">
+        <div *ngIf="performanceForm.get('season')?.invalid && performanceForm.get('season')?.touched" class="text-danger">
+          Saison est requise.
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="totalGoalsScored">totalGoalsScored:</label>
+        <input type="text" class="form-control" id="totalGoalsScored" formControlName="totalGoalsScored">
+        <div *ngIf="performanceForm.get('totalGoalsScored')?.invalid && performanceForm.get('totalGoalsScored')?.touched" class="text-danger">
+          totalGoalsScored est requis
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="averagePassCompletionRate">averagePassCompletionRate:</label>
+        <input type="text" class="form-control" id="averagePassCompletionRate" formControlName="averagePassCompletionRate">
+        <div *ngIf="performanceForm.get('averagePassCompletionRate')?.invalid && performanceForm.get('averagePassCompletionRate')?.touched" class="text-danger">
+          averagePassCompletionRate est requis
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="totalDistanceCovered">totalDistanceCovered:</label>
+        <input type="text" class="form-control" id="totalDistanceCovered" formControlName="totalDistanceCovered">
+        <div *ngIf="performanceForm.get('totalDistanceCovered')?.invalid && performanceForm.get('totalDistanceCovered')?.touched" class="text-danger">
+          totalDistanceCovered est requis
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="totalMatchesPlayed">totalMatchesPlayed:</label>
+        <input type="text" class="form-control" id="totalMatchesPlayed" formControlName="totalMatchesPlayed">
+        <div *ngIf="performanceForm.get('totalMatchesPlayed')?.invalid && performanceForm.get('totalMatchesPlayed')?.touched" class="text-danger">
+          totalMatchesPlayed est requis
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="yellowCards">yellowCards:</label>
+        <input type="text" class="form-control" id="yellowCards" formControlName="yellowCards">
+        <div *ngIf="performanceForm.get('yellowCards')?.invalid && performanceForm.get('yellowCards')?.touched" class="text-danger">
+          yellowCards est requis
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="redCards">redCards:</label>
+        <input type="text" class="form-control" id="redCards" formControlName="redCards">
+        <div *ngIf="performanceForm.get('redCards')?.invalid && performanceForm.get('redCards')?.touched" class="text-danger">
+          redCards est requis
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="minutesPlayed">minutesPlayed:</label>
+        <input type="text" class="form-control" id="minutesPlayed" formControlName="minutesPlayed">
+        <div *ngIf="performanceForm.get('minutesPlayed')?.invalid && performanceForm.get('minutesPlayed')?.touched" class="text-danger">
+          minutesPlayed est requis
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <button type="submit" class="btn btn-primary" [disabled]="performanceForm.invalid" >Add Performance</button>
+        </div>
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-primary" (click)="retourFunction()">
+                <i class="fas fa-arrow-left"></i> Return Back
+            </button>
+        </div>
+    </div>
+   
+    </form>
+          <!-- Alertes Bootstrap pour afficher les messages de succès ou d'erreur -->
+<div *ngIf="successMessage" class="alert alert-success alert-dismissible fade show add-performance-button" role="alert">
+  {{ successMessage }}
+  <button type="button" class="close" (click)="successMessage = null" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+  {{ errorMessage }}
+  <button type="button" class="close" (click)="errorMessage = null" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+</div>
+<app-footer></app-footer>

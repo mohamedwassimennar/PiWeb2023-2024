@@ -1,0 +1,23 @@
+.modal-container {
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    align-items: center;
+    /* vertically center */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* Allow clicks to pass through */
+}
+
+.modal-container .card {
+    pointer-events: auto;
+    /* Allow clicks on the card */
+    background-color: white;
+    /* Or any other background color you prefer */
+    padding: 20px;
+    /* Adjust padding as needed */
+}

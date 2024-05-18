@@ -1,0 +1,19 @@
+<app-header></app-header>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let article of newsArticles">
+      <div class="card mb-4 custom-card ">
+        <img class="card-img-top custom-img " [src]="article.urlToImage" alt="{{ article.title }}">
+        <div class="card-body ">
+          <h5 class="card-title">{{ article.title }}</h5>
+          <p class="card-text description">{{ article.description }}</p>
+          <p class="card-text">Published At: {{ article.publishedAt | date }}</p>
+          <a [href]="article.url" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

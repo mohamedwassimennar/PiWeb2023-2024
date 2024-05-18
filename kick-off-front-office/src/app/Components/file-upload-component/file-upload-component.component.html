@@ -1,0 +1,24 @@
+<!-- file-upload-component.component.html -->
+<app-header></app-header>
+<div class="container">
+  <input type="file" (change)="onFileSelected($event)" accept=".mp4">
+  <button class="upload-button" (click)="uploadVideo()" [disabled]="loading">Upload Video</button>
+
+
+<video controls *ngIf="videoUrl && showDownloadButtons">
+  <source [src]="videoUrl" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+  
+  <!-- Download buttons will only be shown when showDownloadButtons is true -->
+  <div *ngIf="showDownloadButtons">
+    <button class="download-button" (click)="downloadVideo()">Download Video</button>
+    <button class="download-button" (click)="downloadPDF()">Download PDF</button>
+  </div>
+  
+  <!-- Loading indicator will only be shown when loading is true -->
+  <div *ngIf="loading" class="loading-indicator">Loading...</div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,48 @@
+
+<app-header></app-header>
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="section-title">Update Recovery Plan</h2>
+          </div>
+          <div class="card-body">
+            <form [formGroup]="updatedRecoveryPlanForm" (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+              <div class="form-group">
+                <label for="playerName">Player Name</label>
+                <input type="text" id="playerName" name="playerName" formControlName="playerName" class="form-control">
+                <div class="invalid-feedback">Player name is required.</div>
+              </div>
+              <div class="form-group">
+                <label for="injuryStatus">Injury Status</label>
+                <select id="injuryStatus" name="injuryStatus" formControlName="injuryStatus" class="form-control">
+                  <option value="In Recovery">In Recovery</option>
+                  <option value="Recovered">Recovered</option>
+                  <option value="Pending">Pending</option>
+                </select>                
+                <div class="invalid-feedback">Injury status is required.</div>
+              </div>
+              <div class="form-group">
+                <label for="recoveryStartDate">Recovery Start Date</label>
+                <input type="date" id="recoveryStartDate" name="recoveryStartDate" formControlName="recoveryStartDate" class="form-control">
+                <div class="invalid-feedback">Recovery start date is required.</div>
+              </div>
+              <div class="form-group">
+                <label for="recoveryEndDate">Recovery End Date</label>
+                <input type="date" id="recoveryEndDate" name="recoveryEndDate" formControlName="recoveryEndDate" class="form-control">
+                <div class="invalid-feedback">Recovery end date is required.</div>
+              </div>
+              <div class="form-group">
+                <label for="recoveryActivities">Recovery Activities</label>
+                <textarea id="recoveryActivities" name="recoveryActivities" formControlName="recoveryActivities" class="form-control"></textarea>
+                <div class="invalid-feedback">Recovery activities are required.</div>
+              </div>
+              <button type="submit" class="btn btn-primary">Update Recovery Plan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>

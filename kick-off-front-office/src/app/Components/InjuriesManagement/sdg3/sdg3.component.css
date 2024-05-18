@@ -1,0 +1,58 @@
+.sdg3-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.sdg3-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sdg3-content, .sdg3-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.sdg3-targets, .sdg3-importance {
+  flex: 1;
+}
+
+.sdg3-targets ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.sdg3-targets h3, .sdg3-content h2 {
+  color: #008000;
+}
+
+@media (min-width: 768px) {
+    .sdg3-sections {
+        flex-direction: row;
+    }
+    
+    .sdg3-targets, .sdg3-importance {
+        margin: 0 10px;
+    }
+}
+
+.football-well-being {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0; /* Léger fond gris pour distinguer la section */
+  border-radius: 5px;
+}
+
+.football-well-being h3 {
+  color: #006400; /* Un vert plus foncé pour différencier les titres */
+}
+
+.football-well-being p {
+  line-height: 1.6;
+}
+

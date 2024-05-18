@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        /* CSS personnalisé */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Couleur de fond */
+            color: #333; /* Couleur du texte */
+        }
+
+        #video-container {
+            width: 100%;
+            height: 100vh; /* Occuper 100% de la hauteur de la fenêtre */
+            background-color: #fff; /* Couleur de fond du conteneur */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #video {
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <app-header></app-header>
+    <div id="video-container">
+        <video id="video" autoplay disablePictureInPicture muted loop>
+            <source src="assets/video/Elevate the football team performance.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+<!-- Section des utilisateurs de l'application -->
+<div id="app-users">
+    <h2 class="section-title">Our Solutions</h2>
+    <div class="user-images">
+        <div class="user">
+            <img src="assets/solutions/success.png" alt="User 1" class="user-image">
+            <p class="user-name">PERFORMANCE</p>
+        </div>
+        <div class="user">
+            <img src="assets/solutions/training.png" alt="User 2" class="user-image">
+            <p class="user-name">TRAINING</p>
+        </div>
+        <div class="user">
+            <img src="assets/solutions/ambulance.png" alt="User 3" class="user-image">
+            <p class="user-name">HEALTH CARE</p>
+        </div>
+        <div class="user">
+            <img src="assets/solutions/soccer-field.png" alt="User 4" class="user-image">
+            <p class="user-name">MATCHS</p>
+        </div>
+        <div class="user">
+            <img src="assets/solutions/diagnostic.png" alt="User 5" class="user-image">
+            <p class="user-name">SCOUTING</p>
+        </div>
+        <div class="user">
+            <img src="assets/solutions/time.png" alt="User 6" class="user-image">
+            <p class="user-name">MEETINGS</p>
+        </div>
+        <div class="user">
+            <img src="assets/solutions/ranking1.png" alt="User 7" class="user-image">
+            <p class="user-name">STATISTICS</p>
+        </div>
+    </div>
+</div>
+
+    <h2 class="section-title">Advantages of KickOff</h2>
+<!-- Ajout de la section Avantages sous le paragraphe existant -->
+<div id="advantages">
+    <div class="advantage-column">
+        <img src="assets\images\rapid.png" alt="Seamless Access">
+        <h4>Seamless Access</h4>
+        <p>With KickOff, enjoy seamless access to all platform features from anywhere, at any time. No need for installations on multiple devices; everything is conveniently available online.</p>
+    </div>
+    <div class="advantage-column">
+        <img src="assets\images\effective.png" alt="Consistency">
+        <h4>Consistency</h4>
+        <p>KickOff ensures consistency and organization, eliminating the risk of losing critical data. Your technical information remains secure and accessible whenever needed.</p>
+    </div>
+    <div class="advantage-column">
+        <img src="assets\images\efficiency.png" alt="Efficiency">
+        <h4>Efficiency</h4>
+        <p>Registering training sessions and matches is swift and efficient with KickOff. Access your data instantly, even from the field, enabling quick decisions and adjustments.</p>
+    </div>
+    <div class="advantage-column">
+        <img src="assets\images\idea.png" alt="Stay Ahead">
+        <h4>Stay Ahead</h4>
+        <p>Stay ahead of the competition with KickOff. Monitor player progress, analyze training sessions and match performances using detailed statistics, and anticipate future strategies with confidence.</p>
+    </div>
+</div>
+
+<!-- Section des utilisateurs de l'application -->
+<div id="app-users">
+    <h2 class="section-title">Our Users</h2>
+    <div class="user-images">
+        <div class="user">
+            <img src="assets/keyusers/coach11.png" alt="User 1" class="user-image">
+            <p class="user-name">COACH</p>
+        </div>
+        <div class="user">
+            <img src="assets/keyusers/coach12.png" alt="User 2" class="user-image">
+            <p class="user-name">ASSISTANT COACH</p>
+        </div>
+        <div class="user">
+            <img src="assets/keyusers/player1.png" alt="User 3" class="user-image">
+            <p class="user-name">PLAYER</p>
+        </div>
+        <div class="user">
+            <img src="assets/keyusers/doctor1.png" alt="User 4" class="user-image">
+            <p class="user-name">DOCTOR</p>
+        </div>
+        <div class="user">
+            <img src="assets/keyusers/kine.png" alt="User 5" class="user-image">
+            <p class="user-name">PHYSIOTHERAPIST</p>
+        </div>
+        <div class="user">
+            <img src="assets/keyusers/fitness.png" alt="User 6" class="user-image">
+            <p class="user-name">FITNESS COACH</p>
+        </div>
+        <div class="user">
+            <img src="assets/keyusers/manager.png" alt="User 7" class="user-image">
+            <p class="user-name">TECHNICAL MANAGER</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<app-footer></app-footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('video');
+            video.controls = false; // Désactiver les contrôles de la vidéo
+
+            video.addEventListener('play', function() {
+                video.pause(); // Empêcher la vidéo de jouer si l'utilisateur tente de la démarrer manuellement
+            });
+
+            video.addEventListener('click', function() {
+                video.pause(); // Empêcher la vidéo de jouer si l'utilisateur clique dessus
+            });
+
+            video.addEventListener('contextmenu', function(e) {
+                e.preventDefault(); // Empêcher le menu contextuel de la vidéo
+            });
+
+            video.addEventListener('keydown', function(e) {
+                e.preventDefault(); // Empêcher les interactions clavier
+            });
+        });
+    </script>
+</body>
+</html>

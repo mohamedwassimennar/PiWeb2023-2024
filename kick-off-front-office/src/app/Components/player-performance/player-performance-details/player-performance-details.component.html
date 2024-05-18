@@ -1,0 +1,34 @@
+<app-header></app-header>
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+  <div class="card mb-2" *ngIf="performance">
+    <div class="card-header bg-black text-white">
+      <h2 class="card-title">Player Performance Details</h2>
+    </div>
+    <div class="card-body">
+      <p><strong>Name:</strong> {{ performance.nom }}</p>
+      <p><strong>Age:</strong> {{ performance.age }}</p>
+      <p><strong>Total Matches Played:</strong> {{ performance.totalMatchesPlayed }}</p>
+      <p><strong>Goals:</strong> {{ performance.goals }}</p>
+      <p><strong>Total Distance Covered:</strong> {{ performance.totalDistanceCovered }}</p>
+      <p><strong>Yellow Cards:</strong> {{ performance.yellowCards }}</p>
+      <p><strong>Red Cards:</strong> {{ performance.redCards }}</p>
+      <p><strong>Assists:</strong> {{ performance.assists }}</p>
+      <p><strong>Distance Covered:</strong> {{ performance.distanceCovered }}</p>
+    </div>
+    <div class="card-footer">
+      <button class="btn btn-dark custom-btn" (click)="navigateBack()">
+        <i class="fas fa-arrow-left"></i>  Return Back
+      </button>
+    </div>
+    
+  </div>
+ 
+
+  <div class="card m-3" *ngIf="!performance">
+    <div class="card-body">
+      <p class="card-text">Performance not found!</p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

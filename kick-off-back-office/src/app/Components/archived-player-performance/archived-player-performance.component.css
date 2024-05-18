@@ -1,0 +1,75 @@
+/* Style pour la barre de navigation principale */
+.sidenav {
+  width: 250px;
+}
+
+.sidenav-header {
+  position: relative;
+}
+
+.sidenav-header .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.sidenav-footer {
+  position: fixed;
+  bottom: 0;
+  width: 250px;
+}
+
+/* Style pour les liens dans la barre de navigation */
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #333; /* Couleur du texte */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #000; /* Couleur du texte au survol */
+}
+
+/* Style pour les sous-menus */
+.sub-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sub-menu .nav-link {
+  padding-left: 30px; /* Ajustement pour l'icône */
+}
+
+/* Style pour les cartes dans la section principale */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+/* Style pour le pied de page */
+.footer {
+  background-color: #f8f9fe;
+  color: #8898aa; /* Couleur du texte */
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #8898aa; /* Couleur des liens */
+}
+
+.footer a:hover {
+  color: #525f7f; /* Couleur des liens au survol */
+}

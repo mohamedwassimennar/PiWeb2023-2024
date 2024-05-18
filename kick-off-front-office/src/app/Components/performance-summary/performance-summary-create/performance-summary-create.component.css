@@ -1,0 +1,55 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: red;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-size: 14px;
+}
+.add-performance-button {
+  margin-top: 20px; 
+}
+
+
+label{
+color: black;
+}
+.section-title {
+  color: #19204e; 
+  font-size: 25px;
+    margin-bottom: 20px; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-weight: bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  text-align: center;
+  }
+  

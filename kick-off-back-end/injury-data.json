@@ -1,0 +1,966 @@
+{
+    "AFC Bournemouth": {
+      "injuries": [
+        {
+          "player": "Ryan Fredericks",
+          "reason": "Calf/Shin/Heel Injury",
+          "further_detail": "Feb 21: 'More difficult and different situation because right now he has to prioritise his health. He is in a tough moment; he hasn't even trained once with us because he is having recurring injuries.'",
+          "potential_return": "03/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Tyler Adams",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 01: 'Tyler is training with the group, doing almost everything. He’s only been training one week, so it’s not enough. He will probably play [some minutes] with the development squad. He needs to spend some time before returning.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "James Hill",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Jan 31: 'James will be out for about six weeks, I believe, knowing Hilly, though he will try and do it in four weeks! We have been short at full-back, and we know he will work hard to recover.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Lloyd Kelly",
+          "reason": "Groin/Hip/Pelvic Injury",
+          "further_detail": "Feb 26: 'Lloyd, who was missing the other day, will continue to be missing this game and a little bit more, and that's it.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "25%"
+        },
+        {
+          "player": "Ryan Christie",
+          "reason": "Illness",
+          "further_detail": "Mar 03: 'Ryan wasn't feeling 100 per cent because he has been ill, and he was lacking some energy.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "75%"
+        },
+        {
+          "player": "Marcos Senesi Baron",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 03: 'I think it's a clear strain in the hamstring. I hope it's not very big. It's a very bad moment for us, collectively, because we don't have too many defenders right now.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Maximillian Aarons",
+          "reason": "Thigh Injury",
+          "further_detail": "Jan 24: 'Max is obviously out; he has a muscle injury, and he'll be out for some time.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+  "Arsenal": {
+      "injuries": [
+        {
+          "player": "David Raya Martin",
+          "reason": "Other",
+          "further_detail": "Unable to Face Parent Club",
+          "potential_return": "31/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Jurrien Timber",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 29: 'Jurrien is not close enough to be part of the squad on Monday. He's in a really good place, and now we have to manage the last bit of a difficult and complicated injury.'",
+          "potential_return": "31/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Oleksandr Zinchenko",
+          "reason": "Calf/Shin/Heel Injury",
+          "further_detail": "Feb 29: '[Zinchenko and Tomiyasu] are possible, but we have to wait and see, especially with the last two sessions that we have on Saturday and Sunday. If that’s the case, they might be available on Monday.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Takehiro Tomiyasu",
+          "reason": "Other",
+          "further_detail": "Feb 29: '[Zinchenko and Tomiyasu] are possible, but we have to wait and see, especially with the last two sessions that we have on Saturday and Sunday. If that’s the case, they might be available on Monday.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Bukayo Saka",
+          "reason": "Illness",
+          "further_detail": "Mar 04: 'He was feeling a bit sick and as well we have Fabio (Vieira) who we have to give minutes.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "75%"
+        },
+        {
+          "player": "Gabriel Martinelli",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Mar 04: 'Gabi as well. He had a slight cut on his foot, and we have to wait and see how he is.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        }
+      ]
+    },
+    "Aston Villa": {
+      "injuries": [
+        {
+          "player": "Boubacar Kamara",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 23: 'Kamara had his [surgery] yesterday.'",
+          "potential_return": "26/10/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Emiliano Buendia",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 16: 'All the season they are going to be out - Tyrone and Emi. Hopefully, they can come back to [team training] at the end of the season and start [2024/25] being completely fine to play like they were before.'",
+          "potential_return": "24/06/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Tyrone Mings",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 16: 'All the season they are going to be out - Tyrone and Emi. Hopefully, they can come back to [team training] at the end of the season and start [2024/25] being completely fine to play like they were before.'",
+          "potential_return": "24/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Diego Carlos Santos Silva",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 23: 'Diego Carlos as well is working alone, and Jhon Duran.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Jhon Duran Palacio",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 23: 'Diego Carlos as well is working alone, and Jhon Duran.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "25%"
+        },
+        {
+          "player": "Jacob Ramsey",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Mar 02: 'We are going to check him; it's strange because he was feeling something before he injured in his foot. Until tomorrow, it is difficult to know if it is relevant.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "25%"
+        }
+      ]
+    },
+    "Brentford": {
+      "injuries": [
+        {
+          "player": "Joshua Dasilva",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 23: 'The only two that are definitely out for the season [are] Rico Henry and Josh Dasilva; Josh had a very successful surgery two days ago, and he's good.'",
+          "potential_return": "23/11/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Rico Henry",
+          "reason": "Knee Injury",
+          "further_detail": "Sept 19: 'Rico will require surgery in the next week or so and, unfortunately, a prolonged period of recovery.'",
+          "potential_return": "03/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Ben Mee",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Mar 01: 'Unfortunately, Ben is injured and out for the rest of the season. He got a fracture to his ankle against West Ham.'",
+          "potential_return": "03/06/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Aaron Hickey",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 23: 'Hickey's setback is in relation to his hamstring.'",
+          "potential_return": "11/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Kevin Schade",
+          "reason": "Groin/Hip/Pelvic Injury",
+          "further_detail": "Feb 23: 'I don't have an exact timeframe on Schade.'",
+          "potential_return": "27/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Ethan Pinnock",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 17: 'Unfortunately, he'll be out until after the international break.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Bryan Mbeumo",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 23: 'Bryan is progressing, and that's a shorter one, hopefully after the international break.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Brighton & Hove Albion": {
+      "injuries": [
+        {
+          "player": "Solomon March",
+          "reason": "Knee Injury",
+          "further_detail": "Jan 21: 'I hope he can play before the end of the season; we need him on the pitch. When this type of player has this type of injury, it is very tough to accept.'",
+          "potential_return": "17/06/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Kaoru Mitoma",
+          "reason": "Lower Back Injury",
+          "further_detail": "Feb 27: 'It's the back injury which kept him out against Everton. It's an important problem. I think two or three months, so finished for the season.'",
+          "potential_return": "27/05/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Jack Hinshelwood",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 10: '[Jack] got a kick in the last training session, and we preferred not to risk.'",
+          "potential_return": "11/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Joao Pedro Junqueira de Jesus",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 09: 'He has a problem. We don't know how many weeks, but we don't want to take a risk, and sure, he can't play tomorrow.'",
+          "potential_return": "14/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Billy Gilmour",
+          "reason": "Suspended",
+          "further_detail": "Sending Off - Red Card",
+          "potential_return": "14/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "James Milner",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 02: 'James is not available. He can't play, he needs, I don’t know how much time. For the next two, three, four games, he can't play.'",
+          "potential_return": "14/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Burnley": {
+      "injuries": [
+        {
+          "player": "Aaron Ramsey",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 22: 'Unfortunately, it is as bad as we thought. Definitely season over, and maybe for the larger part of this year, he won't feature. He will make a full recovery, and he will be an important player for us in the future.'",
+          "potential_return": "23/11/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Nathan Redmond",
+          "reason": "Thigh Injury",
+          "further_detail": "Jan 30: 'It's really unlucky for him mostly but also for us. It was a freak incident [in training], but luckily, the doctors have told us he will recover fully, but it's surgery and season over.'",
+          "potential_return": "03/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Lyle Foster",
+          "reason": "Other",
+          "further_detail": "Feb 15: 'He won't be available [for this weekend]; he had surgery on a chronic issue that needed resolving. It's not season over, but he'll certainly miss out for a period of time.'",
+          "potential_return": "04/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Luca Koleosho",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 08: 'Yes [he is on schedule to return this season], but with a long-term injury, he still has a crucial phase to go through, which is a return to the pitch, and he's not there yet, so we'll see.'",
+          "potential_return": "04/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Jordan Beyer",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 01: 'The latest I heard, he was progressing well. But with those injuries, I can't put a time on it.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Josh Brownhill",
+          "reason": "Suspended",
+          "further_detail": "Sending Off - Red Card",
+          "potential_return": "10/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Crystal Palace": {
+      "injuries": [
+        {
+          "player": "Cheick Doucoure",
+          "reason": "Calf/Shin/Heel Injury",
+          "further_detail": "Dec 01: 'It's bad. He's snapped his Achilles tendon, so it's a question of how long that takes [to heal]. It could take as long as the end of the season, but of course, one remains optimistic. It's a massive blow.'",
+          "potential_return": "03/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Rob Holding",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Jan 29: 'So he was operated on - I think it was last Tuesday. I would like to say and think that he could get back before the end of the season. But if he is going to get back, it won't be in the near future.'",
+          "potential_return": "04/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Marc Guehi",
+          "reason": "Knee Injury",
+          "further_detail": "Mar 01: 'I hoped he could be in training with us this week, but his knee reacted in a way we didn't like. He visited the doctor one more time. It was better to have the surgery. He's doing well.'",
+          "potential_return": "04/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Michael Olise",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 01: 'We don't know exactly, but we expect him back at the end of March or April [as long as] everything goes well. Maybe after the Int' Break, he can be with us in training. That was his third injury this season, so we'll take care of him.'",
+          "potential_return": "06/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Jordan Ayew",
+          "reason": "Groin/Hip/Pelvic Injury",
+          "further_detail": "Mar 02: 'He got a hit in the first half on his hip. He already told us at half-time he had maybe 10 or 15 minutes, but I hope, and I think it's not so bad.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Jesurun Rak-Sakyi",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 09: '[He spent] two weeks with us in training, but the first time he went out to play a game with the U21s, he pulled up after 15 minutes, so we've lost another important player there.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Everton": {
+      "injuries": [
+        {
+          "player": "Bamidele Alli",
+          "reason": "Groin/Hip/Pelvic Injury",
+          "further_detail": "Feb 29: 'Dele's focus is just getting fit. Obviously, he's got a period [to go]. We're not worrying about when, just, first things first, get fit. That's all we're looking for him to do, and that's all he's looking to do.'",
+          "potential_return": "19/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Arnaut Danjuma Groeneveld",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 29: 'Arnie is doing well with his ankle, but it's obviously a longer-term situation. He's doing really well. I just spoke to him before, and he's in a good place.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Idrissa Gana Gueye",
+          "reason": "Groin/Hip/Pelvic Injury",
+          "further_detail": "Feb 29: '[Gana] is still settling down, and Ama [Onana] has got a groin thing, similar to Gana's, which is just settling down, so we'll make more of a decision on them tomorrow.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        }
+      ]
+    },
+    "Fulham": {
+      "injuries": [
+        {
+          "player": "Raul Jimenez",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 09: '[Out for] more than one month for sure.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Joao Maria Lobo Alves Palhinha Goncalves",
+          "reason": "Suspended",
+          "further_detail": "10 Yellow Cards",
+          "potential_return": "09/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Liverpool": {
+      "injuries": [
+        {
+          "player": "Joel Matip",
+          "reason": "Knee Injury",
+          "further_detail": "Dec 06: 'It's an ACL, ruptured, so that's what I unfortunately expected from the first second. Everything looked like that. Very unfortunate.'",
+          "potential_return": "01/09/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Alisson Becker",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 23: 'And all the others, we know it's longer. Ali has a muscle injury. Trent, LCL. Jota, medial ligament, MCL.'",
+          "potential_return": "14/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Diogo Jota",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 23: 'And all the others, we know it's longer. Ali has a muscle injury. Trent, LCL. Jota, medial ligament, MCL.'",
+          "potential_return": "13/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Trent Alexander-Arnold",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 23: 'And all the others, we know it's longer. Ali has a muscle injury. Trent, LCL. Jota, medial ligament, MCL.'",
+          "potential_return": "31/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Stefan Bajcetic Maquieira",
+          "reason": "Other",
+          "further_detail": "Feb 27: 'He’s obviously gaining fitness now. He didn’t get a green light yet for team training. He’s completely pain-free, which is obviously the most important thing. All checks we made, like scans again, bone looks good, that’s all fine.'",
+          "potential_return": "31/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Curtis Jones",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 23: 'Curtis is probably the first one [to come back] around the international break. All the others will be after the international break.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Mohamed Salah",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 01: 'I don't think Mo is too far off, but he will not feature tomorrow, and from there, we have to go. It's like touch and go, but I think next week at any point it is possible. He is on the way back, definitely, but not there yet.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Ryan Gravenberch",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 27: 'It's a ligament injury, could have been much worse, but bad enough for being ruled out for this game, next game. We will see. So, we need miracles with a few players, so that's why I don't want to rule out for too long.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Thiago Alcantara",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 27: 'Yeah, there's no timescale. I don't know, to be honest. It's a couple of things [that] he has to do now from a medical point of view, and then I don't know if that will then mean that he can play again [this season].'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Luton Town": {
+      "injuries": [
+        {
+          "player": "Thomas Lockyer",
+          "reason": "Chest/Abdominal Injury",
+          "further_detail": "Feb 18: 'We will be dictated to by the medical staff and specialists, but if there was a chance I could play again, then I would love to. It's far too early to say; there are a lot more tests and things that need to happen, but I wouldn't write it off.'",
+          "potential_return": "08/07/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Marvelous Nakamba",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 26: 'He's still in the very early stages of [his recovery], so whether we get him back before the end of the season, it's still very touch and go. He's working hard, but it's all very, very early stages, biking and things like that.'",
+          "potential_return": "19/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Dan Potts",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 01: 'I couldn't talk about it the other day, but he had a nasty hamstring injury in training last week. You watch it back, and it almost looks like nothing, but he'll be out for a while now, unfortunately.'",
+          "potential_return": "27/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Gabriel Osho",
+          "reason": "Other",
+          "further_detail": "Feb 27: '[Bell] wasn't fully fit going into the game, but Gabe wasn't either, and then when I was going to bring Gabe on, [he] was saying he was feeling it in the warm-up as well, so Gabe didn't come on.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "25%"
+        },
+        {
+          "player": "Joseph Johnson",
+          "reason": "Illness",
+          "further_detail": "Fever",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "75%"
+        },
+        {
+          "player": "Elijah Adebayo",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 26: 'He's still out. Like quite a lot of teams at the moment, we've got a good number of important players missing.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Jacob Brown",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 20: 'He's had an operation: an issue with the cartilage in his knee, so we're missing [him] for the foreseeable, unfortunately. It happened in training last week. We don't know the timescale at the moment.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Albert-Mboyo Sambi Lokonga",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 21: 'I’m not it's if it’s the same. He’s just feeling it, lower hamstring, so in the end, it was the right thing to do to take him out.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Amari'i Bell",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 02: 'I don't know the extent of it at the moment, but we can't moan about it. We can't complain; we can only keep together and find solutions.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Mads Andersen",
+          "reason": "Calf/Shin/Heel Injury",
+          "further_detail": "Feb 20: 'Mads has had one or two little setbacks, just finding it tough with certain areas, so he's going to see another specialist. He gets close and then feels it again. It's really frustrating, and we're trying our best to get to the bottom of that calf.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Manchester City": {
+      "injuries": [
+        {
+          "player": "Jack Grealish",
+          "reason": "Groin/Hip/Pelvic Injury",
+          "further_detail": "Mar 01: 'He will not be fit for this weekend. When he will come back, I don’t know. I think he will not be fit [for the upcoming internationals]. He has had a setback; he has to recover well so we can use him as much as possible.'",
+          "potential_return": "31/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },  "Manchester United": {
+      "injuries": [
+        {
+          "player": "Luke Shaw",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 21: 'Luke has sustained a muscle injury and will be out for an extended period. Further assessment is still needed to determine the severity, but we expect him to be absent for a few months.'",
+          "potential_return": "11/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Lisandro Martinez",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 05: 'Lisandro has sustained an injury to the medial collateral ligament in his knee and is expected to be out of action for at least eight weeks.'",
+          "potential_return": "06/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Anthony Martial",
+          "reason": "Groin/Hip/Pelvic Injury",
+          "further_detail": "Jan 24: 'Anthony has completed successful surgery to address a groin complaint and will be out of action for about ten weeks as he rehabilitates.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Tyrell Malacia",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 15: 'He had setbacks during his rehab process. It takes too long; it's bad for him. Bad for us. But now we've turned a point, and it's positive - he will return soon on the pitch. I don't think then it will take long before he's returning in the team training.'",
+          "potential_return": "16/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Rasmus Winther Hojlund",
+          "reason": "Other",
+          "further_detail": "Feb 23: 'It is a small injury, two to three weeks. That is what happens and the risk [when you are] playing at high intensity, training. As I say, it is not a big injury, but he has to wait for one, two, three weeks'",
+          "potential_return": "16/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Mason Mount",
+          "reason": "Calf/Shin/Heel Injury",
+          "further_detail": "Feb 15: 'Mason Mount and Tyrell Malacia will take some more weeks.'",
+          "potential_return": "16/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Aaron Wan-Bissaka",
+          "reason": "Other",
+          "further_detail": "Feb 15: 'First, Aaron will take some weeks because he picked up another injury in the training.'",
+          "potential_return": "16/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Harry Maguire",
+          "reason": "Other",
+          "further_detail": "Feb 27: 'Harry will not be available.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Marcus Rashford",
+          "reason": "Other",
+          "further_detail": "Knock",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Jonny Evans",
+          "reason": "Other",
+          "further_detail": "Knock",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        }
+      ]
+    },
+    "Newcastle United": {
+      "injuries": [
+        {
+          "player": "Sandro Tonali",
+          "reason": "Suspended",
+          "further_detail": "Oct 27: 'We haven't had any official confirmation yet; we haven't had anything from the Italian authorities. There is a high chance that he could be available for us at Wolves. We are preparing as if he is fit and ready to play. He will be travelling with us.'",
+          "potential_return": "31/08/2024",
+          "condition": "None",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Callum Wilson",
+          "reason": "Chest/Abdominal Injury",
+          "further_detail": "Feb 16: 'It's a really strange injury, a tussle right at the end of the game. Initially, we thought it was his shoulder, but it is his pectoral muscle. He went to see a specialist, and he is having it operated on as we speak.'",
+          "potential_return": "11/05/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Joelinton Apolinario de Lira",
+          "reason": "Thigh Injury",
+          "further_detail": "Jan 23: 'Newcastle confirms Joelinton has successfully undergone surgery on a thigh injury sustained earlier this month. The midfielder will now commence a period of rehab and is expected to return to action in May.'",
+          "potential_return": "11/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Nick Pope",
+          "reason": "Shoulder Injury",
+          "further_detail": "Feb 26: 'No immediate update, but he's not on the verge of returning. He's working his way back and is still very much gym-based. He has done a couple of sessions outside, but they're very, very gentle at this stage. I still think he's a number of weeks away.'",
+          "potential_return": "03/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Lewis Hall",
+          "reason": "Other",
+          "further_detail": "Unable to Face Parent Club",
+          "potential_return": "30/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Matt Targett",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 01: 'Matty might need a bit more time to get back, given his hamstring injury, but he is training now. To get back to their absolute best, I think you need that period of training behind you.'",
+          "potential_return": "11/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "25%"
+        },
+        {
+          "player": "Kieran Trippier",
+          "reason": "Calf/Shin/Heel Injury",
+          "further_detail": "Mar 03: 'I just felt something in my calf, and I don't want to take any risks. I had a good chat with the manager, but I won't know anything until [Monday]. My calf is feeling good, but you know scan results can say anything.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "25%"
+        }
+      ]
+    },  "Nottingham Forest": {
+      "injuries": [
+        {
+          "player": "Olaoluwa Aina",
+          "reason": "Other",
+          "further_detail": "Feb 29: 'Ola (Aina) and Nuno (Tavares), more problems.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Nuno Varela Tavares",
+          "reason": "Other",
+          "further_detail": "Feb 29: 'Ola (Aina) and Nuno (Tavares), more problems.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Chris Wood",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 29: 'Chris Wood is also closer.'",
+          "potential_return": "16/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Willy Boly",
+          "reason": "Other",
+          "further_detail": "Feb 29: 'Boly is also in the final days of his recovery.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Nicolas Dominguez",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 02: 'He's OK, hopefully. He said he was getting tight, hopefully nothing serious.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        }
+      ]
+    },
+    "Sheffield United": {
+      "injuries": [
+        {
+          "player": "Max Lowe",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 18: 'Someone had a shot. Max went to block it and did his ankle ligaments. He's had surgery, and I believe he's going to have surgery on it again, so we'll rule him out for the season.'",
+          "potential_return": "08/07/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Rhys Norrington-Davies",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 18: 'Rhys is out for the season with his hamstring issue as well, so yeah, they're big blows. It's tough. Tough to be involved.'",
+          "potential_return": "03/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Chris Basham",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 23: 'Chris is a long way off; he's just getting back to leading a normal life...'",
+          "potential_return": "03/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "John Egan",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 23: 'No timescale. If John gets back before the end of the season, then he's done remarkably well. He's pushing for that!'",
+          "potential_return": "19/05/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Cameron Archer",
+          "reason": "Calf/Shin/Heel Injury",
+          "further_detail": "Feb 29: 'There's no timescale on him. He's improving as you would do with treatment. I'm sure that he won't be available before the international break, and I'll be delighted if he is.'",
+          "potential_return": "30/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Anis Ben Slimane",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 29: 'With the Man United game being moved, it does give us another week to get Cameron and Ben Slimane right to help boost the squad going into the last ten games of the season.'",
+          "potential_return": "30/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Mason Holgate",
+          "reason": "Suspended",
+          "further_detail": "Sending Off - Red Card",
+          "potential_return": "16/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Rhian Brewster",
+          "reason": "Thigh Injury",
+          "further_detail": "Hamstring Strain",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Daniel Jebbison",
+          "reason": "Illness",
+          "further_detail": "Aug 25: 'He's out with an illness. He has a health issue, so he'll be out for a bit. He's not doing anything at the minute.'",
+          "potential_return": "No Return Date",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Tottenham Hotspur": {
+      "injuries": [
+        {
+          "player": "Ryan Sessegnon",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 26: 'Ryan has undergone surgery to his right hamstring following an injury during a U21s match. The 23-year-old will be closely monitored by Spurs' medical team to determine when he can return to training.'",
+          "potential_return": "03/06/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Fraser Forster",
+          "reason": "Ankle/Foot Injury",
+          "further_detail": "Feb 16: 'The big one is Fraser Forster. He picked up a knock in training - a fracture in his foot - he's longer-term, a couple of months. Yeah, disappointing.'",
+          "potential_return": "27/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Pedro Porro Sauceda",
+          "reason": "Other",
+          "further_detail": "Mar 01: 'Pedro is probably another week away.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Richarlison de Andrade",
+          "reason": "Knee Injury",
+          "further_detail": "Mar 02: 'No, it’s fine, So, I’m already training, I’ll be on the pitch tomorrow, and I think I’ll be ready for the game next Saturday.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "25%"
+        },
+        {
+          "player": "Manor Solomon",
+          "reason": "Knee Injury",
+          "further_detail": "Feb 09: 'Manor has had to have a further procedure on his knee.'",
+          "potential_return": "10/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "West Ham United": {
+      "injuries": [
+        {
+          "player": "Maxwel Cornet",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 01: 'Maxwel pulled his hamstring a little bit [on] the Saturday or the Sunday before the [Brentford] match, so it looks as if he is going to be out for a few weeks with that, unfortunately.'",
+          "potential_return": "17/03/2024",
+          "condition": "Not Available",
+          "status": "Ruled Out"
+        }
+      ]
+    },
+    "Wolverhampton Wanderers": {
+      "injuries": [
+        {
+          "player": "Hee-Chan Hwang",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 02: 'Approximately six weeks, which is obviously a disaster for where we are at this moment. Him and Cunha will probably be back around similar times; Cunha might be slightly ahead of Channy now.'",
+          "potential_return": "13/04/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Matheus Carneiro da Cunha",
+          "reason": "Thigh Injury",
+          "further_detail": "Feb 27: 'He's doing well. He's been back on the grass and done some light jogging. His gym stuff is going well; he'll probably have a scan in the next week or so to see the progress of the healing.'",
+          "potential_return": "30/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "Ruled Out"
+        },
+        {
+          "player": "Joao Gomes da Silva",
+          "reason": "Thigh Injury",
+          "further_detail": "Tight Hamstring",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Pedro Lomba Neto",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 02: 'I don't think there's any injury there; it's just tight. It was precautionary, really. Unfortunately, we had no choice but to make sure he was off and safe, and make sure we are strong enough to go again on another day.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        },
+        {
+          "player": "Jose Pedro Malheiro da Sa",
+          "reason": "Thigh Injury",
+          "further_detail": "Mar 02: 'I don't know if it was his quad that collided with the post, but he's got some issue, so it may have been from that situation, but he's confident he'll be ok for next weekend.'",
+          "potential_return": "09/03/2024",
+          "condition": "Currently Being Assessed",
+          "status": "50%"
+        }
+      ]
+    }
+  }
+  
+  

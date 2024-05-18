@@ -1,0 +1,38 @@
+/* file-upload-component.component.css */
+
+/* Styles for the upload button */
+.upload-button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Styles for the download buttons */
+.download-button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Style for the loading indicator */
+.loading-indicator {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #888;
+}

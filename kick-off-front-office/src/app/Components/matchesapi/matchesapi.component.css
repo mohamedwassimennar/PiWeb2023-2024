@@ -1,0 +1,112 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 230px; /* Set the height to 400px */
+    overflow: hidden; /* Hide any content that exceeds the height */
+    text-align: center; 
+  }
+  .list-group {
+    text-align: left; /* Left align the list items */
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    position: relative; /* Position relative for absolute positioning of the line */
+  }
+
+  .card-title::after {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position absolute to place the line relative to the title */
+    bottom: -5px; /* Adjust the distance of the line from the title */
+    left: 50%; /* Align the line with the center of the title */
+    width: 50%; /* Set the width of the line */
+    height: 2px; /* Set the height/thickness of the line */
+    background-color: #ffffff; /* Set the color of the line */
+    margin-left: -25%; /* Center the line by using a negative margin */
+  }
+  .card-text {
+    margin-bottom: 5px;
+  }
+
+  .card-text-danger {
+    color: red;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .list-group-item {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 0;
+  }
+
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+
+  .custom-select {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+  }
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #28a745;
+  }
+
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+  }
+
+  .input-group {
+    position: relative;
+    width: 100%;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+  }
+
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #80bdff;
+  }
+
+  .custom-card-color {
+    background-color: #F2F2F2;
+  }
+

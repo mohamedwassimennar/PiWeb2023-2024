@@ -1,0 +1,145 @@
+{
+    "players": [
+      {
+        "Player": "Erling Haaland",
+        "Age": 23,
+        "Total_Matches_Played": 27,
+        "Goals": 21,
+        "Assists": 5,
+        "Yellow_Cards": 1,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 4
+      },
+      {
+        "Player": "Kevin De Bruyne",
+        "Age": 32,
+        "Total_Matches_Played": 14,
+        "Goals": 4,
+        "Assists": 8,
+        "Yellow_Cards": 2,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 4
+      },
+      {
+        "Player": "Rodri",
+        "Age": 27,
+        "Total_Matches_Played": 30,
+        "Goals": 7,
+        "Assists": 7,
+        "Yellow_Cards": 8,
+        "Red_Cards": 1,
+        "Team_of_the_Week": 12
+      },
+      {
+        "Player": "Cole Palmer",
+        "Age": 21,
+        "Total_Matches_Played": 30,
+        "Goals": 20,
+        "Assists": 9,
+        "Yellow_Cards": 7,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 8
+      },
+      {
+        "Player": "Ollie Watkins",
+        "Age": 28,
+        "Total_Matches_Played": 34,
+        "Goals": 19,
+        "Assists": 12,
+        "Yellow_Cards": 4,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 4
+      },
+      {
+        "Player": "Alexander Isak",
+        "Age": 24,
+        "Total_Matches_Played": 26,
+        "Goals": 19,
+        "Assists": 1,
+        "Yellow_Cards": 1,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 2
+      },
+      {
+        "Player": "Dominic Solanke",
+        "Age": 26,
+        "Total_Matches_Played": 35,
+        "Goals": 18,
+        "Assists": 3,
+        "Yellow_Cards": 3,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 2
+      },
+      {
+        "Player": "Mohamed Salah",
+        "Age": 31,
+        "Total_Matches_Played": 29,
+        "Goals": 17,
+        "Assists": 9,
+        "Yellow_Cards": 2,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 5
+      },
+      {
+        "Player": "Jarrod Bowen",
+        "Age": 27,
+        "Total_Matches_Played": 32,
+        "Goals": 16,
+        "Assists": 6,
+        "Yellow_Cards": 2,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 2
+      },
+      {
+        "Player": "Phil Foden",
+        "Age": 23,
+        "Total_Matches_Played": 31,
+        "Goals": 16,
+        "Assists": 7,
+        "Yellow_Cards": 1,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 8
+      },
+      {
+        "Player": "Heung-min Son",
+        "Age": 31,
+        "Total_Matches_Played": 30,
+        "Goals": 16,
+        "Assists": 9,
+        "Yellow_Cards": 1,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 5
+      },
+      {
+        "Player": "Bukayo Saka",
+        "Age": 22,
+        "Total_Matches_Played": 33,
+        "Goals": 15,
+        "Assists": 9,
+        "Yellow_Cards": 3,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 4
+      },
+      {
+        "Player": "Kai Havertz",
+        "Age": 24,
+        "Total_Matches_Played": 34,
+        "Goals": 12,
+        "Assists": 6,
+        "Yellow_Cards": 9,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 3
+      },
+      {
+        "Player": "Chris Wood",
+        "Age": 32,
+        "Total_Matches_Played": 28,
+        "Goals": 12,
+        "Assists": 1,
+        "Yellow_Cards": 0,
+        "Red_Cards": 0,
+        "Team_of_the_Week": 3
+      }
+    ]
+  }
+  

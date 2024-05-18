@@ -1,0 +1,72 @@
+/* Style général du contenu */
+.content {
+  padding: 20px;
+}
+
+/* Style des filtres */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filters input {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Style des cartes */
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: gray;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body p {
+  margin-bottom: 10px;
+}
+
+/* Hover effect on card */
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .filters input {
+    width: 80px;
+  }
+}
+
+.section-title {
+  color: #19204e; 
+  font-size: 2.5rem; 
+  margin-bottom: 30px; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-weight: bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  text-align: center;
+  }
+  

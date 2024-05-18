@@ -1,0 +1,60 @@
+<app-header></app-header>
+
+  <br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <select class="form-select" [(ngModel)]="selectedData">
+        <option value="matchSchedules">LaLiga</option>
+        <option value="matchSchedules2">SerieA</option>
+      </select>
+    </div>
+
+    <div class="col-md-4">
+      <button class="btn btn-success me-2" (click)="setFilter('SCHEDULED')">Scheduled</button>
+      <button class="btn btn-danger" (click)="setFilter('FINISHED')">Finished</button>
+    </div>
+
+    <div class="col-md-4">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="searchQuery" (input)="search()">
+      </div>
+    </div>
+  </div>
+
+  <div class="row" *ngIf="selectedData === 'matchSchedules'">
+    <div class="col-md-4" *ngFor="let match of filteredMatchSchedules | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+      <div class="card mb-4 custom-card-color ">
+        <div class="card-body rounded">
+          <h2 class="card-title">{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</h2>
+          <p class="card-text text-danger">Status: {{ match.status }}</p>
+          <p class="card-text font-weight-bold">Full-Time Score: {{ match.score.fullTime.homeTeam }} - {{ match.score.fullTime.awayTeam }}</p>
+          <p class="card-text">{{ match.utcDate | date: 'yyyy-MM-dd HH:mm:ss Z' : '+0100' }}</p>
+          <ul class="list-group list-group-flush  ">
+            <li class="list-group-item custom-card-color text-center text-primary " *ngFor="let referee of match.referees">Referees: {{ referee.name }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" *ngIf="selectedData === 'matchSchedules2'">
+    <div class="col-md-4" *ngFor="let match of filteredMatchSchedules2 | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+      <div class="card mb-4">
+        <div class="card-body rounded custom-card-color ">
+          <h2 class="card-title">{{ match.homeTeam.name }} vs {{ match.awayTeam.name }}</h2>
+          <p class="card-text text-danger">Status: {{ match.status }}</p>
+          <p class="card-text font-weight-bold">Full-Time Score: {{ match.score.fullTime.homeTeam }} - {{ match.score.fullTime.awayTeam }}</p>
+          <p class="card-text">{{ match.utcDate | date: 'yyyy-MM-dd HH:mm:ss Z' : '+0100' }}</p>
+          <ul class="list-group list-group-flush  ">
+            <li class="list-group-item custom-card-color text-center text-primary " *ngFor="let referee of match.referees">Referees: {{ referee.name }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <pagination-controls (pageChange)="currentPage = $event"></pagination-controls>
+  </div>
+</div>
+<app-footer></app-footer>

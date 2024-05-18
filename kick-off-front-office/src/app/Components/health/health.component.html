@@ -1,0 +1,31 @@
+<app-header></app-header>
+<div class="container">
+  <!-- Health Statistics Card -->
+  <div class="card health-card mb-4">
+    <div class="card-body health-info">
+      <h2>Total Injuries: {{ totalInjuries }}</h2>
+      <h2>Average Recovery Time: {{ averageRecoveryTime }} days</h2>
+      <h2>Injury Types:</h2>
+      <canvas #injuryChart class="chart"></canvas>
+    </div>
+  </div>
+
+  <!-- New Statistic Div -->
+  <div class="card recovery-card">
+    <div class="card-body health-info">
+      <h2>Total Recovery Plans: {{ recoveryPlans.length }}</h2>
+      <h2>Average Recovery Duration: {{ averageRecoveryDuration | number: '1.1-1' }} days</h2>
+    </div>
+  </div>
+
+  <!-- Prevention Statistics Card -->
+  <div class="card prevention-card">
+    <div class="card-body health-info">
+      <h2>Total Preventions: {{ preventions.length }}</h2>
+      <!-- Chart for Prevention Recommendations -->
+      <h2>Prevention Recommendations:</h2>
+      <canvas #preventionChart class="chart"></canvas>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,58 @@
+/* Style for badge container */
+.badge-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px; /* Adjust as needed */
+}
+
+/* Style for confirmed email badges */
+.badge {
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+}
+
+/* Style for archive button */
+.btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;  
+  margin: 0px auto;
+
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+.btn:hover {
+  background-color: #c82333;
+}
+
+
+#regForm {
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding:10px;
+  border-radius:6px
+}
+
+.table-responsive::-webkit-scrollbar {
+width: 12px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+background-color: #aeaeae;
+border-radius: 10px;
+border: 3px solid #f1f1f1;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+background: #9f9e9e;
+}
+.archived-row {
+  background-color: #f8d7da; /* Set your desired color for archived rows */
+}

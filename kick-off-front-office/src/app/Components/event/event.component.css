@@ -1,0 +1,38 @@
+.section-title {
+    color: #19204e;
+    /* Dark blue */
+    font-size: 2.5rem;
+    /* Font size */
+    margin-bottom: 30px;
+    /* Margin bottom */
+    text-transform: uppercase;
+    /* Convert to uppercase */
+    letter-spacing: 1px;
+    /* Letter spacing */
+    font-weight: bold;
+    /* Bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Text shadow */
+    text-align: center;
+}
+
+
+/* Button Styling */
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.secondary {
+    background-color: #6c757d;
+}
+
+button.success {
+    background-color: #28a745;
+}

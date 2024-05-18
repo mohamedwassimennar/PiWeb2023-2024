@@ -1,0 +1,79 @@
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Ajout d'une marge en bas */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.section-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #19204e; /* Bleu foncé */
+  font-size: 2.5rem; /* Taille de police */
+  text-transform: uppercase; /* Convertir en majuscules */
+  letter-spacing: 1px; /* Espacement entre les lettres */
+  font-weight: bold; /* Gras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d9534f; 
+}
+
+
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  input[type="text"],
+  input[type="number"],
+  button {
+      width: 100%;
+  }
+}
+
+.add-performance-button {
+  margin-top: 20px; 
+}
+
+
+label{
+  color: black;
+}

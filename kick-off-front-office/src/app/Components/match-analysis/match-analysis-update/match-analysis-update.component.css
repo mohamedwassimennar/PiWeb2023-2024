@@ -1,0 +1,47 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: black;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: red;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  .btn {
+    width: calc(50% - 5px); 
+    margin-right: 5px; 
+  }
+  
+  .section-title {
+    color: #19204e; 
+    font-size: 2.5rem; 
+    margin-bottom: 30px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    }
+    

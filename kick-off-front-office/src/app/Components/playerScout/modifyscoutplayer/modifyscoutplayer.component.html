@@ -1,0 +1,48 @@
+<app-header></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="card custom-card custom-sm-card-width">
+        <div class="card-body">
+          <h2 class="card-title">Scouted Player Details</h2>
+          <form #analysisForm="ngForm" (ngSubmit)="updateAnalysis()" novalidate>
+            <div class="form-group">
+              <label for="playerName">Player Name:</label>
+              <input type="text" class="form-control" id="playerName" [(ngModel)]="analysisDetails.playerName" name="playerName" required pattern="[A-Za-z\s]+" #playerName="ngModel">
+              <div *ngIf="analysisForm.controls['playerName']?.touched && analysisForm.controls['playerName']?.hasError('required')" style="color: red;">
+                Player Name is required.
+              </div>
+              <div *ngIf="analysisForm.controls['playerName']?.touched && analysisForm.controls['playerName']?.hasError('pattern')" style="color: red;">
+                Player Name must not contain numbers.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="club">Club:</label>
+              <input type="text" class="form-control" id="club" [(ngModel)]="analysisDetails.club" name="club" required #club="ngModel">
+              <div *ngIf="club.invalid && (club.dirty || club.touched)" style="color: red;">
+                Club is required.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contract">Contract:</label>
+              <input type="number" class="form-control" id="contract" [(ngModel)]="analysisDetails.contract" name="contract" required #contract="ngModel">
+              <div *ngIf="contract.invalid && (contract.dirty || contract.touched)" style="color: red;">
+                Contract is required.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="marketValue">Market Value:</label>
+              <input type="text" class="form-control" id="marketValue" [(ngModel)]="analysisDetails.marketValue" name="marketValue" required #marketValue="ngModel">
+              <div *ngIf="marketValue.invalid && (marketValue.dirty || marketValue.touched)" style="color: red;">
+                Market Value is required.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="analysisForm.invalid">Mettre à Jour</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+</div>
+<app-footer></app-footer>

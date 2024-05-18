@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training and Meeting Management</title>
+    <link rel="stylesheet" href="jitsi.component.css">
+</head>
+
+<body>
+    <app-header></app-header>
+    <div class="container">
+        <!-- Training sessions section -->
+        <section class="management-section">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="jitsi-iframe"></div>
+
+                        <!-- 
+<div class="text-center">
+    <i (click)="executeCommand('toggleAudio')" class="fas fa-2x grey-color" [ngClass]="isAudioMuted ? 'fa-microphone-slash' : 'fa-microphone'" aria-hidden="true" title="Muter / Démute"></i>
+    <i (click)="executeCommand('hangup')" class="fas fa-phone-slash fa-2x red-color" aria-hidden="true" title="Quitter"></i>
+    <i (click)="executeCommand('toggleVideo')" class="fas fa-2x grey-color" [ngClass]="isVideoMuted ? 'fa-video-slash' : 'fa-video'" aria-hidden="true" title="Démarrer / Arrêter la caméra"></i>
+    <i (click)="executeCommand('toggleShareScreen')" class="fas fa-film fa-2x grey-color" aria-hidden="true" title="Partager votre écran"></i>
+</div>
+-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+<app-footer></app-footer>
+</body>
+
+</html>

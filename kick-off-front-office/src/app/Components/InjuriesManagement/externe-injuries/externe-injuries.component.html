@@ -1,0 +1,31 @@
+<app-header></app-header>
+<div class="container mt-4">
+    <div class="search-container mb-3">
+        <input type="text" class="form-control" placeholder="Rechercher..." (input)="applyFilter($event)">
+    </div>
+
+    <div class="row">
+        <!-- Utilisation de la pagination ici -->
+        <ng-container *ngFor="let team of Object.keys(filteredInjuries) | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+            <ng-container *ngFor="let injury of filteredInjuries[team].injuries">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ team }} - {{ injury.player }}</h5>
+                            <p class="card-text"><strong>Reason:</strong> {{ injury.reason }}</p>
+                            <p class="card-text"><strong>Further Detail:</strong> {{ injury.further_detail }}</p>
+                            <p class="card-text"><strong>Potential Return:</strong> {{ injury.potential_return }}</p>
+                            <p class="card-text"><strong>Condition:</strong> {{ injury.condition }}</p>
+                            <p class="card-text"><strong>Status:</strong> {{ injury.status }}</p>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </ng-container>
+    </div>
+
+    <div class="text-center">
+        <pagination-controls (pageChange)="currentPage = $event"></pagination-controls>
+    </div>
+</div>
+<app-footer></app-footer>

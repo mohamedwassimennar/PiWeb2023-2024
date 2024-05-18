@@ -1,0 +1,45 @@
+<app-header></app-header>
+<div class="container">
+  <br>
+  <div class="card custom-card custom-sm-card-width">
+    <div class="card-body">
+      <h2 class="card-title">Add Scouted Player</h2>
+      <form #analysisForm="ngForm" (ngSubmit)="addAnalysis()" novalidate>
+        <div class="form-group">
+          <label for="playerName">Player Name:</label>
+          <input type="text" class="form-control" id="playerName" [(ngModel)]="newAnalysis.playerName" name="playerName" required pattern="[A-Za-z\s]+" #playerName="ngModel">
+          <div *ngIf="analysisForm.controls['playerName']?.touched && analysisForm.controls['playerName']?.hasError('required')" style="color: red;">
+            Player Name is required.
+          </div>
+          <div *ngIf="analysisForm.controls['playerName']?.touched && analysisForm.controls['playerName']?.hasError('pattern')" style="color: red;">
+            Player Name must not contain numbers.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="club">Club:</label>
+          <input type="text" class="form-control" id="club" [(ngModel)]="newAnalysis.club" name="club" required #club="ngModel">
+          <div *ngIf="analysisForm.controls['club']?.touched && analysisForm.controls['club']?.hasError('required')" style="color: red;">
+            Club is required.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="contract">Contract:</label>
+          <input type="number" class="form-control" id="contract" [(ngModel)]="newAnalysis.contract" name="contract" required #contract="ngModel">
+          <div *ngIf="analysisForm.controls['contract']?.touched && analysisForm.controls['contract']?.hasError('required')" style="color: red;">
+            Contract is required.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="marketValue">Market Value:</label>
+          <input type="text" class="form-control" id="marketValue" [(ngModel)]="newAnalysis.marketValue" name="marketValue" required #marketValue="ngModel">
+          <div *ngIf="analysisForm.controls['marketValue']?.touched && analysisForm.controls['marketValue']?.hasError('required')" style="color: red;">
+            Market Value is required.
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="analysisForm.invalid">Add </button>
+      </form>
+    </div>
+  </div>
+  <br>
+</div>
+<app-footer></app-footer>

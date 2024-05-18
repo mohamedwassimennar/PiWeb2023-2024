@@ -1,0 +1,150 @@
+<app-header></app-header>
+
+<div class="container ">
+  <h2 class="section-title">Add New Perfermance Player</h2>
+
+
+    <form [formGroup]="performanceForm" (ngSubmit)="addPerformance()">
+      
+        <div class="form-group">
+            <label for="assists">Assists:</label>
+            <input type="number" class="form-control" id="assists" formControlName="assists">
+            <div *ngIf="performanceForm.get('assists')?.invalid && performanceForm.get('assists')?.touched" class="text-danger">
+              Assists must be a positive integer.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="nom">Nom:</label>
+            <input type="text" class="form-control" id="nom" formControlName="nom">
+            <div *ngIf="performanceForm.get('nom')?.errors?.['required'] && performanceForm.get('nom')?.touched" class="text-danger">
+                Nom is required.
+            </div>
+            <div *ngIf="performanceForm.get('nom')?.errors?.['pattern'] && performanceForm.get('nom')?.touched" class="text-danger">
+                Nom must contain only alphabetic characters.
+            </div>
+            <div *ngIf="performanceForm.get('nom')?.errors?.['minlength'] && performanceForm.get('nom')?.touched" class="text-danger">
+                Nom must be at least 3 characters long.
+            </div>
+        </div>
+        
+    
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" class="form-control" id="age" formControlName="age">
+            <div *ngIf="performanceForm.get('age')?.errors?.['required'] && performanceForm.get('age')?.touched" class="text-danger">
+                Age is required.
+            </div>
+            <div *ngIf="performanceForm.get('age')?.errors?.['min'] && performanceForm.get('age')?.touched" class="text-danger">
+                Age must be greater than or equal to 18.
+            </div>
+            <div *ngIf="performanceForm.get('age')?.errors?.['pattern'] && performanceForm.get('age')?.touched" class="text-danger">
+                Age must be a valid number.
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="totalMatchesPlayed">Total Matches Played:</label>
+            <input type="number" class="form-control" id="totalMatchesPlayed" formControlName="totalMatchesPlayed">
+            <div *ngIf="performanceForm.get('totalMatchesPlayed')?.errors?.['required'] && performanceForm.get('totalMatchesPlayed')?.touched" class="text-danger">
+                Total Matches Played is required.
+            </div>
+            <div *ngIf="performanceForm.get('totalMatchesPlayed')?.errors?.['min'] && performanceForm.get('totalMatchesPlayed')?.touched" class="text-danger">
+                Total Matches Played must be greater than or equal to 0.
+            </div>
+            <div *ngIf="performanceForm.get('totalMatchesPlayed')?.errors?.['pattern'] && performanceForm.get('totalMatchesPlayed')?.touched" class="text-danger">
+                Total Matches Played must be a valid number.
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="goals">Goals:</label>
+            <input type="number" class="form-control" id="goals" formControlName="goals">
+            <div *ngIf="performanceForm.get('goals')?.errors?.['required'] && performanceForm.get('goals')?.touched" class="text-danger">
+                Goals is required.
+            </div>
+            <div *ngIf="performanceForm.get('goals')?.errors?.['min'] && performanceForm.get('goals')?.touched" class="text-danger">
+                Goals must be greater than or equal to 0.
+            </div>
+            <div *ngIf="performanceForm.get('goals')?.errors?.['pattern'] && performanceForm.get('goals')?.touched" class="text-danger">
+                Goals must be a valid number.
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="totalDistanceCovered">Total Distance Covered (meters):</label>
+            <input type="number" class="form-control" id="totalDistanceCovered" formControlName="totalDistanceCovered" step="0.01">
+            <div *ngIf="performanceForm.get('totalDistanceCovered')?.errors?.['required'] && performanceForm.get('totalDistanceCovered')?.touched" class="text-danger">
+              Total Distance Covered is required.
+            </div>
+            <div *ngIf="performanceForm.get('totalDistanceCovered')?.errors?.['min'] && performanceForm.get('totalDistanceCovered')?.touched" class="text-danger">
+              Total Distance Covered must be greater than or equal to 0.
+            </div>
+            <div *ngIf="performanceForm.get('totalDistanceCovered')?.errors?.['pattern'] && performanceForm.get('totalDistanceCovered')?.touched" class="text-danger">
+              Total Distance Covered must be a valid number.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="yellowCards">Yellow Cards:</label>
+            <input type="number" class="form-control" id="yellowCards" formControlName="yellowCards">
+            <div *ngIf="performanceForm.get('yellowCards')?.errors?.['required'] && performanceForm.get('yellowCards')?.touched" class="text-danger">
+              Yellow Cards is required.
+            </div>
+            <div *ngIf="performanceForm.get('yellowCards')?.errors?.['min']&& performanceForm.get('yellowCards')?.touched" class="text-danger">
+              Yellow Cards must be greater than or equal to 0.
+            </div>
+            <div *ngIf="performanceForm.get('yellowCards')?.errors?.['pattern'] && performanceForm.get('yellowCards')?.touched" class="text-danger">
+              Yellow Cards must be a valid number.
+            </div>
+          </div>
+            <div class="form-group">
+              <label for="redCards">Red Cards:</label>
+              <input type="number" class="form-control" id="redCards" formControlName="redCards">
+              <div *ngIf="performanceForm.get('redCards')?.errors?.['required'] && performanceForm.get('redCards')?.touched" class="text-danger">
+                Red Cards is required.
+              </div>
+              <div *ngIf="performanceForm.get('redCards')?.errors?.['min'] && performanceForm.get('redCards')?.touched" class="text-danger">
+                Red Cards must be greater than or equal to 0.
+              </div>
+              <div *ngIf="performanceForm.get('redCards')?.errors?.['pattern'] && performanceForm.get('redCards')?.touched" class="text-danger">
+                Red Cards must be a valid number.
+              </div>
+            </div>
+                  <div class="form-group">
+            <label for="distanceCovered">Distance Covered (meters):</label>
+            <input type="number" class="form-control" id="distanceCovered" formControlName="distanceCovered" required step="0.01">
+            <div *ngIf="performanceForm.get('distanceCovered')?.errors?.['required'] && performanceForm.get('distanceCovered')?.touched" class="text-danger">
+              Distance Covered is required.
+            </div>
+            <div *ngIf="performanceForm.get('distanceCovered')?.errors?.['min'] && performanceForm.get('distanceCovered')?.touched" class="text-danger">
+              Distance Covered must be greater than or equal to 0.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-primary " [disabled]="performanceForm.invalid"> <i class="fas fa-plus"></i>Add Performance</button>
+            </div>
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-primary" (click)="retourFunction()">
+                    <i class="fas fa-arrow-left"></i> Return Back
+                </button>
+            </div>
+        </div>
+        
+      
+        
+      </form>
+      <!-- Alertes Bootstrap pour afficher les messages de succès ou d'erreur -->
+<div *ngIf="successMessage" class="alert alert-success alert-dismissible fade show add-performance-button" role="alert">
+    {{ successMessage }}
+    <button type="button" class="close" (click)="successMessage = null" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{ errorMessage }}
+    <button type="button" class="close" (click)="errorMessage = null" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+</div>
+<br>
+<app-footer></app-footer>

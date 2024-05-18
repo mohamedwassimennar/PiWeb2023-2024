@@ -1,0 +1,61 @@
+/* CSS personnalisé */
+.container {
+    padding: 20px;
+}
+
+.management-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Titre "Recovery Plans List" */
+.section-title {
+    color: #19204e; /* Bleu foncé */
+    font-size: 2.5rem; /* Taille de police */
+    margin-bottom: 30px; /* Marge en bas */
+    text-transform: uppercase; /* Convertir en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
+    font-weight: bold; /* Gras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+    text-align: center;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px); /* 3 cards per row */
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%; /* Pour que l'image occupe toute la largeur de la carte */
+    max-width: 150px; /* Largeur maximale de l'image */
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Pour centrer l'image horizontalement */
+}
+
+.card-info {
+    padding: 15px;
+    text-align: center; /* Centrer le contenu des cartes */
+}
+
+.card-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #19204e;
+    text-align: center; /* Centrer le titre */
+}
+
+.card-info p {
+    margin: 5px 0;
+}

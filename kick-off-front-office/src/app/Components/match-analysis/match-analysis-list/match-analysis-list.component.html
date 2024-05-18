@@ -1,0 +1,51 @@
+<app-header></app-header>
+<div class="container ">
+  <br>
+  <h2 class="section-title">Analysis Match List</h2>
+  <div class="row justify-content-center">
+    <div class="row mt-4">
+      <div class="col-md-6 mb-4"> 
+       
+        <div class="text-left"> 
+          <button class="btn btn-success" (click)="navigateToAdd()" *ngIf="userDetails?.role === 'fitnessCoach'"><i class="fas fa-plus"></i>Add Analysis Match </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="successAlert" class="alert alert-success alert-dismissible fade show" role="alert">
+    matches analysis deleted successfully.
+    <button type="button" class="close" (click)="successAlert = false">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <!--  <h2 class="text-center">Liste des Analyses de Match</h2>
+-->
+  <div class="row justify-content-center">
+    <div class="col-md-4 mb-4" *ngFor="let analysis of matchAnalyses">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">Team Performance: {{ analysis.teamPerformance }}</p>
+          <p class="card-text">Tactical training: {{ analysis.tacticalFormations }}</p>
+          <p class="card-text">Key Moments: {{ analysis.keyMoments }}</p>
+          <div class="text-center">
+            <button class="btn btn-info " (click)="navigateToDetails(analysis._id)" *ngIf="userDetails?.role === 'fitnessCoach'">
+              <i class="fas fa-info-circle"></i> 
+            </button>
+            
+            <button class="btn btn-warning " (click)="navigateToUpdate(analysis._id)" *ngIf="userDetails?.role === 'fitnessCoach'">
+              <i class="fas fa-edit"></i> 
+            </button>
+            
+            <button class="btn btn-danger " (click)="archiveMatch(analysis._id)" *ngIf="userDetails?.role === 'fitnessCoach'">
+              <i class="fas fa-trash-alt"></i> 
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>

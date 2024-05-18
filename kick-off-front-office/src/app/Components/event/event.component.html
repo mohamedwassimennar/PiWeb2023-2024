@@ -1,0 +1,80 @@
+<app-header>
+</app-header>
+<br>
+<div class="container">
+    <!-- Training sessions section -->
+    <section class="management-section">
+        <div class="container">
+            <div>
+                <button (click)="order = 'asc'" *ngIf="userDetails.role !== 'player'" class="secondary">Ascending date</button>
+                <button (click)="order = 'desc'" *ngIf="userDetails.role !== 'player'" class="secondary">Descending date</button>
+            </div>
+            <h2 class="section-title" *ngIf="userDetails.role === 'player'">Appointment</h2>
+            <div class="row justify-content-center" *ngIf="userDetails.role === 'player'">
+                <div class="col-md-6">
+                    <form (ngSubmit)="ajouter()">
+
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="date" name="date" [(ngModel)]="nouveau.date" required #date="ngModel">
+                            <div *ngIf="date.invalid && (date.dirty || date.touched)" class="alert alert-danger">
+                                <div *ngIf="date.errors?.['required']">Data is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Time</label>
+                            <input type="time" class="form-control" id="time" name="time" [(ngModel)]="nouveau.time" required #time="ngModel">
+                            <div *ngIf="time.invalid && (time.dirty || time.touched)" class="alert alert-danger">
+                                <div *ngIf="time.errors?.['required']">Time is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="reservationType" class="form-label">Appointment</label>
+                            <select class="form-select" id="reservationType" name="reservationType" [(ngModel)]="nouveau.reservationType" required #reservationType="ngModel">
+                                    <option value="" disabled selected class="placeholder-option">Choose appointment</option>
+                                  <option value="Doctor">Doctor</option>
+                                  <option value="physio">physio</option>
+                        </select>
+                            <div *ngIf="reservationType.invalid && (reservationType.dirty || reservationType.touched)" class="alert alert-danger">
+                                <div *ngIf="reservationType.errors?.['required']">Time is required.</div>
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <!-- Utilisez la classe "text-center" pour centrer le contenu -->
+                                <button type="submit" class="btn btn-primary">Add appointment</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="management-section" *ngIf="userDetails.role !== 'player'">
+
+
+        <h2 class="section-title ">Appointments</h2>
+        <div class="row">
+            <div class="col-md-4" *ngFor="let event of sortByDate(filteredEvenements) | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+                <div *ngIf="userDetails.role === 'doctor' && event.reservationType === 'Doctor'">
+
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <img src="assets/images/mede.avif" alt="" style="width: 90%; height: 100px; margin: auto; display: block; margin-bottom: 10px;">
+
+                            <p class="card-text"><strong>Date</strong> : {{ formaterDate(event.date) }}</p>
+                            <p class="card-text"><strong>Time</strong> : {{ event.time }}</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <pagination-controls (pageChange)="currentPage=$event"></pagination-controls>
+    </section>
+
+</div>
+<app-footer></app-footer>

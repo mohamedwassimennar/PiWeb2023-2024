@@ -1,0 +1,40 @@
+<app-header></app-header>
+<br>
+<div class="container">
+    <!-- Search input -->
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Search by Home or Away Team" [(ngModel)]="searchTerm" name="searchTerm">
+        </div>
+    </div>
+    <!-- Match fixtures cards -->
+    <div class="row">
+        <div class="col-md-4 mb-3" *ngFor="let match of filteredMatches | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+            <div class="card">
+                <div class="card-header">
+                    <h6 class="card-title mb-0">{{ match.league }}</h6>
+                </div>
+                <div class="card-body">
+                    <p class="card-text mb-1">{{ match.timeElapsed }} {{ match.matchday }}</p>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="{{ match.homeTeam.logo }}" alt="{{ match.homeTeam.name }} Logo" class="team-logo" style="max-width: 50px;">
+                            <small>{{ match.homeTeam.name }}</small>
+                        </div>
+                        <div class="text-center">
+                            <small>{{ match.result }}</small>
+                        </div>
+                        <div>
+                            <small>{{ match.awayTeam.name }}</small>
+                            <img src="{{ match.awayTeam.logo }}" alt="{{ match.awayTeam.name }} Logo" class="team-logo" style="max-width: 50px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pagination controls -->
+    <pagination-controls class="mt-3" (pageChange)="currentPage = $event"></pagination-controls>
+</div>
+<app-footer></app-footer>    
+    

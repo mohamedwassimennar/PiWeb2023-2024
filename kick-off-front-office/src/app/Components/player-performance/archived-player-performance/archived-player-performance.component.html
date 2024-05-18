@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" *ngFor="let performance of archivedPlayerPerformances">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">Nom: {{ performance.nom }}</p>
+          <p class="card-text">Age: {{ performance.age }}</p>
+          <p class="card-text">Total Matches Played: {{ performance.totalMatchesPlayed }}</p>
+          <p class="card-text">Goals: {{ performance.goals }}</p>
+          <p class="card-text">Total Distance Covered: {{ performance.totalDistanceCovered }}</p>
+          <p class="card-text">Yellow Cards: {{ performance.yellowCards }}</p>
+          <p class="card-text">Red Cards: {{ performance.redCards }}</p>
+          <p class="card-text">Assists: {{ performance.assists }}</p>
+          <p class="card-text">Distance Covered: {{ performance.distanceCovered }}</p>
+        </div>
+        <button type="button" class="btn btn-danger btn-sm" (click)="retourFunction()">
+          <i class="fas fa-arrow-left"></i> Return Back
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

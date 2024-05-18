@@ -1,0 +1,11 @@
+.bg-custom {
+  background-image: url('https://contents.mediadecathlon.com/p1415432/k$6240e3d26bc73b12bb5de5aeb23c5765/1800x0/3576pt2822/7151xcr3901/default.jpg?format=auto');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Make the background image fixed */
+  height: 100vh; /* Make the container cover the entire screen height */
+}
+
+.bg-customm {
+  background-color: #19204E;
+}

@@ -1,0 +1,84 @@
+<section class="bg-custom py-3 py-md-5 py-xl-8">
+    <div class="container">
+        <div class="row gy-4 align-items-center">
+            <div class="col-12 col-md-6 col-xl-7">
+                <div class="d-flex justify-content-center text-white">
+                    <div class="col-12 col-xl-9">
+                        <hr class="border-primary-subtle mb-4">
+                        <h2 class="h1 mb-3">Login to Your Account</h2>
+                        <p class="lead mb-5">Please enter your credentials to sign in.</p>
+                        <div class="col-12 col-xl-6 order-xl-last">
+                            <img class="img-fluid rounded mb-4" loading="lazy" src="assets/images/logona3.png"
+                                alt="Logo" width="100" height="80">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-5">
+                <div class="card border-0 rounded-4">
+                    <div class="card-body p-3 p-md-4 p-xl-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="mb-4">
+                                    <h2 class="h3">Login</h2>
+                                    <h3 class="fs-6 fw-normal text-secondary m-0">Enter your credentials to login</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <form (ngSubmit)="loginUser()" *ngIf="loginForm" [formGroup]="loginForm">
+                            <!-- Email Input -->
+                            <div class="col-12">
+                                <div class="form-floating mb-3 custom-input">
+                                    <input type="email" class="form-control form-control-sm" formControlName="email" id="email" placeholder="Enter your email" required>
+                                    <label for="email">Email Address</label>
+                                    <div *ngIf="loginForm.get('email')?.invalid && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched)"
+                                        class="text-danger">
+                                        <div *ngIf="loginForm.get('email')?.hasError('required')" class="error-message">
+                                            Email is required
+                                        </div>
+                                        <div *ngIf="loginForm.get('email')?.hasError('pattern')" class="error-message">
+                                            Please enter a valid email address
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Password Input -->
+                            <div class="col-12">
+                                <div class="form-floating mb-3 custom-input">
+                                    <input type="password" class="form-control form-control-sm" formControlName="password"
+                                        id="password" placeholder="Enter your password" required>
+                                    <label for="password">Password</label>
+                                    <div *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)"
+                                        class="text-danger">
+                                        <div *ngIf="loginForm.get('password')?.hasError('required')" class="error-message">
+                                            Password is required
+                                        </div>
+                                        <div *ngIf="loginForm.get('password')?.hasError('minlength')" class="error-message">
+                                            Password must be at least 8 characters long
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Error Message for Activation -->
+                            <div *ngIf="errorMessage === 'Your account is not activated. Please check your email.'" class="text-danger mb-3">{{ errorMessage }}</div>
+
+                            <!-- Error Message for other cases -->
+                            <div *ngIf="errorMessage && errorMessage !== 'Your account is not activated. Please check your email.'" class="text-danger mb-3">{{ errorMessage }}</div>
+
+                            <!-- Submit Button -->
+                            <div class="col-12">
+                                <div class="d-grid">
+                                    <button class="bg-customm btn-lg text-white border-custom" type="submit">Sign In</button>
+                                </div>
+                            </div>
+                            <p class="mt-4 mb-0 text-center">
+                                <a  [routerLink]="['/user', 'forgot-password']" class="link-primary text-decoration-none">Forgot your password?</a>
+                            </p>
+                        </form>
+                        <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

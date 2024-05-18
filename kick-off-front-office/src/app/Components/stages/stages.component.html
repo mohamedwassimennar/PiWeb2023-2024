@@ -1,0 +1,46 @@
+<!-- app-header -->
+<app-header></app-header>
+
+<br>
+
+<div class="container">
+    <!-- Training sessions section -->
+    <section class="management-section">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <button (click)="order='asc'" class="secondary">Ascending date</button>
+                <button (click)="order='desc'" class="secondary">Descending date</button>
+            </div>
+            <div>
+                <h2 class="section-title">Schedule internships</h2>
+            </div>
+            <div class="input-group mb-3" style="width: 200px;">
+                <input type="text" class="form-control" placeholder="Filter by Place..." [(ngModel)]="searchTrainingPlace" (ngModelChange)="search()">
+            </div>
+        </div>
+        <div class="d-flex justify-content-between" *ngIf="userDetails.role === 'assistantCoach'">
+            <button routerLink="/said" class="success"><i class="fas fa-plus"></i> Add</button>
+        </div>
+        <div class="row">
+            <div class="col-md-4" *ngFor="let stage of (filteredMatches.length > 0 ? sortStagesByDate(order, filteredMatches) : sortStagesByDate(order, matches)) | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <img src="assets/images/max.jpg" alt="Training Session Image" style="width: 100%; height:110px; max-width: 200px; margin: auto; display: block; margin-bottom: 10px;">
+                        <p class="card-text"><strong>Start Date:</strong> {{ formaterDate(stage.startDate) }}</p>
+                        <p class="card-text"><strong>End Date:</strong> {{ formaterDate(stage.endDate) }}</p>
+                        <p class="card-text"><strong>Place:</strong> {{ stage.lieu }}</p>
+                        <div class="d-flex justify-content-between align-items-center" style="margin-top: 10px;">
+                            <div class="btn-group" *ngIf="userDetails.role === 'assistantCoach'">
+                                <button [routerLink]="['/updates', stage._id]" class="info btn btn-sm"><i class="fas fa-edit"></i> Update</button>
+                                <button (click)="deletecalander(stage._id)" class="danger btn btn-sm" style="margin-left: 5px;"><i class="fas fa-trash"></i> Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <pagination-controls (pageChange)="currentPage=$event"></pagination-controls>
+    </section>
+</div>
+
+<app-footer></app-footer>

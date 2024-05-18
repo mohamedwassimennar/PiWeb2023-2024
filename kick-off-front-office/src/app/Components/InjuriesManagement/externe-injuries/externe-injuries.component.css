@@ -1,0 +1,67 @@
+/* Styles généraux */
+.container {
+  padding-top: 20px;
+}
+
+/* Styliser les cartes */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* Bord arrondi */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body h5 {
+  color: #19204e; /* Couleur du titre (nom du joueur et de l'équipe) */
+  font-weight: bold;
+}
+
+.card-text {
+  color: #333; /* Couleur du texte */
+}
+
+.card-text strong {
+  color: #19204e; /* Couleur pour mettre en valeur les titres des infos */
+}
+
+/* Styliser le titre */
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #19204e;
+  margin-bottom: 20px;
+}
+
+/* Styliser le champ de recherche */
+.search-container {
+  display: flex; /* Utiliser Flexbox pour aligner les éléments */
+  justify-content: center; /* Centrer horizontalement l'élément */
+  margin-bottom: 20px; /* Espacement en bas */
+}
+
+.search-container input[type="text"] {
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+/* Pagination */
+.pagination-controls  .ngx-pagination {
+  justify-content: center; /* Centrer la pagination */
+  padding-top: 20px;
+}
+
+.pagination-controls  .ngx-pagination .current {
+  background-color: #19204e;
+  color: white;
+}
+
+.pagination-controls  .ngx-pagination a {
+  color: #19204e;
+}

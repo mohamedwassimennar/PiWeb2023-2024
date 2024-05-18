@@ -1,0 +1,78 @@
+/* Bouton "Add Recovery Plan" */
+.add-recovery-plan-button {
+  display: flex;
+  justify-content: center;
+}
+
+.add-recovery-plan-button .btn-success {
+  background-color: green; /* Vert */
+  border-color: green; /* Bordure verte */
+}
+
+  
+  .add-recovery-plan-button .btn-success:hover {
+    background-color: green; /* Vert foncé au survol */
+    border-color: green; /* Bordure verte foncée au survol */
+  }
+  
+  /* Bouton "Update" */
+  .btn-primary {
+    background-color: #19204e; /* Bleu foncé */
+    border-color: #19204e; /* Bordure bleu foncé */
+  }
+  
+  .btn-primary:hover {
+    background-color: #101c3d; /* Bleu plus foncé au survol */
+    border-color: #101c3d; /* Bordure bleu plus foncé au survol */
+  }
+  
+  /* Bouton "Delete" */
+  .btn-danger {
+    background-color: #cd0505; /* Rouge */
+    border-color: #cd0505; /* Bordure rouge */
+  }
+  
+  .btn-danger:hover {
+    background-color: #b80000; /* Rouge plus foncé au survol */
+    border-color: #b80000; /* Bordure rouge plus foncé au survol */
+  }
+  
+  /* Titre "Recovery Plans List" */
+.section-title {
+    color: #19204e; /* Bleu foncé */
+    font-size: 2.5rem; /* Taille de police */
+    margin-bottom: 30px; /* Marge en bas */
+    text-transform: uppercase; /* Convertir en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
+    font-weight: bold; /* Gras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #19204e; 
+  }
+  
+  .btn-warning {
+    background-color: #a6a6a6;
+    color: white;
+  }
+  
+  .background-image {
+    background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
+
+.container {
+    padding: 20px;
+}
+
+.card-list {
+  margin-bottom: 20px; /* Ajoute un espace en bas de la liste de cartes */
+}
+
+.custom-pagination {
+  color: black; /* Changez 'black' à la couleur que vous souhaitez */
+}

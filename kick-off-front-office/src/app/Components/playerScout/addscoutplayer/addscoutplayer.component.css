@@ -1,0 +1,19 @@
+.custom-card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Adjust the max-width as per your requirement */
+    margin: 0 auto; /* Center align the card */
+  }
+  
+  .custom-card .card-title {
+    text-align: center;
+  }
+  
+  .custom-card .form-group {
+    margin-bottom: 20px;
+  }
+ 
+  
+  .custom-sm-card-width {
+    width: 900px; /* Adjust the width as per your requirement */
+  }

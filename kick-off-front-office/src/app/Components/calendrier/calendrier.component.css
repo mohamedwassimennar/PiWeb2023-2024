@@ -1,0 +1,69 @@
+:host ::ng-deep .fc {
+    height: 100vh;
+}
+
+:host ::ng-deep .fc {
+    height: 100vh;
+}
+
+ :host ::ng-deep .fc {
+    margin-top: 20px;
+    /* Ajoutez une marge supérieure de 20 pixels */
+    margin-bottom: 20px;
+    /* Ajoute une marge en bas */
+}
+
+ :host ::ng-deep .fc {
+    background-color: #ffffff;
+    /* Fond blanc */
+    color: #000000;
+    /* Texte noir */
+    margin-top: 20px;
+    /* Marge supérieure */
+}
+
+
+/* Pour les boutons de navigation */
+
+ :host ::ng-deep .fc-toolbar {
+    background-color: #ffffff;
+    /* Fond bleu foncé */
+    color: #19204e;
+    /* Texte rouge */
+}
+
+
+/* Pour les jours de la semaine dans l'en-tête */
+
+:host ::ng-deep .fc-col-header-cell-cushion {
+    color: #cd0505;
+    /* Texte rouge */
+    font-size: 14px;
+    /* Taille de la police */
+}
+
+
+/* Pour les numéros de jour */
+
+:host ::ng-deep .fc-daygrid-day-number {
+    color: #000000;
+    /* Texte noir */
+    font-size: 14px;
+    /* Taille de la police */
+}
+
+
+/* Pour les événements du calendrier */
+
+:host ::ng-deep .fc-event {
+    background-color: #ff8080;
+    /* Fond rouge plus clair */
+    border-color: #ff8080;
+    /* Bordure rouge plus claire */
+    color: #ffffff;
+    /* Texte blanc */
+    font-size: 14px;
+    /* Taille de la police */
+    padding: 5px;
+    /* Espacement intérieur */
+}

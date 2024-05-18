@@ -1,0 +1,29 @@
+
+<app-header></app-header>
+
+<div class="container ">
+  <br>
+   <h5 class="section-title">MATCH ANALYSIS DETAILS</h5>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div *ngIf="analysisDetails" class="card">
+       
+        <div class="card-body">
+          <p class="card-text"><strong>Team performance:</strong> {{ analysisDetails.teamPerformance }}</p>
+          <p class="card-text"><strong>Tactical formations:</strong> {{ analysisDetails.tacticalFormations }}</p>
+          <p class="card-text"><strong>Key moments:</strong> {{ analysisDetails.keyMoments }}</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-secondary" (click)="goBack()" >  <i class="fas fa-arrow-left"></i> Return Back</button>
+        </div>
+      </div>
+      <div *ngIf="!analysisDetails" class="alert alert-warning" role="alert">
+        Aucun détail d'analyse trouvé.
+      
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<app-footer></app-footer>

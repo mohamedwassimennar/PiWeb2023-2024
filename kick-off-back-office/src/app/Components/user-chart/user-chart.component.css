@@ -1,0 +1,13 @@
+.card-header {
+    padding: 10px; /* Add padding */
+  }
+  
+  /* Additional styles for specific roles */
+  .bg-primary {
+    background-color: #19204E;
+  }
+  
+  .text-white {
+    color: #cd0505;
+  }
+  

@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let roleCount of roleCounts">
+      <div class="card">
+        <div class="card-header" [ngClass]="getCardHeaderClass(roleCount.role)">
+            <div class="d-flex justify-content-between align-items-center">
+              <span>{{ roleCount.role }} Users</span>
+              <!-- Add any additional elements here -->
+            </div>
+          </div>
+          
+        <div class="card-body">
+          <!-- Adjust width and height attributes of the canvas element -->
+          <canvas #chartCanvas width="200" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  

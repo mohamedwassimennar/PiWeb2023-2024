@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training and Meeting Management</title>
+    <link rel="stylesheet" href="update-calender.component.css">
+</head>
+
+<body>
+    <app-header></app-header>
+    <div class="container">
+        <!-- Training sessions section -->
+        <section class="management-section">
+            <div class="container">
+                <h2 class="text-center mt-5 mb-4">Update Schedule matches </h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form (ngSubmit)="update()" #updateForm="ngForm">
+                            <div class="mb-3">
+                                <label for="startDate">StartDate</label>
+                                <input type="date " class="form-control " id="startDate " name="startDate " [(ngModel)]="Details.startDate " required #startDate="ngModel">
+                                <div *ngIf="startDate.invalid && (startDate.dirty || startDate.touched)" class="alert alert-danger">
+                                    <div *ngIf="startDate.errors?.['required']">Start date is required.</div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="endDate">EndDate</label>
+                                <input type="date " class="form-control " id=" endDate " name=" endDate " [(ngModel)]="Details.endDate " required #endDate="ngModel">
+                                <div *ngIf="endDate.invalid && (endDate.dirty || endDate.touched)" class="alert alert-danger">
+                                    <div *ngIf="endDate.errors?.['required']">End date is required.</div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Place">Place</label>
+                                <input type="text" class="form-control" id="Place" name="Place" [(ngModel)]="Details.lieu" required pattern="^[a-zA-Z\s]+$" #place="ngModel">
+                                <div *ngIf="place.invalid && (place.dirty || place.touched)" class="alert alert-danger">
+                                    <div *ngIf="place.errors?.['required']">Place is required.</div>
+                                    <div *ngIf="place.errors?.['pattern']">Place must contain only letters and spaces.</div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" [disabled]="updateForm.invalid">Update Schedule matches</button>
+                        </form>
+                        <br>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <app-footer></app-footer>
+</body>
+
+</html>

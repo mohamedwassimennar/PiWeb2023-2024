@@ -1,0 +1,171 @@
+/* General Body Styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+/* Header and Footer Styling */
+
+app-header,
+app-footer {
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+/* Container and Section Styling */
+
+.container {
+    padding: 20px;
+}
+
+.management-section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Button Styling */
+
+button {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.secondary {
+    background-color: #6c757d;
+}
+
+button.secondary:hover {
+    background-color: #5a6268;
+}
+
+button.success {
+    background-color: #28a745;
+}
+
+button.success:hover {
+    background-color: #218838;
+}
+
+button.danger {
+    background-color: #cd0505;
+}
+
+button.danger:hover {
+    background-color: #cd0505;
+}
+
+button.info {
+    background-color: #19204e;
+}
+
+button.info:hover {
+    background-color: #19204e;
+}
+
+.input-group {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input-group input {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+
+/* Card Styling */
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/* Responsive Grid */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: 33.333%;
+    padding: 15px;
+}
+
+
+/* Small screens */
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%;
+    }
+}
+
+
+/* Pagination Controls Styling */
+
+.pagination-controls {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Utility Classes */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.section-title {
+    color: #19204e;
+    /* Dark blue */
+    font-size: 2.5rem;
+    /* Font size */
+    margin-bottom: 30px;
+    /* Margin bottom */
+    text-transform: uppercase;
+    /* Convert to uppercase */
+    letter-spacing: 1px;
+    /* Letter spacing */
+    font-weight: bold;
+    /* Bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Text shadow */
+}

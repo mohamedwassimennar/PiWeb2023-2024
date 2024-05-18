@@ -1,0 +1,61 @@
+<app-header></app-header>
+
+<div class="container mb-5">
+  <h2 class="card-title">Update performance summary</h2>
+
+  <div class="row">
+    <div class="col-md-6 offset-md-3" *ngIf="performanceDetails">
+      <div class="card">
+        <div class="card-body">
+          <div *ngIf="updateSuccess" class="alert alert-success mt-3" role="alert">
+            The performance summary was successfully updated.
+          </div>
+          <form (ngSubmit)="updatePerformance()">
+            <div class="form-group">
+              <label for="playerId"></label>
+              <input type="text" class="form-control" id="playerId" [(ngModel)]="performanceDetails.playerId" name="playerId" required hidden>
+            </div>
+            <div class="form-group">
+              <label for="season">Season:</label>
+              <input type="text" class="form-control" id="season" [(ngModel)]="performanceDetails.season" name="season" required>
+            </div>
+            <div class="form-group">
+              <label for="totalGoalsScored">Total Goals Scored:</label>
+              <input type="number" class="form-control" id="totalGoalsScored" [(ngModel)]="performanceDetails.totalGoalsScored" name="totalGoalsScored" required>
+            </div>
+            <div class="form-group">
+              <label for="averagePassCompletionRate">averagePassCompletionRate:</label>
+              <input type="number" class="form-control" id="averagePassCompletionRate" [(ngModel)]="performanceDetails.averagePassCompletionRate" name="averagePassCompletionRate" required>
+            </div>
+            <div class="form-group">
+              <label for="totalDistanceCovered">totalDistanceCovered:</label>
+              <input type="number" class="form-control" id="totalDistanceCovered" [(ngModel)]="performanceDetails.totalDistanceCovered" name="totalDistanceCovered" required>
+            </div>
+            <div class="form-group">
+              <label for="totalMatchesPlayed">totalMatchesPlayed:</label>
+              <input type="number" class="form-control" id="totalMatchesPlayed" [(ngModel)]="performanceDetails.totalMatchesPlayed" name="totalMatchesPlayed" required>
+            </div>
+            <div class="form-group">
+              <label for="yellowCards">yellowCards:</label>
+              <input type="number" class="form-control" id="yellowCards" [(ngModel)]="performanceDetails.yellowCards" name="yellowCards" required>
+            </div>
+            <div class="form-group">
+              <label for="redCards">redCards:</label>
+              <input type="number" class="form-control" id="redCards" [(ngModel)]="performanceDetails.redCards" name="redCards" required>
+            </div>
+            <div class="form-group">
+              <label for="minutesPlayed">minutesPlayed:</label>
+              <input type="number" class="form-control" id="minutesPlayed" [(ngModel)]="performanceDetails.minutesPlayed" name="minutesPlayed" required>
+            </div>
+            <!-- Ajoutez ici d'autres champs pour les détails de performance -->
+            <div class="d-flex justify-content-between">
+            <button type="submit" class="btn custom-btn"><i class="fas fa-save"></i>update performance summary</button>
+            <button type="button" class="btn custom-btn" (click)="goBack()"><i class="fas fa-arrow-left"></i> Return Back</button>
+            </div> 
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<app-footer></app-footer>

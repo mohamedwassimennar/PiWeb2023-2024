@@ -1,0 +1,18 @@
+<div class="container">
+    <h2 class="section-title">Archived Recovery Plans</h2>
+    <div class="card-list">
+        <div *ngFor="let recoveryPlan of archivedRecoveryPlans" class="card">
+            <img src="assets/images/recovery.png" alt="Recovery Plan Image">
+            <div class="card-info">
+                <h3>Recovery Plan for {{ recoveryPlan.playerName }}</h3>
+                <p>Status: {{ recoveryPlan.injuryStatus }}</p>
+                <p>Start Date: {{ recoveryPlan.recoveryStartDate | date }}</p>
+                <p>End Date: {{ recoveryPlan.recoveryEndDate | date }}</p>
+                <p>Activities: {{ recoveryPlan.recoveryActivities }}</p>
+            </div>
+        </div>
+    </div>
+    <ng-template #noArchivedRecoveryPlans>
+        <p>No archived recovery plans found.</p>
+    </ng-template>
+</div>

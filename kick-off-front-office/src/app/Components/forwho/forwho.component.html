@@ -1,0 +1,97 @@
+<app-header></app-header>
+<div class="container">
+    <h1 class="section-title">Key Users</h1>
+
+    <div class="row">
+        <!-- Coach Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="coach" (click)="toggleInfo('coach')">
+                <h2 class="card-title">COACH</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/coach11.png" alt="Coach" class="img-fluid rounded mb-3">
+                    <p class="hidden">Monitor the development of your players, prepare training sessions and matches digitally, analyse and anticipate. Always be one step ahead of the opponents with the KickOff club management system. Keep track of all the affairs of your team in a structured way and communicate with the players and parents!</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Assistant Coach Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="assistant-coach" (click)="toggleInfo('assistant-coach')">
+                <h2 class="card-title">ASSISTANT COACH</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/coach12.png" alt="Assistant Coach" class="img-fluid rounded mb-3">
+                    <p class="hidden">Assist the head coach in various coaching activities, including training sessions, match preparation, and player development. Collaborate closely with the coaching staff to ensure the team's success.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Player Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="player" (click)="toggleInfo('player')">
+                <h2 class="card-title">PLAYER</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/player1.png" alt="Player" class="img-fluid rounded mb-3">
+                    <p class="hidden">As a player, actively participate in training sessions, matches, and team activities. Strive for continuous improvement and contribute to the team's success on and off the field.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Doctor Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="doctor" (click)="toggleInfo('doctor')">
+                <h2 class="card-title">DOCTOR</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/doctor1.png" alt="Doctor" class="img-fluid rounded mb-3">
+                    <p class="hidden">Provide medical support to players, diagnose injuries, and ensure the overall health and well-being of the team. Work closely with other medical staff to deliver optimal care.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Physiotherapist Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="physiotherapist" (click)="toggleInfo('physiotherapist')">
+                <h2 class="card-title">PHYSIOTHERAPIST</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/kine.png" alt="Physiotherapist" class="img-fluid rounded mb-3">
+                    <p class="hidden">Provide physiotherapy services to players, including injury rehabilitation, preventative exercises, and recovery treatments. Collaborate with medical and coaching staff to optimize player fitness and performance.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Fitness Coach Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="fitness-coach" (click)="toggleInfo('fitness-coach')">
+                <h2 class="card-title">FITNESS COACH</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/fitness.png" alt="Fitness Coach" class="img-fluid rounded mb-3">
+                    <p class="hidden">Design and implement fitness programs tailored to individual players and team needs. Focus on improving physical conditioning, strength, and endurance to enhance performance and reduce injury risk.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Technical Manager Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="technical-manager" (click)="toggleInfo('technical-manager')">
+                <h2 class="card-title">TECHNICAL MANAGER</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/manager.png" alt="Technical Manager" class="img-fluid rounded mb-3">
+                    <p class="hidden">Oversee technical aspects of the team, including tactics, strategy, and player development. Coordinate with coaching staff to implement effective training programs and game plans.</p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Learn More Section -->
+        <div class="col-md-6">
+            <section class="role-section p-3 bg-light border rounded" id="learn-more" (click)="toggleInfo('learn-more')">
+                <h2 class="card-title">LEARN MORE !</h2>
+                <div class="role card-info">
+                    <img src="assets/keyusers/personal.png" alt="Learn More" class="img-fluid rounded mb-3">
+                    <p class="hidden">Discover more about how the KickOff Management System can revolutionize your club's management! Contact us for a demo or more information.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Ajoutez une division supplémentaire à côté de "Learn More" ici -->
+    </div>
+</div>
+<app-footer></app-footer>

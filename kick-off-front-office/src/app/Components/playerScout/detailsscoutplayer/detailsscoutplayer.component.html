@@ -1,0 +1,30 @@
+<app-header></app-header>
+
+  <div class="container">
+    <div *ngIf="analysisDetails" class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="section-heading">Details Scouted Player</h2>
+        <button class="btn btn-secondary back-button" (click)="navigateToList()">List</button>
+        <br><br>
+        <div class="card custom-card">
+          <div class="card-body">
+            <h5 class="card-title">Player Details</h5>
+            <p class="card-text"><strong>Player Name:</strong> {{ analysisDetails.playerName }}</p>
+            <p class="card-text"><strong>Club:</strong> {{ analysisDetails.club }}</p>
+            <p class="card-text"><strong>Contract:</strong> {{ analysisDetails.contract }}</p>
+            <p class="card-text"><strong>Market Value:</strong> {{ analysisDetails.marketValue }}</p>
+          </div>
+        </div>
+      </div>
+    </div> <br><br>
+  
+    <div *ngIf="!analysisDetails" class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="alert alert-info" role="alert">
+          Aucun détail d'analyse trouvé.
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <app-footer></app-footer>

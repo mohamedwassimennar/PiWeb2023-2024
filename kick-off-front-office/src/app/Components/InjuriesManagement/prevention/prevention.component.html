@@ -1,0 +1,34 @@
+<app-header></app-header>
+<div class="container">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Preventions List -->
+  <h2 class="section-title">Preventions List</h2>
+  <div class="card-list">
+    <div class="card" *ngFor="let prevention of preventions | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage, totalItems: preventions.length }">
+      <div class="card-info">
+        <div class="center-image">
+          <img src="assets/images/prevention2.png" class="card-img-top" alt="Recovery Plan Image" style="max-width: 100px;">
+        </div>
+        <h3>Prevention for {{ prevention.playerName }}</h3>
+        <p>Description: {{ prevention.description }}</p>
+        <p>Recommended Practices: {{ prevention.recommendedPractices }}</p>
+        <p>Equipment Recommendations: {{ prevention.equipmentRecommendations }}</p>
+        <p>Nutritional Recommendations: {{ prevention.nutritionalRecommendations }}</p>
+        <p>Lifestyle Recommendations: {{ prevention.lifestyleRecommendations }}</p>
+      </div>
+      <div class="card-actions">
+        <button class="btn update-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" [routerLink]="['/prevention/update', prevention._id]"><i class="fas fa-edit"></i>Update</button>
+        <button class="btn archive-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" (click)="archivePrevention(prevention._id)"><i class="fas fa-archive"></i>Archive</button>
+        <button class="btn delete-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" (click)="deletePrevention(prevention._id)"><i class="fas fa-trash-alt"></i>Delete</button>
+      </div>      
+    </div>
+  </div>
+  <div class="text-center">
+    <pagination-controls class="custom-pagination" (pageChange)="currentPage = $event"></pagination-controls>
+  </div>  
+  <!-- Add Prevention Button -->
+  <div class="add-prevention-button">
+    <a class="btn add-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" routerLink="/addPrevention"><i class="fas fa-plus"></i>Add Prevention</a>
+  </div>
+</div>
+<app-footer></app-footer>

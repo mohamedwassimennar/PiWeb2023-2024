@@ -1,0 +1,35 @@
+.buttons button:nth-child(1) {
+    border: 1px solid #fff !important;
+    color: #fff;
+    height: 40px;
+  }
+  
+  .buttons button:nth-child(1):hover {
+    border: 1px solid #fff !important;
+    color: #19204E;
+    height: 40px;
+    background-color: #fff;
+  }
+  
+  .buttons button:nth-child(2) {
+    border: 1px solid #fff !important;
+    background-color: #fff;
+    color: #fff;
+    height: 40px;
+  }
+  
+.form-label {
+    color: white; 
+  }
+
+  .form-control {
+    color: white; 
+    background-color:  rgba(0, 0, 0, 0.5);  
+    border-color: #aeaeae; 
+  }
+  .form-control-file{
+    color: white; 
+    background-color:  rgba(0, 0, 0, 0.5);  
+    border-color: #aeaeae; 
+  }
+  

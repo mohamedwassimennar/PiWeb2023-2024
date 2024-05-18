@@ -1,0 +1,16 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .button-container button {
+    margin: 5px;
+  }
+  
+  .title-container {
+    text-align: center;
+  }
+  
+  

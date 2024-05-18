@@ -1,0 +1,76 @@
+<app-header></app-header>
+<div class="background-image">
+
+<div class="container ">
+  <div class="card">
+    <div class="card-body">
+      <div *ngIf="successMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+        {{ successMessage }}
+        <button type="button" class="close" (click)="clearSuccessMessage()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div *ngIf="performanceDetails">
+        <h2 class="section-title">Update Performance</h2>
+        <form (ngSubmit)="updatePerformance()">
+          <div class="form-group">
+            <label for="playerId"></label>
+            <input type="text" class="form-control" id="playerId" [(ngModel)]="performanceDetails.playerId" name="playerId" required hidden>
+          </div>
+          <div class="form-group">
+            <label for="nom">Nom:</label>
+            <input type="text" class="form-control" id="nom" [(ngModel)]="performanceDetails.nom" name="nom" required>
+          </div>
+          <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" class="form-control" id="age" [(ngModel)]="performanceDetails.age" name="age" required>
+          </div>
+          <div class="form-group">
+            <label for="totalMatchesPlayed">totalMatchesPlayed:</label>
+            <input type="number" class="form-control" id="totalMatchesPlayed" [(ngModel)]="performanceDetails.totalMatchesPlayed" name="totalMatchesPlayed" required>
+          </div>
+          <div class="form-group">
+            <label for="goals">goals:</label>
+            <input type="number" class="form-control" id="goals" [(ngModel)]="performanceDetails.goals" name="goals" required>
+          </div>
+          <div class="form-group">
+            <label for="totalDistanceCovered">totalDistanceCovered:</label>
+            <input type="number" class="form-control" id="totalDistanceCovered" [(ngModel)]="performanceDetails.totalDistanceCovered" name="totalDistanceCovered" required>
+          </div>
+          <div class="form-group">
+            <label for="yellowCards">yellowCards:</label>
+            <input type="number" class="form-control" id="yellowCards" [(ngModel)]="performanceDetails.yellowCards" name="yellowCards" required>
+          </div>
+          <div class="form-group">
+            <label for="redCards">redCards:</label>
+            <input type="number" class="form-control" id="redCards" [(ngModel)]="performanceDetails.redCards" name="redCards" required>
+          </div>
+          <div class="form-group">
+            <label for="assists">assists:</label>
+            <input type="number" class="form-control" id="assists" [(ngModel)]="performanceDetails.assists" name="assists" required>
+          </div>
+          <div class="form-group">
+            <label for="distanceCovered">distanceCovered:</label>
+            <input type="number" class="form-control" id="distanceCovered" [(ngModel)]="performanceDetails.distanceCovered" name="distanceCovered" required>
+          </div>
+          <div class="d-flex justify-content-between">
+            <button type="submit" class="btn custom-btn">  <i class="fas fa-save"></i> Update Performance
+            </button>
+            <button type="button" class="btn custom-btn " (click)="navigateBack()">
+              <i class="fas fa-arrow-left"></i> Return Back
+            </button>
+                      </div>
+
+        </form>
+      </div>
+      <div *ngIf="!performanceDetails">
+        <p>Performance details not found!</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<app-footer></app-footer>

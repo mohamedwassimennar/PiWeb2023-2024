@@ -1,0 +1,20 @@
+<div class="container">
+    <h2 class="section-title">Archived Preventions</h2>
+    <div class="card-list">
+      <div *ngFor="let prevention of archivedPreventions" class="card">
+        <img src="assets/images/prevention.png" alt="Prevention Image">
+        <div class="card-info">
+          <h3>Prevention for {{ prevention.playerName }}</h3>
+          <p>Description: {{ prevention.description }}</p>
+          <p>Recommended Practices: {{ prevention.recommendedPractices }}</p>
+          <p>Equipment Recommendations: {{ prevention.equipmentRecommendations }}</p>
+          <p>Nutritional Recommendations: {{ prevention.nutritionalRecommendations }}</p>
+          <p>Lifestyle Recommendations: {{ prevention.lifestyleRecommendations }}</p>
+        </div>
+      </div>
+    </div>
+    <ng-template #noArchivedPreventions>
+      <p>No archived preventions found.</p>
+    </ng-template>
+  </div>
+  

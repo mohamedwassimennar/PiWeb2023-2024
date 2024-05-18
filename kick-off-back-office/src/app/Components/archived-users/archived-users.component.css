@@ -1,0 +1,17 @@
+#regForm {
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding:10px;
+    border-radius:6px
+  }
+  .btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;  
+    margin: 0px auto;
+  
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+  }
+  

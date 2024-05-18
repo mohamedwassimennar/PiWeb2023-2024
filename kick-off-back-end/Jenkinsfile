@@ -1,0 +1,82 @@
+pipeline {
+    agent any
+    environment {
+        registryCredential = credentials('dockerhub')
+        dockerImage ='foyer'
+    }
+    
+    stages {
+        stage('Checkout GIT') {
+            steps {
+                echo 'Récupération du code depuis GIT...';
+                git branch: 'main', credentialsId: 'pat_jenkinss', url: 'https://github.com/berhoumaeya/kick-off-back-end.git'
+            }
+        }
+      
+        
+        stage(' Install') {
+            steps {
+                script {
+                   
+                        sh 'npm install'
+                    
+                }
+            }
+        }
+      
+       
+         
+        stage('Build and Push Image (backend)') {
+            steps {
+                script {
+                 
+                        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
+                            def customImage = docker.build("saidatoui/backendexpress:1")
+                        /*customImage.push()*/
+                      
+                    }
+                }
+            }
+        }
+       
+          stage('Docker compose (BackEnd MySql FrontEnd)') {
+            steps {
+                script {
+                  
+                       
+                        sh 'docker-compose up -d'
+                  
+                }
+            }
+        }
+         
+        stage('Email Notification') {
+            steps {
+                script {
+                    emailext (
+                        body: 'Jenkins Pipeline has finished successfully',
+                        recipientProviders: [
+                            [$class: 'DevelopersRecipientProvider'], 
+                            [$class: 'RequesterRecipientProvider'], 
+                            [$class: 'CulpritsRecipientProvider']
+                        ],
+                        subject: 'Statut du pipeline Jenkins : Succès'
+                    )
+                }
+            }
+        }
+             
+    }
+    
+    post {
+        always {
+            sh 'docker logout'
+        }
+        success {
+            echo 'Toutes les étapes du pipeline ont réussi.'
+        }
+        failure {
+            echo 'Le pipeline a ÉCHOUÉ.'
+        }
+    }
+}

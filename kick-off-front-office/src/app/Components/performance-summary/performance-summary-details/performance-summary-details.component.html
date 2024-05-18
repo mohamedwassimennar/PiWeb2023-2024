@@ -1,0 +1,35 @@
+<app-header></app-header>
+<div class="background-image">
+<div class="container mb-3">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2 class="section-title" >PERFORMANCE DETAILS summary</h2>
+      <div *ngIf="performance">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">Saison: {{ performance.season }}</p>
+            <p class="card-text">Buts marqués: {{ performance.totalGoalsScored }}</p>
+            <p class="card-text">Taux moyen de passes réussies: {{ performance.averagePassCompletionRate }}</p>
+            <p class="card-text">Distance totale parcourue: {{ performance.totalDistanceCovered }}</p>
+            <p class="card-text">Nombre total de matchs joués: {{ performance.totalMatchesPlayed }}</p>
+            <p class="card-text">Cartons jaunes: {{ performance.yellowCards }}</p>
+            <p class="card-text">Cartons rouges: {{ performance.redCards }}</p>
+            <p class="card-text">Minutes jouées: {{ performance.minutesPlayed }}</p>
+          </div>
+          <footer class="card-footer">
+            <button class="btn btn-secondary" (click)="goBack()">  <i class="fas fa-arrow-left"></i>Return Back</button>
+          </footer>
+        </div>
+      </div>
+      <div *ngIf="!performance">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">Performance introuvable.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

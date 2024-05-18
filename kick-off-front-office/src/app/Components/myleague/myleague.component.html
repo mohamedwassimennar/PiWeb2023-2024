@@ -1,0 +1,53 @@
+
+<app-header></app-header>
+      <div class="container">
+        <div class="card">
+            <h2>My Leagues</h2>
+
+          <div class="card-body">
+            
+            <div class="d-flex justify-content-end">
+                <div class="btn-group" role="group" aria-label="Match Status Filter">
+                    <button type="button" class="btn btn-secondary" (click)="filterByMatchStatus('scheduled')">Scheduled</button>
+                    <button type="button" class="btn btn-secondary" (click)="filterByMatchStatus('canceled')">Canceled</button>
+                    <button type="button" class="btn btn-secondary" (click)="filterByMatchStatus('completed')">Completed</button>
+                    <button type="button" class="btn btn-secondary" (click)="filterByMatchStatus(null)">All</button>
+
+                </div>
+                <br>
+            </div>
+              <table class="table ">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>Date</th>
+                    <th>Opponent</th>
+                    <th>Venue</th>
+                    <th>Team</th>
+                    <th>Fixture Type</th>
+                    <th>Match Status</th>
+                    <th>Score</th>
+                  
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let league of filteredLeagues">
+                    <td>{{ league.date | date }}</td>
+                    <td>{{ league.opponent }}</td>
+                    <td>{{ league.venue }}</td>
+                    <td>{{ league.team }}</td>
+                    <td>{{ league.fixtureType }}</td>
+                    <td>{{ league.matchStatus }}</td>
+                    <td>{{ league.score }}</td>
+                   <!-- <td>
+                        
+                       <button class="btn btn-danger" (click)="deleteAnalysis(player._id)">Supprimer</button> 
+                              <button class="btn btn-warning" (click)="archivePlayer(player._id)">Archive</button>
+
+                    </td>-->
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      <app-footer></app-footer>

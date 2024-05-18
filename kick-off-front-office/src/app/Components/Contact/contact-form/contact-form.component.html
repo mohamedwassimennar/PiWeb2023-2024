@@ -1,0 +1,47 @@
+<app-header></app-header>
+<div >
+
+  <div class="container">
+    <h2>Contact us</h2>
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Name :</label>
+        <input type="text" formControlName="name" class="form-control" id="name" required>
+        <div
+          *ngIf="contactForm.get('name')?.invalid && (contactForm.get('name')?.dirty || contactForm.get('name')?.touched)"
+          class="text-danger">
+          Name is required
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail :</label>
+        <input type="email" formControlName="email" class="form-control" id="email">
+        <div
+          *ngIf="contactForm.get('email')?.errors?.['email'] && (contactForm.get('email')?.dirty || contactForm.get('email')?.touched)"
+          class="text-danger">
+          Please enter a valid email address
+        </div>
+        <div
+          *ngIf="contactForm.get('email')?.errors?.['required'] && (contactForm.get('email')?.dirty || contactForm.get('email')?.touched)"
+          class="text-danger">
+          Email is required
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label for="message">Message :</label>
+        <textarea formControlName="message" class="form-control" id="message" rows="5" required></textarea>
+        <div
+          *ngIf="contactForm.get('message')?.invalid && (contactForm.get('message')?.dirty || contactForm.get('message')?.touched)"
+          class="text-danger">
+          Message is required
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mb-3">Send</button>
+    </form>
+    <div *ngIf="success" class="alert alert-success mt-3" role="alert">
+      Message successfully sent </div>
+  </div>
+</div>
+<app-footer></app-footer>

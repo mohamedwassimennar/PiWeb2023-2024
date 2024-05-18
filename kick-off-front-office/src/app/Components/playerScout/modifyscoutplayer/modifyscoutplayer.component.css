@@ -1,0 +1,15 @@
+.custom-card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card .card-title {
+    text-align: center;
+  }
+  
+  .custom-card .form-group {
+    margin-bottom: 20px;
+  }
+  .custom-sm-card-width {
+    width: 700px; /* Adjust the width as per your requirement */
+  }

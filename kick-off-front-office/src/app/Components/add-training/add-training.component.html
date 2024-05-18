@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<app-header></app-header>
+<div class="container">
+    <!-- Training sessions section -->
+    <section class="management-section">
+        <div class="container">
+            <br>
+            <h2 class="section-title">Add Training Sessions</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form (ngSubmit)="ajouter()" #form="ngForm">
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Date </label>
+                            <input type="date" class="form-control" id="date" name="date" placeholder="Enter your Date (jj/mm/aaaa)" required [(ngModel)]="nouvelleAnalyse.date" #date="ngModel">
+                            <div *ngIf="date.invalid && (date.dirty || date.touched)" class="alert alert-danger">
+                                <div *ngIf="duration.errors?.['required']">Data is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Time </label>
+                            <input type="time" class="form-control" id="time" name="time" placeholder="Enter your Time" required [(ngModel)]="nouvelleAnalyse.time" #time="ngModel">
+                            <div *ngIf="time.invalid && (time.dirty || time.touched)" class="alert alert-danger">
+                                <div *ngIf="time.errors?.['required']">Time is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="duration" class="form-label">Duration</label>
+                            <input type="string" class="form-control" id="duration" name="duration" placeholder="Enter your Duration" required [(ngModel)]="nouvelleAnalyse.duration" #duration="ngModel" pattern="^\d+(\.\d+)?$">
+                            <div *ngIf="duration.invalid && (duration.dirty || duration.touched)" class="alert alert-danger">
+                                <div *ngIf="duration.errors?.['required']">Duration is required.</div>
+                                <div *ngIf="duration.errors?.['pattern']">the Duration must contain only numbers.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="training place" class="form-label">Training place</label>
+                            <input type="string" class="form-control" id="training place" name="training place" placeholder="Enter your Training place" required [(ngModel)]="nouvelleAnalyse.trainingplace" #trainingplace="ngModel" pattern="[a-zA-Z\s]*">
+                            <div *ngIf="trainingplace.invalid && (trainingplace.dirty || trainingplace.touched)" class="alert alert-danger">
+                                <div *ngIf="trainingplace.errors?.['required']">Training place is required.</div>
+                                <div *ngIf="trainingplace.errors?.['pattern']">The Training placemust contain only letters.</div>
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="type_formation" class="form-label">TrainingType </label>
+                            <select class="form-select" id="type_formation" name="type_formation" required [(ngModel)]="nouvelleAnalyse.trainingType" #trainingType="ngModel">
+                                    <option value="">Select a training type</option>
+                                    <option value="Endurance">Endurance</option>
+                                    <option value="Agility">Agility</option>
+                                    <option value="Tactical">Tactical</option>
+                                    <option value="Technique">Technique</option>
+                                    <option value="Recovery">Recovery</option>
+                                </select>
+                            <div *ngIf="trainingType.invalid && (trainingType.dirty || trainingType.touched)" class="alert alert-danger">
+                                <div *ngIf="trainingType.errors?.['required']">Training type is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="niveau_intensite" class="form-label">Intensity level</label>
+                            <input type="text" class="form-control" id="niveau_intensite" name="niveau_intensite" placeholder="Entrez votre niveau d'intensité" required [(ngModel)]="nouvelleAnalyse.intensityLevel" #intensityLevel="ngModel" pattern="[a-zA-Z\s]*">
+                            <div *ngIf="intensityLevel.invalid && (intensityLevel.dirty || intensityLevel.touched)" class="alert alert-danger">
+                                <div *ngIf="intensityLevel.errors?.['required']">Intensity level is required.</div>
+                                <div *ngIf="intensityLevel.errors?.['pattern']">The intensity level must contain only letters.</div>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Add Training</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<app-footer></app-footer>

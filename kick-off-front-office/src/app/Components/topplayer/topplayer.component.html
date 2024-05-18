@@ -1,0 +1,34 @@
+<app-header></app-header>
+<div class="content">
+  <h2 class="section-title">Top Player List</h2>
+
+  <div class="filters">
+    <label for="minAge">Minimum Age:</label>
+    <input type="number" id="minAge" [(ngModel)]="minAge" (input)="filterPlayers()">
+    
+    <label for="minGoals">Minimum Goals:</label>
+    <input type="number" id="minGoals" [(ngModel)]="minGoals" (input)="filterPlayers()">
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4" *ngFor="let player of filteredPlayers">
+      <div class="card">
+        <div class="card-header">
+          {{ player.Player }}
+        </div>
+        <div class="card-body">
+          <p>Age: {{ player.Age }}</p>
+          <p>Total Matches Played: {{ player.Total_Matches_Played }}</p>
+          <p>Goals: {{ player.Goals }}</p>
+          <p>Assists: {{ player.Assists }}</p>
+          <p>Yellow Cards: {{ player.Yellow_Cards }}</p>
+          <p>Red Cards: {{ player.Red_Cards }}</p>
+          <p>Team of the Week: {{ player.Team_of_the_Week }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<app-footer></app-footer>

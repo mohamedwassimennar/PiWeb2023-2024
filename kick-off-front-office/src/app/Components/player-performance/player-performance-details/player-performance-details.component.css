@@ -1,0 +1,56 @@
+/* Styles généraux */
+body {
+  background-color: #19204e; /* Fond bleu foncé */
+  color: #ffffff; /* Texte blanc */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #ffffff; /* Fond rouge */
+  color: #000000; /* Texte blanc */
+  border: none; /* Pas de bordure */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  width: 80%; /* Largeur de la carte */
+  max-width: 600px; /* Largeur maximale de la carte */
+}
+
+.card-header {
+  background-color: #000000; /* Fond noir */
+  padding: 20px; /* Espacement intérieur */
+}
+
+.logo {
+  max-width: 200px; /* Largeur maximale du logo */
+  height: auto;
+}
+
+.card-body {
+  padding: 20px; /* Espacement intérieur */
+}
+
+.card-footer {
+  background-color: #000000; /* Fond noir */
+  padding: 20px; /* Espacement intérieur */
+}
+
+/* Styles pour les boutons */
+.custom-btn {
+  background-color: #ffffff; /* Fond blanc */
+  color: #CD0505; /* Texte rouge */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  padding: 10px 20px; /* Espacement intérieur */
+  cursor: pointer; /* Curseur de la souris en pointer */
+}
+
+.custom-btn:hover {
+  background-color: #19204e; /* Fond bleu foncé au survol */
+  color: #ffffff; /* Texte blanc */
+}

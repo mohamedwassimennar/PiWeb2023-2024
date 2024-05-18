@@ -1,0 +1,234 @@
+<app-header></app-header>
+<section class="custom-class vh-200" [style.backgroundImage]="'url(' + backgroundImageSrc + ')'" style="background-repeat: no-repeat; background-size: cover; opacity: 0.93;">
+  <br><br>
+   <div class="row d-flex justify-content-center align-items-center h-200">
+    <div class="col col-lg-8 mb-4 mb-lg-0">
+      <div class="card-body p-4" style="background-color: rgba(0, 0, 0, 0.4); border: 0.5px solid #aeaeae;  border-radius: 10px; padding: 20px;"> 
+        <div class="row g-0">
+        <div class="text-center mb-4">
+          <h2 class="mt-3 mb-0" style="color: #fff;">Update your profile</h2>
+          <p class="lead" style="color: #000000;">Please update your information below :</p>
+        </div>
+        
+        <form (submit)="updateUser()">
+          <!-- Input fields for updating user information -->
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" [(ngModel)]="currentUser.firstName"
+                name="firstName">
+            </div>
+            <div class="col-md-6">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" [(ngModel)]="currentUser.lastName" name="lastName">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" [(ngModel)]="currentUser.email" name="email">
+            </div>
+            <div class="col-md-6">
+              <label for="age" class="form-label">Age</label>
+              <input type="number" class="form-control" id="age" [(ngModel)]="currentUser.age" name="age">
+            </div>
+            <div class="col-md-6">
+              <label for="telephone" class="form-label">Telephone</label>
+              <input type="text" class="form-control" id="telephone" [(ngModel)]="currentUser.contact"
+                name="telephone">
+            </div>
+            <div class="col-md-6" >
+              <label for="profileImage" class="form-label">Profile Image</label>
+              <input type="file" class="form-control-file" class="form-control" id="profileImage" name="profileImage" (change)="onFileChange($event)">
+            </div>
+          </div>
+          
+          <!-- Additional fields based on user's role -->
+          <div *ngIf="currentUser?.role === 'coach'">
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="experienceLevel" class="form-label">Experience Level</label>
+                <input type="text" class="form-control" id="experienceLevel" [(ngModel)]="currentUser.experienceLevel"
+                  name="experienceLevel">
+              </div>
+              <div class="col-md-6">
+                <label for="assignedTeam" class="form-label">Assigned Team</label>
+                <input type="text" class="form-control" id="assignedTeam" [(ngModel)]="currentUser.assignedTeam"
+                  name="assignedTeam">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="trainingSchedule" class="form-label">Training Schedule</label>
+              <input type="text" class="form-control" id="trainingSchedule" [(ngModel)]="currentUser.trainingSchedule"
+                name="trainingSchedule">
+            </div>
+          </div>
+          <div *ngIf="currentUser?.role === 'technicalManager'">
+            <!-- Fields for technical manager -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="technicalExpertise" class="form-label">Technical Expertise</label>
+                <input type="text" class="form-control" id="technicalExpertise"
+                  [(ngModel)]="currentUser.technicalExpertise" name="technicalExpertise">
+              </div>
+              <div class="col-md-6">
+                <label for="systemMaintenanceDuties" class="form-label">System Maintenance Duties</label>
+                <input type="text" class="form-control" id="systemMaintenanceDuties"
+                  [(ngModel)]="currentUser.systemMaintenanceDuties" name="systemMaintenanceDuties">
+              </div>
+            </div>
+          </div>
+
+          <!-- Add more ngIf blocks for other roles -->
+          <div *ngIf="currentUser?.role === 'player'">
+            <!-- Fields for player -->
+            <div class="row mb-3">
+             
+              <div class="col-md-6">
+                <label for="teamAffiliation" class="form-label">Team Affiliation</label>
+                <input type="text" class="form-control" id="teamAffiliation" [(ngModel)]="currentUser.teamAffiliation"
+                  name="teamAffiliation">
+              </div>
+              <div class="col-md-6">
+                <label for="position" class="form-label">Position</label>
+                <input type="text" class="form-control" id="position" [(ngModel)]="currentUser.position"
+                  name="position">
+              </div>
+              <div class="col-md-6">
+                <label for="medicalHistory" class="form-label">Foot</label>
+                <input type="text" class="form-control" id="foot" [(ngModel)]="currentUser.foot"
+                  name="foot">
+              </div>
+              <div class="col-md-6">
+                <label for="medicalHistory" class="form-label">eight</label>
+                <input type="text" class="form-control" id="height" [(ngModel)]="currentUser.height"
+                  name="height">
+              </div>
+              <div class="col-md-6">
+                <label for="medicalHistory" class="form-label">Weight</label>
+                <input type="text" class="form-control" id="weight" [(ngModel)]="currentUser.weight"
+                  name="weight">
+              </div>
+            </div>
+          </div>
+          <div *ngIf="currentUser?.role === 'doctor'">
+            <!-- Fields for doctor -->
+            <div class="row mb-3">
+              <div class="row">
+                <div class="col-md-6">                    
+                  <label for="medicalQualifications" class="form-label">Medical Qualifications</label>
+                    <select class="form-select form-control form-select-sm" [(ngModel)]="currentUser.medicalQualifications"
+                      name="medicalQualifications" id="medicalQualifications" required style="background-color: rgba(0, 0, 0, 0.5); color: white; border-color: #aeaeae;">
+                      <option value="" disabled selected>Select Medical Qualification</option>
+                      <option value="MD">MD - Doctor of Medicine</option>
+                      <option value="FRCOG">FRCOG - Fellow of the Royal College of Obstetricians and Gynaecologists</option>
+                      <option value="FRSC">FRSC - Fellow of the Royal Society of Canada</option>
+                      <option value="PhD">PhD - Doctor of Philosophy</option>
+                      <option value="MPH">MPH - Master of Public Health</option>
+                      <option value="DPM">DPM - Diploma of Psychological Medicine</option>
+                      <option value="FACOG">FACOG - Fellow of the American College of Obstetricians and Gynecologists</option>
+                      <option value="MSN">MSN - Master of Scientific Nursing</option>
+                      <option value="FRCS">FRCS - Fellow of the Royal College of Surgeons</option>
+                      <option value="MBBS">MBBS - Bachelor of Medicine and Bachelor of Surgery</option>
+                      <option value="MBA">MBA - Master of Business Administration</option>
+                      <option value="MSc">MSc - Master of Science</option>
+                      <option value="FACS">FACS - Fellow of the American College of Surgeons</option>
+                      <option value="FRCSC">FRCSC - Fellow of the Royal College of Surgeons of Canada</option>
+                      <option value="MMed">MMed - Master of Medicine</option>
+                      <option value="ABR">ABR - American Board of Radiology</option>
+                      <option value="MHS">MHS - Master of Health Sciences</option>
+                    </select>
+                </div>
+              
+              
+              <div class="col-md-6">
+                <label for="specializations" class="form-label">Specializations</label>
+                <input type="text" class="form-control" id="specializations"
+                  [(ngModel)]="currentUser.specializations" name="specializations">
+              </div>
+            </div>
+          </div>
+          </div>
+          <div *ngIf="currentUser?.role === 'physiotherapist'">
+            <!-- Fields for physiotherapist -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="medicalQualifications" class="form-label">Medical Qualifications</label>
+                <input type="text" class="form-control" id="medicalQualifications"
+                  [(ngModel)]="currentUser.medicalQualifications" name="medicalQualifications">
+              </div>
+              <div class="col-md-6">
+                <label for="expertiseAreas" class="form-label">Expertise Areas</label>
+                <input type="text" class="form-control" id="expertiseAreas"
+                  [(ngModel)]="currentUser.expertiseAreas" name="expertiseAreas">
+              </div>
+            </div>
+          </div>
+          
+          <div *ngIf="currentUser?.role === 'assistantCoach'">
+            <!-- Fields for assistant coach -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="coachingExperience" class="form-label">Coaching Experience</label>
+                <input type="text" class="form-control" id="coachingExperience"
+                  [(ngModel)]="currentUser.coachingExperience" name="coachingExperience">
+              </div>
+              <div class="col-md-6">
+                <label for="specializedArea" class="form-label">Specialized Area</label>
+                <input type="text" class="form-control" id="specializedArea"
+                  [(ngModel)]="currentUser.specializedArea" name="specializedArea">
+              </div>
+              <div class="col-md-6">
+                <label for="assignedTeam" class="form-label">Assigned Team</label>
+                <input type="text" class="form-control" id="assignedTeam"
+                  [(ngModel)]="currentUser.assignedTeam" name="assignedTeam">
+              </div>
+            </div>
+          </div>
+          
+          <div *ngIf="currentUser?.role === 'fitnessCoach'">
+            <!-- Fields for fitness coach -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="fitnessTrainingExperience" class="form-label">Fitness Training Experience</label>
+                <input type="text" class="form-control" id="fitnessTrainingExperience"
+                  [(ngModel)]="currentUser.fitnessTrainingExperience" name="fitnessTrainingExperience">
+              </div>
+              <div class="col-md-6">
+                <label for="specializedArea" class="form-label">Specialized Area</label>
+                <input type="text" class="form-control" id="specializedArea"
+                  [(ngModel)]="currentUser.specializedArea" name="specializedArea">
+              </div>
+              <div class="col-md-6">
+                <label for="assignedTeam" class="form-label">Assigned Team</label>
+                <input type="text" class="form-control" id="assignedTeam"
+                  [(ngModel)]="currentUser.assignedTeam" name="assignedTeam">
+              </div>
+            </div>
+          </div>
+          
+
+
+          <!-- Add more input fields for other user attributes as needed -->
+
+
+          <div class="d-flex justify-content-center mt-4 ">
+            <div class="mx-2 buttons">
+              <button type="button" class="btn btn-outline-primary px-4" (click)="cancelUpdate()">Cancel</button>
+            </div>
+            <div class="mx-2 buttons">
+              <button type="submit" class="btn  px-4 ms-3">Update</button>
+            </div>
+          </div>
+          
+        </form>
+       
+      </div>
+    </div>
+  
+  
+</div>
+
+</div><br><br>
+</section>
+<app-footer></app-footer>

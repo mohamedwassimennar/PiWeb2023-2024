@@ -1,0 +1,424 @@
+20240226	21:37:28
+	521a388e-c647-4286-a89d-9a1fa52e6344	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:37:28
+	c31631f8-daf3-4206-99bd-2ef9a24fc517	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:40:12
+	ef933dfb-9ab0-410d-aba4-f433e7cc951a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:40:12
+	5ebc14d6-372d-4e09-97c6-6436390adc3d	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:35
+	1910c220-44f5-40cf-a3ac-5f30ca623515	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:35
+	64b765d2-b03e-49dc-b68d-ceebe6283486	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:35
+	dadb9bd9-38a2-446b-b26a-bb437496c15c	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:35
+	7a66cfc4-5186-4529-82f5-271aca79c519	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:37
+	be6fc27d-564d-427e-8574-802bb1b2b6ec	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:37
+	ee077769-c27f-4b3d-abb9-e8457ee2e064	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:38
+	41656681-e54e-4a8e-8578-24b475515683	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:38
+	ccb90402-1e7f-473e-a3b1-0160644f7dce	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:38
+	9d20423e-4e5f-4873-b676-2bb39d6579d8	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:38
+	52bde6ad-4cbf-4f15-8c80-5f3938376fd9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:39
+	8abb1592-5dfd-40c1-96a2-ee5a00238502	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:39
+	f17ede84-961b-4a81-86ed-336bea773cdd	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:39
+	0ff6f03f-1f98-41ca-840e-b8bedaad3130	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:39
+	f879956d-d5af-40f5-9187-43f21a4eb92a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:40
+	a7a29c22-2467-4a77-a464-7b7eb4bd04d1	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:40
+	ba4f020d-bc6c-4efc-9d76-46ea909c2fc9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:40
+	c042fb1e-d233-484a-baa2-cd72940e1fed	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:40
+	bd0a6c87-834b-403c-8af2-847f3af34ddd	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:46:56
+	d7a594a9-d8b7-43cb-b577-4a6332cc385a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:46:56
+	0888b5ea-3d04-4927-b765-be0f34000ec5	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:49:50
+	09055fe0-4186-4235-9b1b-92f6641606f6	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:49:50
+	d9337f7e-2124-4e6c-a7c6-bb52e1ac7824	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:12
+	5552e176-c71a-477d-8415-314bc3e6e3fc	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:13
+	84c05db5-640f-4fcf-bd46-be67ab83a805	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:13
+	c4f1d92d-f487-47b0-afa1-bc69093ba6df	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:13
+	a0275e50-74c7-4318-8309-07f00eadf65d	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:13
+	bbc020e0-e4a9-48be-9c2e-5b0ad6a0adf7	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:14
+	6056a775-35cd-4277-8362-57f13269aec7	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:14
+	d9baee4e-e5ff-4ae5-80cb-ca07e97d45b4	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:14
+	ce9d824c-1d68-4935-9a86-d10afa95df3a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:14
+	7ddeedf5-abcd-4164-8b84-62bcbba3e6c3	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:14
+	b64ab260-e6c0-4679-a49c-111b872b71b4	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:14
+	359c0162-91a7-4f58-b549-18bf093c804e	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:14
+	39376fbc-e718-4c8b-858e-923e91b77a96	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:15
+	2f485300-b676-40b5-906f-0c71b14fb931	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:15
+	c9baac41-8208-4f1b-8866-50a6b098a91f	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:15
+	7c6722ba-0a2f-4e4e-a7df-2661d39141d9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:15
+	31e15310-5571-47ec-94d5-4ffa16874791	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:15
+	7df4b37e-8b06-4e10-aa5b-4cdcf1f1b75d	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:15
+	311057e7-e0c8-418e-9cc4-d6153b5135c3	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:15
+	666ef48d-ac66-4ce9-881b-0c60873b9b42	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:15
+	ba8e1466-d43a-4783-bf43-ee2f0efa4de3	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:51:15
+	80a37d09-e4e0-4d93-8b4f-423520253793	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:51:15
+	f5fe70ae-4357-42a3-a7af-4a2d246f101d	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:52:11
+	7022bd58-d91a-426e-8de2-18622b7b4510	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:52:11
+	ef352b72-0849-45b9-8341-4ee21f27e1ab	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:52:13
+	f74f28f6-6103-47c8-9436-dd908d58c20a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/api/auth/google/callback	undefined
+20240226	21:52:13
+	6b5b6f26-f016-452e-bc40-6c3d590258dd	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:54:52
+	b977e18f-de59-4bcb-ad1f-52ac0984e8a9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:54:52
+	664671a1-c9d9-4c99-b484-d2e7045fa299	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:54:53
+	8d2c32b7-1967-4444-a577-eabed6f680e7	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:54:53
+	907e4302-e661-4d84-bc8c-98a5fc9e35f7	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:54:54
+	3819ebab-9449-4c47-a764-08e2bec1a7b9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:54:54
+	42b97d9a-9916-4bf4-acf8-7e741990cb46	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:54:54
+	b886f602-5f2f-4d13-bf96-c97d4be76065	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:54:54
+	b5ee61dd-d257-4b44-8c26-c578fbe812f2	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:54:54
+	d6b5baf9-71c5-49bf-9cf3-f352c79cc49d	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:54:54
+	0b78fe58-9def-4d9e-9451-f39f8ff5a487	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:50
+	fa160d95-3fe5-46bb-84a8-e2139fab1c08	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:50
+	545bbf57-b619-4aed-b80a-8ddebe42d888	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:51
+	2e2eac41-a8f4-4b7d-a09d-3b7ecacec7fd	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:51
+	a9746d77-911f-48c0-954b-408cc4f5c229	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:51
+	4d0199e0-656b-4023-9376-ec1efd4d00d9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:51
+	5e55e844-94de-45de-ab98-ec7ef249178a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:51
+	97605b71-b331-47e1-a115-5c6c5f29975a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:51
+	eac8b4d8-15de-4f19-a049-88ff9022c9fe	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:51
+	884a7bf9-98c4-4a09-ae60-364ed7c428d2	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:51
+	e4dfb17d-9855-4f2e-9b54-0bf9966bc8b3	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:51
+	e20c50dd-56e9-471f-be27-7f2f52b23774	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:51
+	d4e54a21-ba3b-4748-a4c2-9209e5c94139	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:51
+	9a8d7108-293c-4139-bbe6-f70fd06c24ac	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:51
+	31b25bb5-5876-4b13-987d-ea0cf8dfb8ad	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:51
+	fbc4bfdc-4b20-4784-8c82-88025dd10c24	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:51
+	9a528f83-2a4f-4690-942e-6c08c165f854	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:52
+	671fcbdc-cff0-4e2d-ade7-fde18c17aeac	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:52
+	56184e32-912e-4527-a662-6d9747b474d0	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:52
+	b89a84b4-9d06-443b-ae13-14e24a5b11bc	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:52
+	473cf5f8-3ddd-48c7-a203-94b8c1f66b68	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:52
+	6288de2b-426b-4020-826d-7473faaf768a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:52
+	e9d60895-d43e-4a63-afb6-f31a5cf259f9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:52
+	4989958f-316f-481f-99a5-0c72b46a6daa	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:52
+	a3e969a3-1946-473b-afb1-cab0addb1340	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:52
+	956ef0ef-44ee-4071-a352-6d740829d403	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:52
+	c1f0c16a-a2d3-4d21-81b5-ab92a04dd4f0	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:55:52
+	8362e88b-f0c2-4595-b176-8f1565775e97	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:55:52
+	fa10864e-a8db-4198-b2da-514f04e86def	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:57:16
+	e841549e-bf4e-4d7a-8843-74464e5e4e3a	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:57:16
+	eea61646-30a5-4bae-b586-9a433bb9edee	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240226	21:57:17
+	ef600e00-e1c4-4e02-ad64-2c79fb636fdf	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/auth/google/callback	undefined
+20240226	21:57:17
+	1f5afd45-39c0-4530-9721-44ff6ec9fd60	Error: Login sessions require session support. Did you forget to use `express-session` middleware?	GET	/favicon.ico	undefined
+20240309	13:20:54
+	73701a2b-543a-486d-8d40-dfef315534f7	ReferenceError: token is not defined	GET	/auth/google/callback	http://localhost:4200
+20240319	13:22:48
+	2b9d5265-2b4f-4ad9-962d-f471d4ed742b	ValidationError: User validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required., role: Path `role` is required.	GET	/api/google/callback?code=4%2F0AeaYSHCkFVsP7GFeSTaYrdInYI6c7IotfhrK7So36y79ufWYzcLWfFkNIDEqyMeaZN9itg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=1&prompt=consent	undefined
+20240319	13:33:18
+	bc190022-340a-4eb3-b31b-ae509d953f76	ValidationError: User validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required., role: Path `role` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHDOYnaVZ13e5sk6hbDOLo0zrFDeqhgtHhfAC4KmknFfy3cX1DxS4At6d6GHqFqMqQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	13:42:31
+	80d2fce3-d53b-47c3-873a-117fd54986e9	ValidationError: User validation failed: password: Path `password` is required., role: Path `role` is required.	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:48:06
+	55b2c0bb-576a-48c2-8990-7b24027ac2f6	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:49:19
+	0a8ee5d3-a34a-4ba2-b9ce-7439e9d4f241	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:49:20
+	0b8821f1-8601-4bed-9a99-9d503c690e62	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:49:20
+	55883833-f385-4343-8e66-c380de68289e	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:50:30
+	88b0a757-ee25-4c77-b677-acc6c7648e1c	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:50:31
+	c40b84b0-7233-49ce-bf6d-7ee939116431	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:50:31
+	92de9be8-9bca-4b7e-a065-7cf4a13d26e2	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHBFZLOWN18chiM6ZkJm0dQAcKX62lyPAJMY2sE0jcM4QWUoyCEogps00KR34HMxew&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:50:36
+	3a7dcf27-1ce6-4ad6-811e-ed7abeedf117	Error: Unknown authentication strategy "google"	GET	/api/google/callback?code=4%2F0AeaYSHAjjujrDD8cgmwcmZyqRj-7LEOIHlYOrO8JEq8LgYzzkS3uOV8AGkpuho2T_KbegQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240319	13:59:23
+	804d4125-4ae4-4ee1-90ef-4724310f71f7	MongoError: E11000 duplicate key error collection: project.users index: email_1 dup key: { : "eya.berhouma@esprit.tn" }	GET	/auth/google/callback?code=4%2F0AeaYSHBUHs9d1bbcFP-YvD8ZrpdA5HDNksWIM2DvD8aoZDSl08Nn6oeRAeExNsJdWv8xcg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&hd=esprit.tn&prompt=none	undefined
+20240319	14:00:07
+	8b92faa3-f5f1-4599-9b97-6103ba330519	Error: Failed to serialize user into session	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:02:27
+	d0cceb03-eb0a-4e69-8302-0f78ee3416cb	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:02:27
+	80fe059d-5694-4b7b-aaa0-b19af1ea1fb3	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:02:28
+	86c1d85e-8472-4edb-8b78-4430d572c32d	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:03:53
+	1145668a-19b8-469c-88e9-64f8003cd075	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:03:55
+	e3c07b4f-957e-4a2e-a340-1204d1879d66	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:03:55
+	68e9203a-a1e4-422d-934e-134f96aa62fa	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:09:19
+	d36f8984-ba75-4463-969e-aaff2b49765b	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:09:20
+	b7389a19-32bc-47fe-93e6-02d6d7fccc51	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:09:20
+	2cc7a15a-39a2-4847-91b2-abb3290902cd	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:09:20
+	18c50983-e4d4-4d4a-a6bd-3bd68ff68620	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:24:51
+	534ed484-4581-4225-8cf5-a7abaeef6d54	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:28:09
+	9ee67b0c-cde1-47e9-b526-d2960436dc33	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:28:24
+	0052e9dd-15ef-4c78-b273-5d4a1ffe8ada	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:28:25
+	e6c90a21-1868-4b4d-873c-162eb0d11dc3	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDN12FNbFtG7XTRXYiNbHDAJtlP_S3cDtJiQX7b05wT2U3nzW1jFsFZTTDNr-_ChQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240319	14:29:10
+	09520c9b-ff6c-40e1-aff5-6307e1292ed0	ReferenceError: User is not defined	GET	/landing-page	undefined
+20240319	14:36:36
+	cd2cb0f6-b366-48e5-9cb2-4387fec4f3a3	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:36:40
+	9da21143-a416-49aa-acd9-396a0987512f	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:36:41
+	bd14763c-7484-4511-b614-b6ac5eafe9f9	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:07
+	be69a872-aa14-4327-acb6-1f304acb5ed7	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:21
+	b913b747-7d3e-47ad-9733-35b9af2d9a26	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:22
+	63261572-b046-4c45-b25a-c3a4540833c4	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:22
+	582b5389-069a-4e69-b751-f428885f0aa3	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:22
+	b6c68166-542f-4ee0-bb89-5daab46b2bda	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:22
+	0d9044e2-628c-491a-bac7-9d8bb79c1440	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:22
+	c0fe7aca-88e7-4d75-a968-a754da33c61b	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:23
+	3a0b8cde-89fe-4919-bff0-0d9e56d069f8	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:57
+	a24236cc-50e0-416b-b32e-ce1e74675bbc	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:58
+	f0598ac5-6caf-4a98-ac4e-a881142dd148	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:37:58
+	896a154e-dd6d-4060-9e55-ff37f972dd2c	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:38:11
+	efb377ba-6ab9-477f-9720-a1dfe396ee12	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:38:11
+	13a2f105-ea22-4278-b096-f6417c00edd5	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:44:07
+	3b820b7a-5789-4a91-bd48-d22ac6503b5c	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:44:07
+	1cda4708-3b1b-423b-8f69-f8a73c166d2d	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	14:44:08
+	087416ba-8415-403f-8a00-1eca9ea1865d	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240319	23:16:27
+	2241e085-52b7-4185-b763-969f7f4f42e6	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAypfL5s3XKtK_abJBYho0b9KLigFGEAYZwWxjhMwgWd-NjysGCwcFd-q0I_h9UjQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240320	11:50:06
+	3ce77d29-48cd-4ff0-8e11-3b13d6c7629f	MulterError: Unexpected field	POST	/api/register	undefined
+20240320	11:51:34
+	a9b197a6-98e5-4b1a-9545-7ce8acee5af4	Error: ENOENT: no such file or directory, open 'C:\Users\eyabe\OneDrive\Documents\Me\PI\kick-off-back-end\uploads\1710931894879-411637300_1087360979378964_3408982435891005699_n.png'	POST	/api/register	undefined
+20240320	11:53:49
+	d0cfa84a-b0b5-4004-9278-4e8711a78ef8	Error: ENOENT: no such file or directory, open 'C:\Users\eyabe\OneDrive\Documents\Me\PI\kick-off-back-end\uploads\1710932029119-yy.jpg'	POST	/api/register	undefined
+20240320	11:57:14
+	a00ffc95-3913-427c-91d2-47d24e9ef7ef	Error: ENOENT: no such file or directory, open 'C:\Users\eyabe\OneDrive\Documents\Me\PI\uploads\1710932234347-yy.jpg'	POST	/api/register	undefined
+20240320	14:10:35
+	2b6cbbf5-6697-4a05-a306-1ab706ef5e89	ReferenceError: User is not defined	GET	/landing-page	undefined
+20240320	14:11:35
+	068b9686-739f-4fec-bb03-f60e16c971f1	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHBI0UWBAZYTmlgaBMx5dmat-tWux1ORmqlK9uF5CYFfeoHH_BxjreNDs17_gXgK4g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240320	14:19:05
+	5395d560-9908-41ed-babb-4fab6a7c4969	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDbqIq4ADVvpvjN84ZnPsD3P1txn5leciC_DRkkyrD8sKk-hvNlznR96WZquYEI2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240320	14:22:51
+	36ccfa69-1f92-4355-9f3b-4df1e82d72b9	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDbqIq4ADVvpvjN84ZnPsD3P1txn5leciC_DRkkyrD8sKk-hvNlznR96WZquYEI2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240320	14:22:51
+	487be8a2-ab8a-4d37-8641-1fac80bb6dcd	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDbqIq4ADVvpvjN84ZnPsD3P1txn5leciC_DRkkyrD8sKk-hvNlznR96WZquYEI2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240320	14:22:52
+	9802ecad-35a8-4168-9057-b4155552458c	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDbqIq4ADVvpvjN84ZnPsD3P1txn5leciC_DRkkyrD8sKk-hvNlznR96WZquYEI2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240320	14:22:56
+	a14f6419-a2db-4e3a-88a6-e3825122e1da	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHBzZH158dfzG1PPa5m05XwQig4BvZY_r4kurGNFsKPn1w-vd9NzUoRBdHOtNzYYKw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240321	13:25:15
+	000da089-7c34-4cdb-b09a-11537c4b50bf	Error: Unknown authentication strategy "google"	GET	/auth/google/callback	http://localhost:4200
+20240321	13:25:41
+	4a427158-8ea2-49c9-9153-ed67d7e06fc6	Error: Unknown authentication strategy "google"	GET	/auth/google/callback	http://localhost:4200
+20240322	22:17:58
+	cb2af602-ed88-41f9-8889-7cfa3b2539e7	ValidationError: User validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHBcjnFKemvz-fO4iwvzLGjchn3VkajFyE38A8LIWLZHIEX2RHNouGbhSsXNE-qmzg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240322	22:18:42
+	3f19fa6e-41d9-4539-bfe8-a90c90964bf3	ValidationError: User validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHCxxchSf-ZKPZnj-JE8sbrOurb1o1XkYbGnLCxdRT56P_2Y1X1wbP-ddtSdUcITDw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	22:20:18
+	8e97e0d4-c761-417e-b678-1579b9ed786d	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHCxxchSf-ZKPZnj-JE8sbrOurb1o1XkYbGnLCxdRT56P_2Y1X1wbP-ddtSdUcITDw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	22:39:59
+	75bff387-e080-4eda-824b-2c3a33cab7f9	ValidationError: User validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHAnRR1rcgt-xDLCRieMPB_yKLIjFcXPOikbTliGh1VOhzQz4lg3E8eQIWMNq1To5w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent	undefined
+20240322	22:40:59
+	67d2042e-98ce-49ec-bb74-bcb27a0810c3	ValidationError: User validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHASei7G9mg9E3lOSRrZqirh_A75BApR5ZIZUa_FcP7UnjL0Rlf-HRNMSo5ztZ71hQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent	undefined
+20240322	22:47:14
+	70746417-bec4-4b67-8dd5-675fefa76ac9	ValidationError: User validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHAOywbkKmofn29uYrryID9E4JGplQEMjbjQQa9tUv_DOr2N5rAOeQK7ke6UP67XRQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	22:51:12
+	289b62ad-cea8-481c-bf20-2e8f6142d3ad	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAOywbkKmofn29uYrryID9E4JGplQEMjbjQQa9tUv_DOr2N5rAOeQK7ke6UP67XRQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:05:17
+	2b4493bc-1c11-45ad-8d71-fab6f4705041	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAOywbkKmofn29uYrryID9E4JGplQEMjbjQQa9tUv_DOr2N5rAOeQK7ke6UP67XRQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:05:18
+	a41e3488-4002-47b1-be1f-5bc74186ec2a	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAOywbkKmofn29uYrryID9E4JGplQEMjbjQQa9tUv_DOr2N5rAOeQK7ke6UP67XRQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:12:09
+	c045b759-4a0b-4d70-b7fb-3475f455dd63	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHBAu-ES0W3Z9pQJPkp3uXrk9Qrhw8NyM57K2MmxmpWUTFUAfMFMXq5sEBniP10r9A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:21:45
+	9d8bc98e-2946-4675-a10a-dd08257ba41c	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAxd5fqxLmoQPSC-H8F4s22MxF1V4pB_WfrE-MMNom0D43HlHWCucXosTg6Nyg9Dw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:29:22
+	a3aeab99-17ed-4b19-ab76-d1f17738737a	ValidationError: User validation failed: password: Path `password` is required., role: Path `role` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHAX2YEHJaTYNvqz9-3a1yXWhe2INZzGAPIC6OicgSGuhgVU_pqE8TWPJxxCyb83Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:31:18
+	af8c2017-1520-4311-8bae-74ad1b780bb3	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAX2YEHJaTYNvqz9-3a1yXWhe2INZzGAPIC6OicgSGuhgVU_pqE8TWPJxxCyb83Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:31:21
+	a8efec76-3854-4dce-bc46-f264c0108db8	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAX2YEHJaTYNvqz9-3a1yXWhe2INZzGAPIC6OicgSGuhgVU_pqE8TWPJxxCyb83Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:31:21
+	13c40ee7-35ce-4b67-8ef3-60a427e915b3	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAX2YEHJaTYNvqz9-3a1yXWhe2INZzGAPIC6OicgSGuhgVU_pqE8TWPJxxCyb83Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:33:06
+	3269f99a-a1cf-4739-8628-7fc5e8106271	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAX2YEHJaTYNvqz9-3a1yXWhe2INZzGAPIC6OicgSGuhgVU_pqE8TWPJxxCyb83Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:33:07
+	9f953239-cf21-4c06-92a0-3464e10cdd2e	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHAX2YEHJaTYNvqz9-3a1yXWhe2INZzGAPIC6OicgSGuhgVU_pqE8TWPJxxCyb83Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:33:12
+	b6b58f7e-75b6-4766-ad62-74d2dcd1f25a	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHCVIe0EZebRH_CoZ8QqFRBNiPMG07J22VEjPQlr5tkb4lB08QQx7pDUpP1YvAj3Ew&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:36:23
+	e48d1f0d-3253-48ad-b195-d8d777f2012c	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHCVIe0EZebRH_CoZ8QqFRBNiPMG07J22VEjPQlr5tkb4lB08QQx7pDUpP1YvAj3Ew&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:37:51
+	03845a05-43da-43d0-9a4a-e9c5b1cf6778	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHDmqvffQhB5BUTkDkZL9bqdvtorHyzjKCinGrgb_DjQSZXgWlzSFC3BtIyoTsl53g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:40:54
+	3ffb02ff-7004-47b7-835a-c676db7a49f6	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHDmqvffQhB5BUTkDkZL9bqdvtorHyzjKCinGrgb_DjQSZXgWlzSFC3BtIyoTsl53g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:42:31
+	9c5e8c2e-3a84-4238-90bd-404d1f6ded16	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHAPyMV7VARa5ZZKVpodFVezjb-h2eSDcdRhV7JcTyv2ZtMNQoEDCwVpN3AXt6eQsQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:44:49
+	2bfbecc7-d352-4207-ba63-951bd7904e62	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHAPyMV7VARa5ZZKVpodFVezjb-h2eSDcdRhV7JcTyv2ZtMNQoEDCwVpN3AXt6eQsQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:44:52
+	866422aa-be30-416a-8ffa-830d0029c372	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHAPyMV7VARa5ZZKVpodFVezjb-h2eSDcdRhV7JcTyv2ZtMNQoEDCwVpN3AXt6eQsQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:44:58
+	441dac8f-0276-4c1f-8d4d-d9e557611be8	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHAa_luAB0zXRZ10l1EH0UBoInayIjdk5SlxHZ5CmShFf21-EUeCGxPJQ9YHXYGG4A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:45:16
+	b8c8c2df-ad0b-44af-8e61-ab9ea5f5550b	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHCfHuJoCmyH-KF6Q4LGZqsOcPe2I04p6MAXZL00KaCkGwhUk1-t3X3Pzcat_3QlUg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=esprit.tn&prompt=consent	undefined
+20240322	23:48:55
+	817abf68-32f7-48a4-bbcd-4351fbf64045	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHCaAtymxKZL8pAMQiH8UMzldmpPUmiqbmnfpRbboQ6xxCMdtX4lxr5RVM9PKBiM3g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:51:46
+	2bfe15bb-658b-4cf5-a56e-fc9916bd7e73	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHCFL4RwPyy5MQfCXUx7FXN6Vnt9LPPlYw_fv8JYSb8eaxgnClkIrap5Xjen4-L2UA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240322	23:53:35
+	16680ccc-7f55-4659-a7cf-1c8ae30d59ac	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHAV0uJo-7i0P9Gl6Ocs8Z0KZQoh8_efrOd0McBDFMseCHG4PymIJqBwej_x3A3gFw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	00:22:18
+	6a87ba5d-c3b6-49f1-b0d4-e5a4751ecdde	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHAV0uJo-7i0P9Gl6Ocs8Z0KZQoh8_efrOd0McBDFMseCHG4PymIJqBwej_x3A3gFw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	00:24:37
+	0633fd72-6202-497e-abe2-1194f55c9622	InternalOAuthError: Failed to fetch user profile	GET	/auth/google/callback?code=4%2F0AeaYSHCPuSX2IcilrQ4LF3gaVwpqa1Eli3NQhg97DKfr-SHyIrmKg71rBBDiWqL8aWbJWQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:05:27
+	daa75758-c8e4-4304-a236-a79aca933de2	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHBMBz9o_kU2FYUuKJBGuLt09Lo8b8gr7abvmP802Z6QPbs66Jwog50z-_k6-vJOEw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:14:34
+	6fe2f272-ffcf-4a65-a79a-46a0f33299bd	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHBax7QPjS3bcWwhdxu-sNW0RbUGXlAvEsvF22gKBVwB6lqTq5iqL74sVUIBkfCL7g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:14:36
+	a878244d-13aa-47d1-902e-022965ed5587	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHBax7QPjS3bcWwhdxu-sNW0RbUGXlAvEsvF22gKBVwB6lqTq5iqL74sVUIBkfCL7g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:20:09
+	06324119-ba57-403d-8668-69369f8a16b4	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHCg5011cru7FIna6t4pDlEkW1CshM9bSzQ3Akok-tOk_6fF8csi5_QKmE5csMl0cw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:20:10
+	208a35ad-a851-4d84-91e4-b6eba69f3e83	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHCg5011cru7FIna6t4pDlEkW1CshM9bSzQ3Akok-tOk_6fF8csi5_QKmE5csMl0cw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:20:17
+	ddc41c9c-8009-4d60-8aa2-4815d6e3a078	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHD0Iq01gTofB7qBz48-Y44VhxWfM2Zz6dhCe__QnJZgBucMRE56TA01svTxZ4y_ng&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:20:32
+	9f4bc036-cfde-4492-8cc0-be8f6caf8e65	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHDVYQiD6DvGo9sJdzNuXuMSXbSp4n4v0Zv8KuM5Th-PitrLyB7HiTXGDQrpXY_BJg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:21:25
+	3426bd4f-19dc-4a41-906f-25475db86585	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHCspQtQYgcEY-xcXNCQ7cxrk8vD9728v0eMMOx5CS78EksmTuSQtMNRRyhlQRwVrg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:25:14
+	9f01d4b9-c30f-4b98-b036-398c9d552ead	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHB-wNtm5LYxZiqeQb0wq3rHbckA2BnrXERsmKhU0SMnKdf687hfbKCJ7DLIHwsYoQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:28:17
+	2cc73b15-4591-48d8-b56b-6eaeef6a100d	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHBPLx663MbMquG19AQz31wjvHoxlVbgGYIRcgo8a8zjLDq4g-j8Lth8kvLHnIvKTg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:34:17
+	809a39f9-ccbd-40c5-845f-3365920ee444	ValidationError: User validation failed: password: Path `password` is required.	GET	/auth/google/callback?code=4%2F0AeaYSHCx-k8OWmRW4jpP_vzkA1AifWvfUjxR-3ZkPHUVJbJ2iMWkYPrjXm4I_Fwgzbb55g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:35:38
+	8ac5cfbe-f0ea-42d2-b3bc-4be7793d078a	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHCx-k8OWmRW4jpP_vzkA1AifWvfUjxR-3ZkPHUVJbJ2iMWkYPrjXm4I_Fwgzbb55g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:38:30
+	0642253d-5e69-43f1-8cbc-771e1fb5cf79	TokenError: Bad Request	GET	/auth/google/callback?code=4%2F0AeaYSHCzgVvKRAjStA-4UO1WdKrv9vQgG3s5B3bCF9e12PV43O-lBklFdMUbpOv-RJVTNw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:42:45
+	4fbafcf3-e76d-4875-8cac-32d614731033	Error: Unknown authentication strategy "google"	GET	/auth/google/callback?code=4%2F0AeaYSHC-z1HZ4EZHYGxrnDSgjvvy00UKbg00-FbdZNF2tZkJhHJpV91cqHQ-cdj525bajQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent	undefined
+20240323	01:43:01
+	c8b2bf9a-7819-47ab-9d3c-e3af3f206eb6	Error: Unknown authentication strategy "google"	GET	/auth/google	undefined
+20240323	01:43:04
+	caadd2e7-9cd3-427e-81f4-a03b4e7e752e	Error: Unknown authentication strategy "google"	GET	/auth/google	undefined
+20240323	01:43:04
+	9e2486f5-567a-425d-87b0-126cc6d077a2	Error: Unknown authentication strategy "google"	GET	/auth/google	undefined
+20240323	01:43:05
+	c348de35-c76c-4910-90c2-0c10b7345778	Error: Unknown authentication strategy "google"	GET	/auth/google	undefined
+20240323	01:43:05
+	e52305cb-ffba-4908-894f-3f1555369658	Error: Unknown authentication strategy "google"	GET	/auth/google	undefined
+20240324	11:50:23
+	6e240c7c-1c42-4c91-b6da-d5e30bb1883b	Error: Unknown authentication strategy "google"	GET	/auth/google	http://localhost:4200
+20240324	11:50:23
+	ed61875b-13ba-431f-9d6f-4ecd2d849e8b	Error: Unknown authentication strategy "google"	GET	/auth/google	http://localhost:4200
+20240324	11:50:47
+	b3b0eeed-ec44-43dc-8307-c80b507f05d3	Error: Unknown authentication strategy "google"	GET	/auth/google	http://localhost:4200
+20240324	11:50:50
+	cf2da3be-02b1-4e2d-9a53-7140fc383bea	Error: Unknown authentication strategy "google"	GET	/auth/google	http://localhost:4200
+20240324	11:50:50
+	e39df6f9-4d25-44c6-991c-5aa6130ce87b	Error: Unknown authentication strategy "google"	GET	/auth/google	http://localhost:4200
+20240326	01:21:23
+	8af4265f-005e-4d90-8d62-228ac17765aa	SyntaxError: Unexpected token  in JSON at position 39	POST	/api/forgotpwd	undefined

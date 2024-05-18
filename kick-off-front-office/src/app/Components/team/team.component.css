@@ -1,0 +1,151 @@
+/* Réinitialisation des marges et des rembourrages */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style de base pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Titre de section */
+.section-title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Tableau des joueurs */
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.player-table th, .player-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.player-table th {
+  background-color: #f2f2f2;
+}
+
+/* Boutons de CRUD */
+.crud-section {
+  text-align: center;
+}
+
+.crud-section button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #cd0505; /* Couleur pour les boutons CRUD */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.crud-section button:hover {
+  background-color: #a00303;
+}
+
+/* Liste des meilleures performances */
+.card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-info {
+  padding: 15px;
+}
+
+.card-info h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.card-info p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Actions de CRUD dans les cartes */
+.crud-actions {
+  display: flex;
+  justify-content: space-around; /* Centrer les boutons CRUD */
+  margin-top: 10px;
+}
+
+.crud-actions button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #cd0505; /* Couleur pour les boutons CRUD */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.crud-actions button:hover {
+  background-color: #a00303;
+}
+
+/* Boutons d'actions de gestion */
+.management-actions {
+  text-align: center; /* Centrer les boutons de gestion */
+  margin-top: 20px;
+}
+
+.management-actions button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #19204e; /* Couleur pour les autres boutons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.management-actions button:hover {
+  background-color: #0d132b;
+}

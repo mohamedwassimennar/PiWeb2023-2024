@@ -1,0 +1,36 @@
+.container {
+    padding-top: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .card-header {
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+color: #ccc;  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .text-center {
+    margin-top: 15px;
+  }
+  
+  .btn {
+    margin-right: 5px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .btn {
+      margin-bottom: 5px;
+    }
+  }
+  

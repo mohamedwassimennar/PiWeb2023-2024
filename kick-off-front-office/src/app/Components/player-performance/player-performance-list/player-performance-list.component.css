@@ -1,0 +1,91 @@
+
+.container {
+  padding-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease; 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+
+.card-header {
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+color: #ccc;  }
+
+.card-body {
+  padding: 15px;
+}
+
+.text-center {
+  margin-top: 15px;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    margin-bottom: 5px;
+  }
+}
+
+.section-title {
+  color: #19204e; 
+  font-size: 2.5rem; 
+  margin-bottom: 30px; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-weight: bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  text-align: center;
+  }
+  
+  .card-footer button {
+    transition: transform 0.3s ease; 
+  }
+  
+  .card-footer button:hover {
+    transform: scale(1.1); 
+  }
+.custom-card .card-footer button {
+  margin-right: 5px; 
+  padding: 8px 16px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.custom-card .card-footer button.btn-info {
+  background-color: #17a2b8; 
+  color: #fff; 
+}
+
+.custom-card .card-footer button.btn-secondary {
+  background-color: #6c757d; 
+  color: #fff; 
+}
+
+.custom-card .card-footer button.btn-danger {
+  background-color: #dc3545; 
+  color: #fff; 
+}
+
+
+.custom-card .card-footer button:hover {
+  opacity: 0.8;
+}
+.card button {
+  margin-right: 30px; /* Espacement à droite entre les boutons */
+}

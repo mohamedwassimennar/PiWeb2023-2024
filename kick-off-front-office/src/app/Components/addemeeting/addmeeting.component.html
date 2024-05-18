@@ -1,0 +1,50 @@
+<app-header>
+</app-header>
+<div class="container">
+    <!-- Training sessions section -->
+    <section class="management-section">
+        <div class="container">
+            <h2 class="text-center mt-5 mb-4"> Update Meeting</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form (ngSubmit)="updateAnalysis()" #updateForm="ngForm">
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Date</label>
+                            <input type="date " class="form-control " id="startDate " name="startDate " [(ngModel)]="analysisDetails.date " required #date="ngModel">
+                            <div *ngIf="date.invalid && (date.dirty || date.touched)" class="alert alert-danger">
+                                <div *ngIf="date.errors?.['required']">Date is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Time</label>
+                            <input type="time" class="form-control" id="time" name="time" placeholder="Enter your Time" required [(ngModel)]="analysisDetails.time" #time="ngModel">
+                            <div *ngIf="time.invalid && (time.dirty || time.touched)" class="alert alert-danger">
+                                <div *ngIf="time.errors?.['required']">Time is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="meettype" class="form-label">Meeting</label>
+                            <select class="form-select" id="meettype" name="meettype" required [(ngModel)]="analysisDetails.meettype" #meettype="ngModel">
+                                <option value="">Select a training type</option>
+                                <option value="player">Player</option>
+                                <option value="doctor">Doctor</option>
+                                <option value="physiotherapist">Physiotherapist</option>
+                              </select>
+                            <div *ngIf="meettype.invalid && (meettype.dirty || meettype.touched)" class="alert alert-danger">
+                                <div *ngIf="meettype.errors?.['required']">Meeting is required.</div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary" [disabled]="updateForm.invalid">Update Meeting</button><br>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,19 @@
+.section-heading {
+    text-align: center;
+  }
+  
+ 
+  
+  .custom-card {
+    margin-top: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card .card-title {
+    color: #333;
+  }
+  
+  .custom-card .card-text {
+    color: #666;
+  }
+  

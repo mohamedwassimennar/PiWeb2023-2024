@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Recovery Plan</title>
+  <link rel="stylesheet" href="add-recovery-plan.component.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <app-header></app-header>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="section-title">Add New Recovery Plan</h2>
+        </div>
+        <div class="card-body">
+          <form #recoveryPlanForm="ngForm" (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+            <!-- Player Name -->
+            <div class="form-group">
+              <label for="playerName">Player Name</label>
+              <input type="text" id="playerName" name="playerName" [(ngModel)]="newRecoveryPlan.playerName" required pattern="[A-Za-z ]*" class="form-control" #playerName="ngModel">
+              <div *ngIf="playerName.invalid && (playerName.dirty || playerName.touched)" class="text-danger">
+                <div *ngIf="playerName.errors?.['required']">Player name is required.</div>
+                <div *ngIf="playerName.errors?.['pattern']">Player name must contain letters only.</div>
+              </div>
+            </div>
+            <!-- Injury Status -->
+            <div class="form-group">
+              <label for="injuryStatus">Injury Status</label>
+              <select id="injuryStatus" name="injuryStatus" [(ngModel)]="newRecoveryPlan.injuryStatus" required class="form-control" #injuryStatus="ngModel">
+                <option value="" disabled>Select Injury Status</option>
+                <option value="In Recovery">In Recovery</option>
+                <option value="Recovered">Recovered</option>
+                <option value="Pending">Pending</option>
+              </select>                
+              <div *ngIf="injuryStatus.invalid && (injuryStatus.dirty || injuryStatus.touched)" class="text-danger">
+                <div *ngIf="injuryStatus.errors?.['required']">Injury status is required.</div>
+              </div>
+            </div>
+            <!-- Recovery Start Date -->
+            <div class="form-group">
+              <label for="recoveryStartDate">Recovery Start Date</label>
+              <input type="date" id="recoveryStartDate" name="recoveryStartDate" [(ngModel)]="newRecoveryPlan.recoveryStartDate" required class="form-control" #recoveryStartDate="ngModel">
+              <div *ngIf="recoveryStartDate.invalid && (recoveryStartDate.dirty || recoveryStartDate.touched)" class="text-danger">
+                <div *ngIf="recoveryStartDate.errors?.['required']">Recovery start date is required.</div>
+              </div>
+            </div>
+            <!-- Recovery End Date -->
+            <div class="form-group">
+              <label for="recoveryEndDate">Recovery End Date</label>
+              <input type="date" id="recoveryEndDate" name="recoveryEndDate" [(ngModel)]="newRecoveryPlan.recoveryEndDate" required class="form-control" #recoveryEndDate="ngModel">
+              <div *ngIf="recoveryEndDate.invalid && (recoveryEndDate.dirty || recoveryEndDate.touched)" class="text-danger">
+                <div *ngIf="recoveryEndDate.errors?.['required']">Recovery end date is required.</div>
+              </div>
+            </div>
+            <!-- Recovery Activities -->
+            <div class="form-group">
+              <label for="recoveryActivities">Recovery Activities</label>
+              <textarea id="recoveryActivities" name="recoveryActivities" [(ngModel)]="newRecoveryPlan.recoveryActivities" required class="form-control" #recoveryActivities="ngModel"></textarea>
+              <div *ngIf="recoveryActivities.invalid && (recoveryActivities.dirty || recoveryActivities.touched)" class="text-danger">
+                <div *ngIf="recoveryActivities.errors?.['required']">Recovery activities are required.</div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="recoveryPlanForm.invalid"><i class="fas fa-plus"></i>Add Recovery Plan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+<!-- Bootstrap JS (Optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

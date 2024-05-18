@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Injury</title>
+  <link rel="stylesheet" href="add-injury.component.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <app-header></app-header>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="section-title">Add New Injury</h2>
+        </div>
+        <div class="card-body">
+          <form #injuryForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+            <!-- Player Name -->
+            <div class="form-group">
+              <label for="playerName">Player Name</label>
+              <input type="text" id="playerName" name="playerName" [(ngModel)]="newInjury.playerName" required pattern="[A-Za-z ]*" class="form-control" #playerName="ngModel">
+              <div *ngIf="playerName.invalid && (playerName.dirty || playerName.touched)" class="text-danger">
+                <div *ngIf="playerName.errors?.['required']">Player name is required.</div>
+                <div *ngIf="playerName.errors?.['pattern']">Player name must contain letters only.</div>
+              </div>
+            </div>
+            <!-- Type -->
+            <div class="form-group">
+              <label for="type">Type</label>
+              <select id="type" name="type" [(ngModel)]="newInjury.type" required class="form-control" #type="ngModel">
+                <option value="Muscle">Muscle</option>
+                <option value="Ligament">Ligament</option>
+                <option value="Fracture">Fracture</option>
+                <option value="Other">Other</option>
+              </select>
+              <div *ngIf="type.invalid && (type.dirty || type.touched)" class="text-danger">
+                <div *ngIf="type.errors?.['required']">Type is required.</div>
+              </div>
+            </div>
+            <!-- Description -->
+            <div class="form-group">
+              <label for="description">Description</label>
+              <textarea id="description" name="description" [(ngModel)]="newInjury.description" required class="form-control" #description="ngModel"></textarea>
+              <div *ngIf="description.invalid && (description.dirty || description.touched)" class="text-danger">
+                <div *ngIf="description.errors?.['required']">Description is required.</div>
+              </div>
+            </div>
+            <!-- Date -->
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" [(ngModel)]="newInjury.date" required class="form-control" #date="ngModel">
+              <div *ngIf="date.invalid && (date.dirty || date.touched)" class="text-danger">
+                <div *ngIf="date.errors?.['required']">Date is required.</div>
+              </div>
+            </div>
+                  <!-- Estimated Recovery Time -->
+                  <div class="form-group">
+                    <label for="estimatedRecoveryTime">Estimated Recovery Time (in days)</label>
+                    <input type="number" id="estimatedRecoveryTime" name="estimatedRecoveryTime" [(ngModel)]="newInjury.estimatedRecoveryTime" required class="form-control" #estimatedRecoveryTime="ngModel" min="1">
+                    <div *ngIf="estimatedRecoveryTime.invalid && (estimatedRecoveryTime.dirty || estimatedRecoveryTime.touched)" class="text-danger">
+                      <div *ngIf="estimatedRecoveryTime.errors?.['required']">Estimated Recovery Time is required.</div>
+                      <div *ngIf="estimatedRecoveryTime.errors?.['min']">Estimated Recovery Time must be greater than 0.</div>
+                    </div>
+                  </div>
+            <button type="submit" class="btn btn-primary" [disabled]="injuryForm.invalid"><i class="fas fa-plus"></i>Add Injury</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+<!-- Bootstrap JS (Optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

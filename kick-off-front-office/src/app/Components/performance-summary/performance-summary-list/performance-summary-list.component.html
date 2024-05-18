@@ -1,0 +1,54 @@
+
+<app-header></app-header>
+
+
+<div class="container">
+  <h2 class="section-title"> Performances summurry List</h2>
+
+  <div class="row justify-content-start  mb-3">
+    <div class="col-md-5 text-center">
+      <a routerLink="/perfermance-summary/performance-summary-add" class="btn btn-success" *ngIf="userDetails?.role === 'fitnessCoach'"><i class="fas fa-plus"></i>Add Performance summurry</a>
+    </div>
+  </div>
+  <div *ngIf="deleteSuccessMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+    {{ deleteSuccessMessage }}
+    <button type="button" class="close" (click)="clearDeleteSuccessMessage()" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let performance of performances">
+      <div class="card mb-3">
+     
+        <div class="card-body">
+          <p class="card-text">Season: {{ performance.season }}</p>
+          <p class="card-text">Total Goals Scored: {{ performance.totalGoalsScored }}</p>
+          <p class="card-text">Average Pass Completion Rate: {{ performance.averagePassCompletionRate }}</p>
+          <p class="card-text">Total Distance Covered: {{ performance.totalDistanceCovered }}</p>
+          <p class="card-text">Total Matches Played: {{ performance.totalMatchesPlayed }}</p>
+          <p class="card-text">Yellow Cards: {{ performance.yellowCards }}</p>
+          <p class="card-text">Red Cards: {{ performance.redCards }}</p>
+          <p class="card-text">Minutes Played: {{ performance.minutesPlayed }}</p>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-info" *ngIf="userDetails?.role === 'fitnessCoach'" [routerLink]="['/perfermance-summary/performance-summary-details', performance._id]">
+            <i class="fas fa-info-circle"></i> 
+          </button>
+          <button class="btn btn-primary" *ngIf="userDetails?.role === 'fitnessCoach'" [routerLink]="['/perfermance-summary/performance-summary-update', performance._id]">
+            <i class="fas fa-edit"></i> 
+          </button>
+          <button class="btn btn-danger" (click)="archivesummury(performance._id)" *ngIf="userDetails?.role === 'fitnessCoach'">
+              <i class="fas fa-trash-alt" ></i> 
+            </button>
+       
+        
+            <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<br>
+
+<app-footer></app-footer>

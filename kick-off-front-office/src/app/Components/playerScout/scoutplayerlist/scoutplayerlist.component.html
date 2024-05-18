@@ -1,0 +1,44 @@
+<app-header></app-header>
+<div class="container">
+    <br>
+    <h2 class="text-center">Scouted Players</h2>
+    <!--<button class="btn btn-primary" (click)="navigateToAdd()">Add a player</button>--><br> <br>
+
+    <div class="row">
+        <div class="col-md-4" *ngFor="let player of players| paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+            <ng-container *ngIf="!player.archived">
+                <div class="card mb-4 custom-card">
+                    <div class="card-body"> 
+                        <h5 class="card-title">{{ player.playerName }}</h5>
+                        <p class="card-text"><strong>Club:</strong> {{ player.club }}</p>
+                        <p class="card-text"><strong>Contract:</strong> {{ player.contract }}</p>
+                        <p class="card-text"><strong>Market Value:</strong> {{ player.marketValue }}</p>
+                        <!--<button class="btn btn-secondary" (click)="navigateToDetails(player._id)">Détails</button>
+            <button class="btn btn-success" (click)="navigateToUpdate(player._id)">Mise à Jour</button>
+            <button class="btn btn-danger" (click)="deleteAnalysis(player._id)">Supprimer</button>-->
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+        <pagination-controls (pageChange)="currentPage=$event"></pagination-controls>
+
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-4" *ngFor="let article of newsArticles">
+            <div class="card mb-4 custom-card ">
+                <img class="card-img-top custom-img " [src]="article.urlToImage " alt="{{ article.title }} ">
+                <div class="card-body ">
+                    <h5 class="card-title ">{{ article.title }}</h5>
+                    <p class="card-text description ">{{ article.description }}</p>
+                    <p class="card-text ">Published At: {{ article.publishedAt | date }}</p>
+                    <a [href]="article.url " class="btn btn-primary " target="_blank ">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

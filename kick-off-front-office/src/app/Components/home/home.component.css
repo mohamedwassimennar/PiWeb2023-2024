@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+.background-image {
+    background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
+
+#advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #19204e;
+}
+
+.advantage-column {
+    flex: 1; /* Chaque colonne prend un espace équitable */
+    max-width: 250px; /* Maximum width pour chaque colonne */
+    text-align: center; /* Centre le texte */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Léger effet d'ombre pour chaque colonne */
+    border-radius: 8px; /* Bordures arrondies */
+    background: #fff; /* Fond blanc pour le contraste */
+}
+
+.advantage-column img {
+    width: 100%; /* Les images s'adaptent à la largeur */
+    max-width: 100px; /* Limite la taille maximale des images */
+    height: auto; /* Assure que le rapport d'aspect des images est conservé */
+    margin-bottom: 15px; /* Espacement entre l'image et le titre */
+}
+
+@media (max-width: 1024px) {
+    #advantages {
+        justify-content: space-around; /* Ajuste l'espacement entre les colonnes sur des écrans plus petits */
+    }
+}
+
+@media (max-width: 768px) {
+    #advantages {
+        flex-direction: column;
+        align-items: center; /* Les colonnes se placent verticalement et se centrent */
+    }
+
+    .advantage-column {
+        max-width: 300px; /* Ajuste la largeur maximale sur des écrans plus petits pour un meilleur affichage */
+    }
+}
+
+#about-section {
+    text-align: center; /* Centre le texte et les éléments à l'intérieur */
+    background-color: #f2f2f2; /* Couleur de fond légère pour la section */
+    padding: 40px 20px; /* Padding généreux pour un bon espacement */
+    border-radius: 8px; /* Bordures arrondies pour un look moderne */
+    margin: 20px auto; /* Centre la section horizontalement avec un peu d'espace autour */
+    max-width: 800px; /* Largeur maximale pour contrôler l'étirement sur les grands écrans */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Léger effet d'ombre pour la profondeur */
+}
+
+#about-section img {
+    width: 100%; /* Les images s'adaptent à la largeur */
+    max-width: 200px; /* Limite la taille maximale de l'image */
+    height: auto; /* Garantit que le rapport hauteur/largeur de l'image est maintenu */
+    margin: 0 auto 20px; /* Centre l'image et ajoute un espace en dessous */
+    display: block; /* Assure que l'image est traitée comme un bloc pour le centrage */
+}
+
+#about-section h2 {
+    margin-bottom: 20px; /* Espacement en dessous du titre */
+    color: #333; /* Couleur du texte */
+    font-size: 28px; /* Taille de la police */
+}
+
+#about-section p {
+    font-size: 16px; /* Définit la taille de la police */
+    line-height: 1.6; /* Espacement entre les lignes pour une meilleure lisibilité */
+    color: #555; /* Couleur du texte, une teinte de gris pour réduire la fatigue oculaire */
+    text-align: justify; /* Justifie le texte pour un alignement propre sur les deux côtés */
+    margin: 20px auto; /* Ajoute de l'espace autour du paragraphe pour un meilleur design */
+    max-width: 700px; /* Largeur maximale du paragraphe pour une lecture confortable */
+}
+
+#about-section h2, #about-section p {
+    padding: 0 15px; /* Ajoute un padding pour ne pas que le texte touche les bords */
+}
+
+.section-title {
+    
+    font-size: 24px; /* Taille de police */
+    font-weight: bold; /* Gras */
+    font-family: 'Raleway', sans-serif; /* Police de caractères */
+    color: #19204e; /* Couleur du texte */
+    text-align: center; /* Centrage */
+    margin-top: 20px; /* Espacement en haut */
+    margin-bottom: 20px; /* Espacement en bas */
+}
+
+
+
+
+
+
+/* CSS personnalisé */
+#app-users {
+    text-align: center; /* Centrage */
+}
+
+.user-images {
+    margin-top: 20px; /* Espacement en haut */
+    display: flex; /* Utiliser flexbox pour aligner les éléments */
+    justify-content: center; /* Centrer les éléments horizontalement */
+}
+
+.user {
+    margin: 0 10px; /* Espacement entre les utilisateurs */
+    text-align: center; /* Centrer le texte sous l'image */
+}
+
+.user-image {
+    width: 120px; /* Largeur de l'image */
+    height: 120px; /* Hauteur de l'image */
+    border-radius: 50%; /* Coins arrondis pour créer une forme ronde */
+}
+
+/* CSS personnalisé */
+.user-name {
+    margin-top: 5px; /* Espacement entre l'image et le texte */
+    font-weight: bold; /* Texte en gras */
+    color: #cd0505; /* Couleur du texte */
+    font-family: 'Raleway', sans-serif; /* Police de caractères */
+}
+
+
+

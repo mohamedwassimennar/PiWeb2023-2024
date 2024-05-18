@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="card-body">
+    <h2 class="card-title">Event Details</h2>
+    <p class="card-text"><strong>Title:</strong> {{ data?.eventDetails.team }} vs {{ data?.eventDetails.opponent }}</p>
+    <p class="card-text"><strong>Date:</strong> {{ data?.eventDetails.date | date: 'medium' }}</p>
+    <p class="card-text"><strong>Fixture Type:</strong> {{ data?.eventDetails.fixtureType }}</p>
+    <p class="card-text"><strong>Match Status:</strong> {{ data?.eventDetails.matchStatus }}</p>
+    <p class="card-text"><strong>Venue:</strong> {{ data?.eventDetails.venue }}</p>
+    <p class="card-text"><strong>Score:</strong> {{ data?.eventDetails.score }}</p>
+  </div>
+</div>

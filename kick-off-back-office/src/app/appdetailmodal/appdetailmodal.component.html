@@ -1,0 +1,15 @@
+<div class="modal-container">
+
+    <div class="card">
+        <div class="card-body">
+            <button class="cancel-btn" (click)=" fermerModal()">
+            <i class="fas fa-times"></i> <!-- Cancel icon -->
+        </button>
+            <p class="card-text"><strong>Date :</strong> {{ formaterDate(data?.eventDetails.date) }}</p>
+            <p class="card-text"><strong>Time :</strong> {{ data?.eventDetails.time }}</p>
+            <p class="card-text"><strong>Meeting with :</strong> {{data?.eventDetails.meettype }}</p>
+            <p class="card-text"><strong>Link :</strong> {{data?.eventDetails.link }}</p>
+
+        </div>
+    </div>
+</div>

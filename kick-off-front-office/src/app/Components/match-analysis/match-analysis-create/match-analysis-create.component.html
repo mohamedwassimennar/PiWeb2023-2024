@@ -1,0 +1,40 @@
+<app-header></app-header>
+
+
+<div class="container">
+  <h2 class="section-title">Add Match Analysis</h2>
+
+  <!-- Alert for success -->
+  <div *ngIf="successMessage" class="alert alert-success">
+    {{ successMessage }}
+  </div>
+  <br>
+  <form [formGroup]="analysisForm" (ngSubmit)="addAnalysis()">
+
+    <div class="form-group">
+      <label for="teamPerformance">Team Performance:</label>
+      <input type="text" class="form-control" id="teamPerformance" formControlName="teamPerformance" required>
+      <div *ngIf="analysisForm.get('teamPerformance')?.errors?.['required'] && analysisForm.get('teamPerformance')?.touched" class="text-danger">Team Performance is required</div>
+    </div>
+    <div class="form-group">
+      <label for="tacticalFormations">Tactical Formations:</label>
+      <input type="text" class="form-control" id="tacticalFormations" formControlName="tacticalFormations" required>
+      <div *ngIf="analysisForm.get('tacticalFormations')?.errors?.['required'] && analysisForm.get('tacticalFormations')?.touched" class="text-danger">Tactical Formations is required</div>
+    </div>
+    <div class="form-group">
+      <label for="keyMoments">Key Moments:</label>
+      <textarea class="form-control" id="keyMoments" formControlName="keyMoments" rows="5" required></textarea>
+      <div *ngIf="analysisForm.get('keyMoments')?.errors?.['required'] && analysisForm.get('keyMoments')?.touched" class="text-danger">Key Moments is required</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <button type="submit" class="btn btn-primary" [disabled]="analysisForm.invalid" >  <i class="fa fa-plus"></i>Add Analysis</button>
+      </div>
+      <div class="col-md-6">
+        <button class="btn btn-secondary" (click)="goBack()">  <i class="fas fa-arrow-left"></i>Return Back</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<app-footer></app-footer>

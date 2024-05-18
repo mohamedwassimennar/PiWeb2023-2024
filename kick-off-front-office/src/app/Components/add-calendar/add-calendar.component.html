@@ -1,0 +1,41 @@
+<app-header>
+</app-header>
+<div class="container">
+    <!-- Training sessions section -->
+    <section class="management-section">
+        <div class="container">
+            <h2 class="text-center mt-5 mb-4">Add Schedule internships</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form (ngSubmit)="ajouter()" #ajoutForm="ngForm">
+                        <div class="mb-3">
+                            <label for="startDate">StartDate</label>
+                            <input type="date" class="form-control" id="startDate" name="startDate" [(ngModel)]="nouveauMatch.startDate" required placeholder="Choose start date" #startDate="ngModel">
+                            <div *ngIf="startDate.invalid && (startDate.dirty || startDate.touched)" class="alert alert-danger">
+                                <div *ngIf="startDate.errors?.['required']">Start date is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="endDate">EndDate</label>
+                            <input type="date" class="form-control" id="endDate" name="endDate" [(ngModel)]="nouveauMatch.endDate" required placeholder="Choose end date" [min]="nouveauMatch.startDate" #endDate="ngModel">
+                            <div *ngIf="endDate.invalid && (endDate.dirty || endDate.touched)" class="alert alert-danger">
+                                <div *ngIf="endDate.errors?.['required']">End date is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Place">Place</label>
+                            <input type="text" class="form-control" id="Place" name="Place" [(ngModel)]="nouveauMatch.lieu" required placeholder="Enter place" pattern="^[a-zA-Z\s]+$" #place="ngModel">
+                            <div *ngIf="place.invalid && (place.dirty || place.touched)" class="alert alert-danger">
+                                <div *ngIf="place.errors?.['required']">Place is required.</div>
+                                <div *ngIf="place.errors?.['pattern']">Place must contain only letters and spaces.</div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" [disabled]="ajoutForm.invalid">Add Schedule internships</button><br>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+<app-footer></app-footer>

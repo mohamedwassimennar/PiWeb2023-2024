@@ -1,0 +1,94 @@
+<app-header>
+</app-header>
+<br>
+<div class="container">
+    <!-- Training sessions section -->
+    <section class="management-section">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center" *ngIf="userDetails.role === 'coach'">
+                <button class="info btn btn-sm" data-toggle="modal" data-target="#exampleModalCenter">Create Meeting</button>
+                <h2 class="section-title" *ngIf="userDetails.role === 'coach' || userDetails.role === 'doctor'">Meetings</h2>
+                <button class="info btn btn-sm" [routerLink]="['/jitsi']">Start Conference</button>
+            </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-body">
+                        <form #form="ngForm">
+                            <div class="modal-content">
+                                <div class="mb-3">
+                                    <label for="meetingDate" class="form-label">Date</label>
+                                    <input type="date" class="form-control" id="meetingDate" name="meetingDate" [(ngModel)]="nouveau.date" required #meetingDate="ngModel">
+                                    <div *ngIf="meetingDate.invalid && (meetingDate.dirty || meetingDate.touched)" class="alert alert-danger">
+                                        <div *ngIf="meetingDate.errors?.['required']">Date is required.</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="meetingTime" class="form-label">Time</label>
+                                    <input type="time" class="form-control" id="meetingTime" name="meetingTime" [(ngModel)]="nouveau.time" required #meetingTime="ngModel">
+                                    <div *ngIf="meetingTime.invalid && (meetingTime.dirty || meetingTime.touched)" class="alert alert-danger">
+                                        <div *ngIf="meetingTime.errors?.['required']">Time is required.</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="meetingWith" class="form-label">Meeting with</label>
+                                    <select class="form-select" id="meetingWith" name="meetingWith" [(ngModel)]="nouveau.meettype" required #meetingWith="ngModel">
+                                            <option value="">Select an option</option>
+                                            <option value="player">player</option>
+                                            <option value="doctor">Doctor</option>
+                                            <option value="physiotherapist">physiherapist</option>
+                                        </select>
+                                    <div *ngIf="meetingWith.invalid && (meetingWith.dirty || meetingWith.touched)" class="alert alert-danger">
+                                        <div *ngIf="meetingWith.errors?.['required']">Meeting type is required.</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-secondary me-2" data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary ms-2" (click)="ajouter()" data-dismiss="modal">Send</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="container-fluid">
+    <section class="management-section " style=" padding: 0 6rem">
+        <h2 class="section-title" *ngIf="userDetails.role === 'doctor'">Meetings</h2>
+
+        <div class="row" style="padding: 0 5rem">
+            <div class="col-md-4" *ngFor="let even of evenement | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+                <!-- Vérifier si le rôle est "doctor" et que la meettype est "doctor" -->
+                <div *ngIf="(userDetails.role === 'doctor' && even.meettype === 'doctor') || userDetails.role === 'coach'">
+                    <div class="card mb-6">
+                        <div class="card-body">
+                            <img src="assets/images/Kickof .jpg" alt="" style="width: 90%; height:125p
+                            x;  ">
+                            <p class="card-text"><strong>Date</strong> : {{ formaterDate(even.date) }}</p>
+                            <p class="card-text"><strong>Time</strong> : {{ even.time }}</p>
+                            <p class="card-text" *ngIf="userDetails.role === 'coach'"><strong>Meeting with</strong> : {{ even.meettype }}</p>
+
+                            <p class="card-text"><strong>Link</strong> : <a href="{{ even.link }}">{{ even.link }}</a></p>
+                            <div class="d-flex justify-content-between align-items-center" style="margin-top: 10px;">
+                                <div class="btn-group" *ngIf="userDetails.role === 'coach'">
+                                    <button class="danger btn btn-sm" style="margin-left: 5px;" (click)="delete(even._id)"><i class="fas fa-trash"></i> Delete</button>
+                                    <button class="info btn btn-sm ml-2" [routerLink]="['/upd', even._id]"><i class="fas fa-edit"></i> Update</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <pagination-controls (pageChange)="currentPage=$event"></pagination-controls>
+
+    </section>
+
+</div>
+<app-footer></app-footer>

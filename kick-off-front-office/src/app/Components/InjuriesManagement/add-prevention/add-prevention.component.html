@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Prevention</title>
+  <link rel="stylesheet" href="add-prevention.component.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <app-header></app-header>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="section-title">Add New Prevention</h2>
+        </div>
+        <div class="card-body">
+          <form #preventionForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+            <!-- Player Name -->
+            <div class="form-group">
+              <label for="playerName">Player Name</label>
+              <input type="text" id="playerName" name="playerName" [(ngModel)]="newPrevention.playerName" required pattern="[A-Za-z ]*" class="form-control" #playerName="ngModel">
+              <div *ngIf="playerName.invalid && (playerName.dirty || playerName.touched)" class="text-danger">
+                <div *ngIf="playerName.errors?.['required']">Player name is required.</div>
+                <div *ngIf="playerName.errors?.['pattern']">Player name must contain letters only.</div>
+              </div>
+            </div>
+            <!-- Description -->
+            <div class="form-group">
+              <label for="description">Description</label>
+              <textarea id="description" name="description" [(ngModel)]="newPrevention.description" required class="form-control" #description="ngModel"></textarea>
+              <div *ngIf="description.invalid && (description.dirty || description.touched)" class="text-danger">Description is required.</div>
+            </div>
+            <!-- Recommended Practices -->
+            <div class="form-group">
+              <label for="recommendedPractices">Recommended Practices</label>
+              <select id="recommendedPractices" name="recommendedPractices" [(ngModel)]="newPrevention.recommendedPractices" required class="form-control" #recommendedPractices="ngModel">
+                <option value="" disabled selected>Select Recommended Practice</option>
+                <option value="Not recommended">Not recommended</option>
+                <option value="Proper warm-up and cool-down routines">Proper warm-up and cool-down routines</option>
+                <option value="Regular sports massage therapy">Regular sports massage therapy</option>
+                <option value="Periodic medical check-ups and assessments">Periodic medical check-ups and assessments</option>
+                <option value="Implement injury prevention programs">Implement injury prevention programs</option>
+              </select>
+              <div *ngIf="recommendedPractices.invalid && (recommendedPractices.dirty || recommendedPractices.touched)" class="text-danger">Recommended Practices are required.</div>
+            </div>
+            <!-- Equipment Recommendations -->
+            <div class="form-group">
+              <label for="equipmentRecommendations">Equipment Recommendations</label>
+              <select id="equipmentRecommendations" name="equipmentRecommendations" [(ngModel)]="newPrevention.equipmentRecommendations" required class="form-control" #equipmentRecommendations="ngModel">
+                <option value="" disabled selected>Select Equipment Recommendation</option>
+                <option value="Not recommended">Not recommended</option>
+                <option value="Wear appropriate cleats for the playing surface">Wear appropriate cleats for the playing surface</option>
+                <option value="Use shin guards for protection">Use shin guards for protection</option>
+              </select>
+              <div *ngIf="equipmentRecommendations.invalid && (equipmentRecommendations.dirty || equipmentRecommendations.touched)" class="text-danger">Equipment Recommendations are required.</div>
+            </div>
+            <!-- Nutritional Recommendations -->
+            <div class="form-group">
+              <label for="nutritionalRecommendations">Nutritional Recommendations</label>
+              <select id="nutritionalRecommendations" name="nutritionalRecommendations" [(ngModel)]="newPrevention.nutritionalRecommendations" required class="form-control" #nutritionalRecommendations="ngModel">
+                <option value="" disabled selected>Select Nutritional Recommendation</option>
+                <option value="Not recommended">Not recommended</option>
+                <option value="Maintain a balanced diet rich in carbohydrates, protein, and healthy fats">Maintain a balanced diet rich in carbohydrates, protein, and healthy fats</option>
+                <option value="Stay hydrated by drinking water before, during, and after activities">Stay hydrated by drinking water before, during, and after activities</option>
+              </select>
+              <div *ngIf="nutritionalRecommendations.invalid && (nutritionalRecommendations.dirty || nutritionalRecommendations.touched)" class="text-danger">Nutritional Recommendations are required.</div>
+            </div>
+            <!-- Lifestyle Recommendations -->
+            <div class="form-group">
+              <label for="lifestyleRecommendations">Lifestyle Recommendations</label>
+              <select id="lifestyleRecommendations" name="lifestyleRecommendations" [(ngModel)]="newPrevention.lifestyleRecommendations" required class="form-control" #lifestyleRecommendations="ngModel">
+                <option value="" disabled selected>Select Lifestyle Recommendation</option>
+                <option value="Not recommended">Not recommended</option>
+                <option value="Manage training workload to avoid overtraining and fatigue">Manage training workload to avoid overtraining and fatigue</option>
+                <option value="Incorporate rest days into training schedules">Incorporate rest days into training schedules</option>
+                <option value="Practice safe tackling and falling techniques to prevent injuries">Practice safe tackling and falling techniques to prevent injuries</option>
+                <option value="Educate athletes about common injuries and early warning signs">Educate athletes about common injuries and early warning signs</option>
+              </select>
+              <div *ngIf="lifestyleRecommendations.invalid && (lifestyleRecommendations.dirty || lifestyleRecommendations.touched)" class="text-danger">Lifestyle Recommendations are required.</div>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="preventionForm.invalid"><i class="fas fa-plus"></i>Add Prevention</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+<!-- Bootstrap JS (Optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

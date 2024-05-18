@@ -1,0 +1,50 @@
+<app-header></app-header>
+
+<h2 class="title">HEALTH CARE CHAT GROUP</h2>
+
+<div class="container">
+  <div class="users-list">
+    <ul>
+      <li *ngFor="let user of usersWithRoles" (click)="selectUser(user)">
+        <div class="user-item">
+          <!-- Réduire la taille de l'image -->
+          <img class="user-photo" src="assets/images/man.png" alt="User Photo">
+          <!-- Mettre les noms en gras -->
+          <span class="user-name">{{ user.firstName }} {{ user.lastName }} - {{ user.role }}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Formulaire de message toujours affiché -->
+  <div class="chat-section">
+    <form class="message-form" (submit)="sendMessage()">
+      <textarea class="message-input" [(ngModel)]="message.message" name="message" placeholder="Type your message here..."></textarea>
+      <!-- Utilisation d'une icône pour le bouton d'envoi -->
+      <button class="send-button" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+    </form>
+
+  <!-- Messages -->
+  <div class="message-section" *ngIf="messageList.length > 0">
+    <ul>
+      <li *ngFor="let message of messageList">
+        <div class="message">
+          <div class="sender-details">
+            <!-- Utilisation d'une image pour l'envoyeur de message -->
+            <img class="sender-photo" src="assets/images/chat-box.png" alt="Sender Photo">
+            <p><strong>{{ message.sender }}</strong> - {{ message.date | date: 'medium' }}</p>
+          </div>
+          <p>{{ message.message }}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+    <!-- Bouton pour effacer l'historique des messages -->
+    <!-- Utilisation d'une icône pour le bouton d'effacement -->
+    <button class="clear-button" (click)="clearMessageHistory()"><i class="fas fa-trash-alt"></i> Clear Message History</button>
+  </div>
+</div>
+
+<app-footer></app-footer>

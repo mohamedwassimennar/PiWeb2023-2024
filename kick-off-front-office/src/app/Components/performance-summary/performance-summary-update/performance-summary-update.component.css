@@ -1,0 +1,57 @@
+
+.card {
+  margin-top: 20px;
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #19204e; /* Bleu foncé */
+  font-size: 2.5rem; /* Taille de police */
+  text-transform: uppercase; /* Convertir en majuscules */
+  letter-spacing: 1px; /* Espacement entre les lettres */
+  font-weight: bold; /* Gras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+}
+
+.card-text {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.container {
+  padding-top: 50px;
+  
+}
+h2{
+  color: aliceblue;
+}
+.custom-btn {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  font-size: 14px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.custom-btn:hover {
+  background-color: red;
+}
+
+.btn {
+  width: calc(50% - 5px); 
+  margin-right: 5px; 
+}
+.background-image {
+  background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+}

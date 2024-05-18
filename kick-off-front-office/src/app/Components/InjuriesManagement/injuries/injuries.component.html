@@ -1,0 +1,40 @@
+<app-header></app-header>
+<div class="container">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Injuries List -->
+  <h2 class="section-title">Injuries List</h2>
+  <div class="card-list">
+    <div class="card" *ngFor="let injury of injuries | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage, totalItems: injuries.length }">
+      <img src="assets/images/injury3.png" alt="Injury Image" style="max-width: 100px;">
+      <div class="card-info">
+        <h3>{{ injury.playerName }}</h3>
+        <p>Type: {{ injury.type }}</p>
+        <p>Description: {{ injury.description }}</p>
+        <p>Date: {{ injury.date | date }}</p>
+        <p>Estimated Recovery Time: {{ injury.estimatedRecoveryTime }} days</p>
+      </div>
+      <div class="card-actions">
+        <!-- Update button -->
+        <button class="btn update-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" [routerLink]="['/injuries/update', injury._id]"><i class="fas fa-edit"></i>Update</button>
+        <!-- Archive button -->
+        <button class="btn archive-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" (click)="archiveInjury(injury._id)"><i class="fas fa-archive"></i>Archive</button>
+        <!-- Delete button -->
+        <button class="btn delete-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" (click)="deleteInjury(injury._id)"><i class="fas fa-trash-alt"></i>Delete</button>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <pagination-controls class="custom-pagination" (pageChange)="currentPage = $event"></pagination-controls>
+  </div>
+  
+
+  <!-- Add Injury Button -->
+  <div class="add-injury-button">
+    <a class="btn add-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" routerLink="/addInjury"><i class="fas fa-plus"></i>Add Injury</a>
+    <!-- Download PDF Button -->
+    <a class="btn download-btn" *ngIf="userDetails?.role === 'doctor' || userDetails?.role === 'physiotherapist'" href="http://localhost:3000/injuries/extractpdf">
+      <i class="fas fa-file-pdf"></i> Download
+    </a>
+  </div>
+</div>
+<app-footer></app-footer>

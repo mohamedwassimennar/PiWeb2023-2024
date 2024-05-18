@@ -1,0 +1,18 @@
+<div class="container">
+    <h2 class="section-title">Archived Injuries</h2>
+    <div class="card-list">
+        <div *ngFor="let injury of archivedInjuries" class="card">
+            <img src="assets/images/injury.png" alt="Injury Image">
+            <div class="card-info">
+                <h3>Injury to {{ injury.playerName }}</h3>
+                <p>Type: {{ injury.type }}</p>
+                <p>Description: {{ injury.description }}</p>
+                <p>Date: {{ injury.date | date }}</p>
+                <p>Estimated Recovery Time: {{ injury.estimatedRecoveryTime }} days</p>
+            </div>
+        </div>
+    </div>
+    <ng-template #noArchivedInjuries>
+        <p>No archived injuries found.</p>
+    </ng-template>
+</div>

@@ -1,0 +1,91 @@
+.custom-table {
+    border: 1px solid #dee2e6;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 8px;
+  }
+  
+  .custom-table th {
+    text-align: center;
+  }
+  
+  .custom-table button {
+    margin-right: 5px;
+  }
+  .custom-card {
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s; /* Smooth transition for scaling */
+  }
+  
+  .custom-card .card-img-top {
+    border-top-left-radius: 8px; /* Rounded corners for top-left */
+    border-top-right-radius: 8px; /* Rounded corners for top-right */
+  }
+  
+  .custom-card .card-body {
+    padding: 1.5rem; /* Add padding */
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.2rem; /* Increase title font size */
+    margin-bottom: 0.75rem; /* Add margin bottom */
+  }
+  
+  .custom-card .card-text {
+    color: #666; /* Change text color */
+  }
+  
+  .custom-card .btn-primary {
+    background-color: #007bff; /* Change button color */
+    border-color: #007bff; /* Change button border color */
+  }
+  
+  .custom-card .btn-primary:hover {
+    background-color: #0056b3; /* Change button hover color */
+    border-color: #0056b3; /* Change button hover border color */
+  }
+
+  .description {
+    display: -webkit-box; /* For old webkit-based browsers */
+    -webkit-box-orient: vertical; /* For old webkit-based browsers */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    line-height: 1.2em; /* Adjust line height as needed */
+    max-height: 2.4em; /* Multiply line height by number of lines */
+  }
+
+  .custom-img {
+    height: 250px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the specified height */
+  }
+  .custom-card-body {
+    max-width: 500px; /* Limit the max-width of the card body */
+  }
+ 
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Scale the card on hover */
+  }
+
+  .text-center {
+    text-align: center;
+    color: #19204e;
+    /* Dark blue */
+    font-size: 2.5rem;
+    /* Font size */
+    margin-bottom: 30px;
+    /* Margin bottom */
+    text-transform: uppercase;
+    /* Convert to uppercase */
+    letter-spacing: 1px;
+    /* Letter spacing */
+    font-weight: bold;
+    /* Bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}

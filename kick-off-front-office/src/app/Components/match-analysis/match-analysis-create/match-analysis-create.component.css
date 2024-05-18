@@ -1,0 +1,52 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.section-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #19204e; /* Bleu foncé */
+  font-size: 2.5rem; /* Taille de police */
+  text-transform: uppercase; /* Convertir en majuscules */
+  letter-spacing: 1px; /* Espacement entre les lettres */
+  font-weight: bold; /* Gras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+/* Styles pour les libellés */
+label {
+  font-weight: bold; /* Mettre en gras le texte du libellé */
+  font-size: 16px; /* Définir la taille de la police */
+  color: #333; /* Définir la couleur du texte */
+  margin-bottom: 5px; /* Ajouter un espace en bas entre les libellés */
+}

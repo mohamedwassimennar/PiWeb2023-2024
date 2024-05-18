@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Ajout d'une marge en bas pour l'espacement */
+  }
+  
+  .health-info {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .health-info h2,
+  .health-info .subtitle {
+    color: #19204e;
+  }
+  
+  .health-info h2 {
+    color: #333;
+  }
+  
+  .health-info .subtitle {
+    color: #555;
+  }
+  
+  .health-info .chart {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  .health-info .average-recovery {
+    color: #666;
+  }
+  

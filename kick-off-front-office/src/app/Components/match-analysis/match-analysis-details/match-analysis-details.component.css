@@ -1,0 +1,36 @@
+.card {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card-header {
+  background-color: black;
+  color: #fff;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #856404;
+}
+.section-title {
+  color: #19204e; 
+  font-size: 2.5rem; 
+  margin-bottom: 30px; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-weight: bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  text-align: center;
+  }

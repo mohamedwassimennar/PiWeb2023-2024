@@ -1,0 +1,68 @@
+.buttons button:nth-child(1) {
+       border: 1px solid #fff !important;
+       color: #fff;
+       height: 40px;
+     }
+     
+     .buttons button:nth-child(1):hover {
+       border: 1px solid #fff !important;
+       color: #19204E;
+       height: 40px;
+       background-color: #fff;
+     }
+     
+     .buttons button:nth-child(2) {
+       border: 1px solid #fff !important;
+       background-color: #fff;
+       color: #fff;
+       height: 40px;
+     }
+     
+     .profile-section {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       border-top-left-radius: .5rem;
+       border-bottom-left-radius: .5rem;
+     }
+     
+     .profile-image {
+      border-radius: 9px;
+    }
+     
+     .custom-list-group .list-group-item:nth-child(odd) {
+       background-color: rgba(0, 0, 0, 0.6); 
+       color: white; 
+       font-size: 1rem; 
+       border: none; 
+       width: 150%;
+     }
+     
+     .custom-list-group .list-group-item:nth-child(even) {
+       background-color: rgba(0, 0, 0, 0.3);
+       color: white; 
+       font-size: 1rem;
+       border: none; 
+       width: 150%;
+     }
+     
+     .profile-name {
+       margin: 70px;
+       font-family: cursive Console;
+       font-size: 30px; 
+       font-weight: bold; 
+       margin-bottom: 11px;
+     }
+     .profile-namee {
+      font-family: cursive Console;
+      font-size: 30px; 
+      font-weight: bold; 
+      margin-bottom: 11px;
+    }
+     .profile-role {
+       font-family: Lucida Console;
+       font-size: 40px; 
+       margin-bottom: 20px; 
+     }
+     

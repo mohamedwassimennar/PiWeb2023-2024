@@ -1,0 +1,84 @@
+/* Style général pour le container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Style pour les sections de rôles */
+.role-section {
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-align: center; /* Centrer le contenu */
+    background-color: #e6e1e1 !important; /* Gris plus foncé */
+    padding: 10px; /* Réduction du padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+
+
+/* Style pour les titres de sections */
+.role-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour les images de rôles */
+.role img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les paragraphes cachés */
+.hidden {
+    display: none;
+}
+
+.section-title {
+    color: #19204e; /* Bleu foncé */
+    font-size: 2.5rem; /* Taille de police */
+    margin-bottom: 30px; /* Marge en bas */
+    text-transform: uppercase; /* Convertir en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
+    text-align: center;
+    font-weight: bold; /* Gras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre du texte */
+}
+
+.card-title {
+    font-size: 20px; /* Taille de police */
+    font-weight: bold; /* Gras */
+    margin-bottom: 10px; /* Marge en bas */
+    color: #cd0505; /* Couleur du texte (rouge foncé) */
+    text-transform: uppercase; /* Convertir en majuscules */
+    text-align: center; /* Centrer le texte */
+}
+
+.card-info {
+    color: #19204e; /* Couleur du texte */
+    font-size: 16px; /* Taille de police */
+    line-height: 1.6; /* Hauteur de ligne */
+    font-weight: bold; /* Texte en gras */
+}
+
+.background-image {
+    background-image: url('src\assets\keyusers\f.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    /* Ajoutez d'autres styles au besoin */
+}
+
+
+
+
